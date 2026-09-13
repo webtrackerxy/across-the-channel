@@ -1,0 +1,1020 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "status": "phase1a_documented_pairs_only",
+    "as_of": "2026-09-11",
+    "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+    "scenario_routes_included": false,
+    "warning": "Pairs are heterogeneous: most are French coastal legs or French-rescue returns, not Channel crossings. Only pairs with includes_cross_channel_leg=true involve the crossing, and none gives a full launch-to-landfall navigated distance. Do not draw as tracks; do not infer route-length trends.",
+    "builder": "build_geography.py",
+    "analysis": "route_analysis.py -> route-analysis.json"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ROUTE-MAIB-2021-DEP-TO-LASTPOS",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.377252,
+            51.034771
+          ],
+          [
+            1.759467,
+            51.15075
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-MAIB-2021-DEP-TO-LASTPOS",
+        "event_id": "EVENT-MAIB-2021",
+        "event_date": "2021-11-24",
+        "pair_type": "departure_to_at_sea_position",
+        "includes_cross_channel_leg": true,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "departure_area",
+          "name": "Beach near Dunkirk, France (departed about 2100 UTC, 23 Nov 2021)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 15,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Dunkerque, Nord, France'; top result 'Dunkerque, Nord, Hauts-de-France, France métropolitaine, France' (relation 139610, boundary/administrative); geocoding-log.json key 'dunkerque'"
+        },
+        "destination": {
+          "role": "last_reported_position",
+          "name": "Last reported position (MAIB)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "exact_coordinates",
+          "uncertainty_km": 2,
+          "geometry_source": "MAIB report 7/2023, marine casualty information (PDF p.11): 'Last reported position: 51° 09.045N 001° 45.568E'"
+        },
+        "origin_sector": "FR-59-Nord",
+        "claim_ids": [
+          "MAIB-2021",
+          "GEO-MAIB-2021-ENDPOINTS",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "MAIB-2021-INCIDENT",
+            "url": "https://www.gov.uk/maib-reports/flooding-and-partial-sinking-of-an-inflatable-migrant-boat-with-at-least-27-lives-lost",
+            "publication_date": "2023-11-08",
+            "locator": "Summary"
+          },
+          {
+            "source_id": "MAIB-REPORT-7-2023",
+            "url": "https://assets.publishing.service.gov.uk/media/654b77e8e70413000dfc49f0/2023-07-MigrantBoatReport.pdf",
+            "publication_date": "2023-11-08",
+            "locator": "PDF p.9 synopsis; PDF p.11 vessel/voyage particulars ('Port of departure Near Dunkirk, France'); PDF p.14 §1.3.2-1.3.3; PDF p.20 Mayday Relay"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-MAIB-2022-DEP-TO-FOUND",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.115549,
+            50.993624
+          ],
+          [
+            1.269833,
+            50.868667
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-MAIB-2022-DEP-TO-FOUND",
+        "event_id": "EVENT-MAIB-2022",
+        "event_date": "2022-12-14",
+        "pair_type": "departure_to_at_sea_position",
+        "includes_cross_channel_leg": true,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "departure_area",
+          "name": "A beach in the Calais/Dunkirk area (launched about 2330, 13 Dec 2022)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "region",
+          "uncertainty_km": 20,
+          "geometry_source": "Arithmetic midpoint of Nominatim results 'calais' and 'dunkerque' (geocoding-log.json); representative point for a named stretch of coast, not a site"
+        },
+        "destination": {
+          "role": "observed_position",
+          "name": "Position where FV Arcturus found the boat (approximately 14.6 nm NW of Boulogne-sur-Mer)",
+          "location_type": "OBSERVED LOCATION",
+          "location_precision": "exact_coordinates",
+          "uncertainty_km": 1,
+          "geometry_source": "MAIB report 9/2024, casualty information (PDF p.12): 'Approximately 50°52.12'N 001°16.19'E'; narrative p.4 '50°52.1'N 001°16.2'E'"
+        },
+        "origin_sector": "FR-59/62-Calais-Dunkirk",
+        "claim_ids": [
+          "GEO-MAIB-2022-ENDPOINTS",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "MAIB-REPORT-9-2024",
+            "url": "https://assets.publishing.service.gov.uk/media/6731eeaf0a2b4132b43d13a3/2024-9-InflatableMigrantBoat-Report.pdf",
+            "publication_date": "2024-08-15",
+            "locator": "PDF p.2 (launch 'from a beach in the Calais/Dunkirk area'; 'around 47 people'); PDF p.4 (found position); narrative ('On arrival, the survivors were handed into the custody of waiting Border Force'); PDF p.12 particulars ('Port of departure Between Calais and Dunkirk')"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-MAIB-2022-FOUND-TO-DOVER",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.269833,
+            50.868667
+          ],
+          [
+            1.330588,
+            51.126251
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-MAIB-2022-FOUND-TO-DOVER",
+        "event_id": "EVENT-MAIB-2022",
+        "event_date": "2022-12-14",
+        "pair_type": "rescue_position_to_uk_disembarkation",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "observed_position",
+          "name": "Position where FV Arcturus found the boat (approximately 14.6 nm NW of Boulogne-sur-Mer)",
+          "location_type": "OBSERVED LOCATION",
+          "location_precision": "exact_coordinates",
+          "uncertainty_km": 1,
+          "geometry_source": "MAIB report 9/2024, casualty information (PDF p.12): 'Approximately 50°52.12'N 001°16.19'E'; narrative p.4 '50°52.1'N 001°16.2'E'"
+        },
+        "destination": {
+          "role": "uk_disembarkation",
+          "name": "Dover (survivors handed to Border Force and Kent Police)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 2,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Port of Dover, Dover, United Kingdom'; top result 'Port of Dover - Eastern Docks, Dover, Kent, England, United Kingdom' (way 167792636, landuse/industrial); geocoding-log.json key 'port-of-dover'"
+        },
+        "origin_sector": "FR-59/62-Calais-Dunkirk",
+        "claim_ids": [
+          "GEO-MAIB-2022-ENDPOINTS",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "MAIB-REPORT-9-2024",
+            "url": "https://assets.publishing.service.gov.uk/media/6731eeaf0a2b4132b43d13a3/2024-9-InflatableMigrantBoat-Report.pdf",
+            "publication_date": "2024-08-15",
+            "locator": "PDF p.2 (launch 'from a beach in the Calais/Dunkirk area'; 'around 47 people'); PDF p.4 (found position); narrative ('On arrival, the survivors were handed into the custody of waiting Border Force'); PDF p.12 particulars ('Port of departure Between Calais and Dunkirk')"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2025-04-18-BLANC-NEZ-TO-DOVER",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.706948,
+            50.925427
+          ],
+          [
+            1.313423,
+            51.125127
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2025-04-18-BLANC-NEZ-TO-DOVER",
+        "event_id": "EVENT-CAP-BLANC-NEZ-2025-04-18",
+        "event_date": "2025-04-18",
+        "pair_type": "departure_to_uk_reception_area",
+        "includes_cross_channel_leg": true,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "departure_area",
+          "name": "Cap Blanc-Nez (62)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 2,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Cap Blanc-Nez, France'; top result 'Cap Blanc Nez, Escalles, Calais, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62179, France' (node 9027126157, natural/cape); geocoding-log.json key 'cap-blanc-nez'"
+        },
+        "destination": {
+          "role": "uk_reception_area",
+          "name": "British search and rescue region; victim declared dead 'à l'approche de Douvres'",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 10,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Dover, Kent, United Kingdom'; top result 'Dover, Kent, England, CT16 1NB, United Kingdom' (node 21421224, place/town); geocoding-log.json key 'dover'"
+        },
+        "origin_sector": "FR-62-Calais-Boulogne",
+        "claim_ids": [
+          "GEO-2025-04-18-UK-HANDOVER",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2025-04-18",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-du-vendredi-18-avril-2025-au-large-du-pas-de-calais-62-et-du-nord-59",
+            "publication_date": "2025-04-18",
+            "locator": "'une embarcation est signalée au départ du cap Blanc -Nez (62)'; 'jusqu'à arriver en zone de responsabilité (Search and Rescue Region) britannique'; 'déclarée décédée ... à l'approche de Douvres'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2026-09-06-UTAH-TO-PORTSMOUTH",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -1.174703,
+            49.415666
+          ],
+          [
+            -1.06776,
+            50.822113
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2026-09-06-UTAH-TO-PORTSMOUTH",
+        "event_id": "EVENT-NORMANDY-2026-09-06",
+        "event_date": "2026-09-06",
+        "pair_type": "departure_to_uk_arrival_area",
+        "includes_cross_channel_leg": true,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "launch_site",
+          "name": "La Brèche, Utah Beach, Sainte-Marie-du-Mont (Manche, 50) - per the mayor, reported by ICI/AFP",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 3,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Utah Beach, Sainte-Marie-du-Mont, France'; top result 'Utah-Beach, Sainte-Marie-du-Mont, Cherbourg, Manche, Normandie, France métropolitaine, 50480, France' (node 2329239613, place/hamlet); geocoding-log.json key 'utah-beach'"
+        },
+        "destination": {
+          "role": "uk_arrival_area",
+          "name": "Portsmouth, England (reported by ICI/AFP; landing site not verified)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 10,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Portsmouth, Hampshire, United Kingdom'; top result 'Portsmouth, Hampshire, England, United Kingdom' (way 38387721, boundary/public_transport); geocoding-log.json key 'portsmouth'"
+        },
+        "origin_sector": "FR-50-Manche",
+        "claim_ids": [
+          "GEO-NORMANDY-2026-PREMAR",
+          "GEO-NORMANDY-2026-ENDPOINTS",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "LOW",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2026-09-06",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/operation-d-assistance-d-une-embarcation-de-migrants-a-l-ouest-de-la-baie-de-seine",
+            "publication_date": "2026-09-06",
+            "locator": "'environ 140 migrants est signalée au CROSS Jobourg, à l'ouest de la baie de Seine'; 'poursuit sa route vers le Royaume-Uni'; 'Si le départ d'une embarcation de migrants est inhabituel pour la zone'"
+          },
+          {
+            "source_id": "ICI-2026-09-07",
+            "url": "https://www.ici.fr/normandie/manche-50/les-140-migrants-partis-de-la-manche-sont-arrives-en-angleterre-ou-une-manifestation-a-eclate-8847927",
+            "publication_date": "2026-09-07",
+            "locator": "'partis dans une embarcation pneumatique de Utah Beach ... arrivés à Portsmouth'; 'Selon le maire de Sainte-Marie-du-Mont ... partie de Le Brèche sur la plage d'Utah Beach'"
+          },
+          {
+            "source_id": "HO-LAST7-2026-09-10",
+            "url": "https://www.gov.uk/government/publications/migrants-detected-crossing-the-english-channel-in-small-boats/migrants-detected-crossing-the-english-channel-in-small-boats-last-7-days",
+            "publication_date": "2026-09-10",
+            "locator": "Row '6 September 2026': 625 migrants, 8 boats (all arrivals that day; cannot be attributed to this boat)"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2025-09-28-DIEPPE-TO-STELLA",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.079144,
+            49.924618
+          ],
+          [
+            1.577138,
+            50.47994
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2025-09-28-DIEPPE-TO-STELLA",
+        "event_id": "EVENT-DIEPPE-STELLA-2025-09-28",
+        "event_date": "2025-09-28",
+        "pair_type": "launch_to_passenger_pickup_coastal_leg",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "first_detection_at_sea",
+          "name": "Off Dieppe (76), group already 'en cours de passage par voie de mer' at about 04:30",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 10,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Dieppe, Seine-Maritime, France'; top result 'Dieppe, Seine-Maritime, Normandie, France métropolitaine, 76200, France' (relation 110435, boundary/administrative); geocoding-log.json key 'dieppe'"
+        },
+        "destination": {
+          "role": "passenger_pickup_site",
+          "name": "North of Stella-Plage (62), embarkation of more migrants at 14:25",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 5,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Stella-Plage, Cucq, France'; top result 'Stella-Plage, Cucq, Montreuil-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62780, France' (node 1069748414, place/village); geocoding-log.json key 'stella-plage'"
+        },
+        "origin_sector": "FR-76-Seine-Maritime",
+        "claim_ids": [
+          "GEO-TAXI-DIEPPE-STELLA-2025",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2025-09-28",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-sur-les-cotes-du-nord-59-du-pas-de-calais-62-et-de-la-seine-maritime-76-7666",
+            "publication_date": "2025-09-29",
+            "locator": "'un groupe de migrants en cours de passage par voie de mer au large de Dieppe'; 'l'embarcation qui remonte le long des côtes vers le Nord'; 'se dirige vers le Nord de Stella Plage pour embarquer d'autres migrants'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2025-09-28-LEFFRINCKOUCKE-TO-MALO",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.438674,
+            51.050939
+          ],
+          [
+            2.398469,
+            51.046679
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2025-09-28-LEFFRINCKOUCKE-TO-MALO",
+        "event_id": "EVENT-LEFFRINCKOUCKE-2025-09-28",
+        "event_date": "2025-09-28",
+        "pair_type": "launch_to_passenger_pickup_coastal_leg",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "launch_site",
+          "name": "Beach of Leffrinckoucke (59)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 2,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Leffrinckoucke, Nord, France'; top result 'Leffrinckoucke, Dunkerque, Nord, Hauts-de-France, France métropolitaine, 59495, France' (relation 139642, boundary/administrative); geocoding-log.json key 'leffrinckoucke'"
+        },
+        "destination": {
+          "role": "passenger_pickup_site",
+          "name": "Beach of Malo-les-Bains (59), where a new group was waiting",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 2,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Malo-les-Bains, Dunkerque, France'; top result 'Malo-les-Bains, Dunkerque, Nord, Hauts-de-France, France métropolitaine, France' (relation 3213897, boundary/administrative); geocoding-log.json key 'malo-les-bains'"
+        },
+        "origin_sector": "FR-59-Nord",
+        "claim_ids": [
+          "GEO-FR-NOTICES-CORE",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2025-09-28",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-sur-les-cotes-du-nord-59-du-pas-de-calais-62-et-de-la-seine-maritime-76-7666",
+            "publication_date": "2025-09-29",
+            "locator": "'un départ d'embarcation est signalé au CROSS depuis la plage de Leffrinckoucke (59)'; 'en route vers la plage de Malo-les-Bains ou un nouveau groupe de migrant l'attend'; '66 personnes'; 'Le débarquement est prévu à Calais'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2026-07-22-YPORT-TO-BERCK",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.313371,
+            49.737849
+          ],
+          [
+            1.571162,
+            50.405258
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2026-07-22-YPORT-TO-BERCK",
+        "event_id": "EVENT-YPORT-BERCK-2026-07-22",
+        "event_date": "2026-07-22/2026-07-23",
+        "pair_type": "launch_to_passenger_pickup_coastal_leg",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "launch_site",
+          "name": "Taking to sea off Yport (76) (Fécamp semaphore)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 5,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Yport, Seine-Maritime, France'; top result 'Yport, Le Havre, Seine-Maritime, Normandie, France métropolitaine, 76111, France' (relation 1823116, boundary/administrative); geocoding-log.json key 'yport'"
+        },
+        "destination": {
+          "role": "passenger_pickup_site",
+          "name": "Beach of Berck-sur-Mer (62), new people boarded at dawn 23 July",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 4,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Berck, Montreuil-sur-Mer, Pas-de-Calais, France'; top result 'Berck, Montreuil-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62600, France' (relation 156094, boundary/administrative); geocoding-log.json key 'berck-sur-mer'"
+        },
+        "origin_sector": "FR-76-Seine-Maritime",
+        "claim_ids": [
+          "GEO-TAXI-YPORT-BERCK-2026",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2026-07-22",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-des-22-et-23-juillet-2026-33-personnes-secourues",
+            "publication_date": "2026-07-24",
+            "locator": "'le sémaphore de Fécamp signale une autre embarcation de migrants prenant la mer au large d'Yport (76)'; 'A l'aube du 23 juillet, l'embarcation rallie la plage de Berck-sur-Mer (62) et fait monter à bord de nouvelles personnes'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2025-02-09-SOMME-TO-BERCK",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.596441,
+            50.213731
+          ],
+          [
+            1.571162,
+            50.405258
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2025-02-09-SOMME-TO-BERCK",
+        "event_id": "EVENT-BAIE-DE-SOMME-2025-02-09",
+        "event_date": "2025-02-09",
+        "pair_type": "launch_to_passenger_pickup_coastal_leg",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "launch_site",
+          "name": "Secteur de la Baie de Somme (80)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 10,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Baie de Somme, France'; top result 'Baie de Somme, France métropolitaine, France' (node 9015178184, natural/bay); geocoding-log.json key 'baie-de-somme'"
+        },
+        "destination": {
+          "role": "passenger_pickup_site",
+          "name": "Beaches of Berck-sur-Mer (62), attempted embarkation",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 4,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Berck, Montreuil-sur-Mer, Pas-de-Calais, France'; top result 'Berck, Montreuil-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62600, France' (relation 156094, boundary/administrative); geocoding-log.json key 'berck-sur-mer'"
+        },
+        "origin_sector": "FR-80-Somme",
+        "claim_ids": [
+          "GEO-SOMME-DEPARTURES",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2025-02-09",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-en-mer-dans-le-detroit-du-pas-de-calais-le-9-fevrier-2025",
+            "publication_date": "2025-02-09",
+            "locator": "'33 personnes sur une embarcation, partie tôt dans la matinée depuis le secteur de la Baie de Sommme. Cette opération fait suite à une tentative d'embarquement, au niveau des plages de Berck-sur-Mer (62)'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2025-03-02-SOMME-TO-HARDELOT",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.596441,
+            50.213731
+          ],
+          [
+            1.57781,
+            50.633876
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2025-03-02-SOMME-TO-HARDELOT",
+        "event_id": "EVENT-BAIE-DE-SOMME-2025-03-02",
+        "event_date": "2025-03-02",
+        "pair_type": "launch_to_stranding_coastal_leg",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "launch_site",
+          "name": "Off the Baie de Somme (80), left in the morning",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 10,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Baie de Somme, France'; top result 'Baie de Somme, France métropolitaine, France' (node 9015178184, natural/bay); geocoding-log.json key 'baie-de-somme'"
+        },
+        "destination": {
+          "role": "stranding_location",
+          "name": "Beach near the north dyke of Hardelot (62)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 2,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Hardelot-Plage, Neufchâtel-Hardelot, France'; top result 'Hardelot-Plage, Neufchâtel-Hardelot, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62152, France' (node 289788525, place/suburb); geocoding-log.json key 'hardelot'"
+        },
+        "origin_sector": "FR-80-Somme",
+        "claim_ids": [
+          "GEO-SOMME-DEPARTURES",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2025-03-02",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-du-dimanche-2-mars-2025-dans-le-detroit-du-pas-de-calais",
+            "publication_date": "2025-03-02",
+            "locator": "'une embarcation de fortune, parti le matin au large de la Baie de Somme'; '54 personnes à bord'; 'échouée sur la plage proche de la digue Nord de Hardelot'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2025-07-19-GRAVELINES-TO-CALAIS",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.127312,
+            50.98707
+          ],
+          [
+            1.853845,
+            50.952477
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2025-07-19-GRAVELINES-TO-CALAIS",
+        "event_id": "EVENT-GRAVELINES-2025",
+        "event_date": "2025-07-19",
+        "pair_type": "departure_to_french_disembarkation",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "departure_area",
+          "name": "Secteur de Gravelines (59)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 5,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Gravelines, Nord, France'; top result 'Gravelines, Dunkerque, Nord, Hauts-de-France, France métropolitaine, 59820, France' (relation 139316, boundary/administrative); geocoding-log.json key 'gravelines'"
+        },
+        "destination": {
+          "role": "french_disembarkation",
+          "name": "Calais (62), 'déposées à quai'",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 3,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Calais, Pas-de-Calais, France'; top result 'Calais, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62100, France' (relation 286380, boundary/administrative); geocoding-log.json key 'calais'"
+        },
+        "origin_sector": "FR-59-Nord",
+        "claim_ids": [
+          "GRAVELINES-2025",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-GRAVELINES-2025",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/operation-de-d-assistance-et-de-secours-de-81-personnes-au-large-de-gravelines-59",
+            "publication_date": "2025-07-19",
+            "locator": "Notice text: 'alerté du départ d'une embarcation de migrants dans le secteur de Gravelines (59)'; 'déposées à quai à Calais'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2024-12-13-AMBLETEUSE-TO-BOULOGNE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.607345,
+            50.809864
+          ],
+          [
+            1.611877,
+            50.725999
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2024-12-13-AMBLETEUSE-TO-BOULOGNE",
+        "event_id": "EVENT-AMBLETEUSE-2024-12-13",
+        "event_date": "2024-12-13",
+        "pair_type": "departure_to_french_disembarkation",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "departure_area",
+          "name": "Off Ambleteuse (62), departure reported",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 5,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Ambleteuse, Pas-de-Calais, France'; top result 'Ambleteuse, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62164, France' (relation 240393, boundary/administrative); geocoding-log.json key 'ambleteuse'"
+        },
+        "destination": {
+          "role": "french_disembarkation",
+          "name": "Boulogne-sur-Mer",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 3,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Boulogne-sur-Mer, Pas-de-Calais, France'; top result 'Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62200, France' (relation 240377, boundary/administrative); geocoding-log.json key 'boulogne-sur-mer'"
+        },
+        "origin_sector": "FR-62-Calais-Boulogne",
+        "claim_ids": [
+          "GEO-SOMME-DEPARTURES",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2024-12-13",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/operations-de-sauvetage-de-120-migrants-dans-le-secteur-du-pas-de-calais-62-et-de-la-somme-80",
+            "publication_date": "2024-12-13",
+            "locator": "'au large d'Ambleteuse (62), un autre départ de migrants est signalé'; 'ce sont 75 personnes qui sont secourues et ramenées à quai à Boulogne-sur-Mer'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2025-04-18-GRAVELINES-TO-DUNKERQUE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.127312,
+            50.98707
+          ],
+          [
+            2.168123,
+            51.031798
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2025-04-18-GRAVELINES-TO-DUNKERQUE",
+        "event_id": "EVENT-GRAVELINES-2025-04-18",
+        "event_date": "2025-04-18",
+        "pair_type": "departure_to_french_disembarkation",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "departure_area",
+          "name": "Gravelines (59), drifting boat after departure",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 5,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Gravelines, Nord, France'; top result 'Gravelines, Dunkerque, Nord, Hauts-de-France, France métropolitaine, 59820, France' (relation 139316, boundary/administrative); geocoding-log.json key 'gravelines'"
+        },
+        "destination": {
+          "role": "french_disembarkation",
+          "name": "Port of Dunkerque (59)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 10,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Port de Dunkerque, Dunkerque, France'; top result 'Avant Port Ouest, Loon-Plage, Dunkerque, Nord, Hauts-de-France, France métropolitaine, 59279, France' (relation 10626829, water/harbour); geocoding-log.json key 'dunkerque-port'"
+        },
+        "origin_sector": "FR-59-Nord",
+        "claim_ids": [
+          "GEO-FR-NOTICES-CORE",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2025-04-18",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-du-vendredi-18-avril-2025-au-large-du-pas-de-calais-62-et-du-nord-59",
+            "publication_date": "2025-04-18",
+            "locator": "'une embarcation de migrants à la dérive au départ de Gravelines'; 'l'ensemble des 9 occupants ... au port de Dunkerque (59)'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2025-09-28-EQUIHEN-TO-BOULOGNE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.571665,
+            50.679393
+          ],
+          [
+            1.611877,
+            50.725999
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2025-09-28-EQUIHEN-TO-BOULOGNE",
+        "event_id": "EVENT-EQUIHEN-2025-09-28",
+        "event_date": "2025-09-28",
+        "pair_type": "departure_to_french_disembarkation",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "departure_area",
+          "name": "Off the beach of Equihen (62)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 2,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Équihen-Plage, Pas-de-Calais, France'; top result 'Équihen-Plage, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62224, France' (relation 180027, boundary/administrative); geocoding-log.json key 'equihen-plage'"
+        },
+        "destination": {
+          "role": "french_disembarkation",
+          "name": "Boulogne-sur-Mer",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 3,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Boulogne-sur-Mer, Pas-de-Calais, France'; top result 'Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62200, France' (relation 240377, boundary/administrative); geocoding-log.json key 'boulogne-sur-mer'"
+        },
+        "origin_sector": "FR-62-south-of-Boulogne",
+        "claim_ids": [
+          "GEO-FR-NOTICES-CORE",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2025-09-28",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-sur-les-cotes-du-nord-59-du-pas-de-calais-62-et-de-la-seine-maritime-76-7666",
+            "publication_date": "2025-09-29",
+            "locator": "'une embarcation transportant des migrants face à la plage d'Equihen (62)'; 'Les 50 occupants ... ramenés à quai à Boulogne-sur-Mer'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2026-06-15-CAYEUX-TO-BOULOGNE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.493384,
+            50.1792
+          ],
+          [
+            1.611877,
+            50.725999
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2026-06-15-CAYEUX-TO-BOULOGNE",
+        "event_id": "EVENT-CAYEUX-2026-06-15",
+        "event_date": "2026-06-15",
+        "pair_type": "departure_to_french_disembarkation",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "departure_area",
+          "name": "Secteur de Cayeux-sur-Mer (80)",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 5,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Cayeux-sur-Mer, Somme, France'; top result 'Cayeux-sur-Mer, Abbeville, Somme, Hauts-de-France, France métropolitaine, 80410, France' (relation 1246640, boundary/administrative); geocoding-log.json key 'cayeux-sur-mer'"
+        },
+        "destination": {
+          "role": "french_disembarkation",
+          "name": "Port of Boulogne-sur-Mer",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 3,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Boulogne-sur-Mer, Pas-de-Calais, France'; top result 'Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62200, France' (relation 240377, boundary/administrative); geocoding-log.json key 'boulogne-sur-mer'"
+        },
+        "origin_sector": "FR-80-Somme",
+        "claim_ids": [
+          "GEO-SOMME-DEPARTURES",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2026-06-15",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-en-manche-et-mer-du-nord",
+            "publication_date": "2026-06-16",
+            "locator": "'le sémaphore d'Ault (80) signale au CROSS le départ d'une embarcation depuis le secteur de Cayeux-sur-Mer (80)'; 'débarquées en sécurité au port de Boulogne-sur-Mer (62)'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2021-03-09-BERNEVAL-TO-DIEPPE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.188811,
+            49.957266
+          ],
+          [
+            1.079144,
+            49.924618
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2021-03-09-BERNEVAL-TO-DIEPPE",
+        "event_id": "EVENT-BERNEVAL-2021-03-09",
+        "event_date": "2021-03-09",
+        "pair_type": "rescue_location_to_french_disembarkation",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "rescue_location",
+          "name": "Off Berneval-le-Grand (76), crossing attempt initiated",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_area",
+          "uncertainty_km": 5,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Berneval-le-Grand, Seine-Maritime, France'; top result 'Berneval-le-Grand, Petit-Caux, Dieppe, Seine-Maritime, Normandie, France métropolitaine, 76370, France' (relation 1824791, boundary/administrative); geocoding-log.json key 'berneval-le-grand'"
+        },
+        "destination": {
+          "role": "french_disembarkation",
+          "name": "Dieppe",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 3,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Dieppe, Seine-Maritime, France'; top result 'Dieppe, Seine-Maritime, Normandie, France métropolitaine, 76200, France' (relation 110435, boundary/administrative); geocoding-log.json key 'dieppe'"
+        },
+        "origin_sector": "FR-76-Seine-Maritime",
+        "claim_ids": [
+          "GEO-SEINE-MARITIME-NOTICES",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2021-03-09",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/sauvetage-de-deux-embarcations-de-migrants-en-manche",
+            "publication_date": "2021-03-09",
+            "locator": "'une embarcation de migrants initie une dangereuse tentative de traversée de la Manche au large de Berneval-le-Grand (76)'; 'déposés à Dieppe'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROUTE-2025-03-02-POINTE-AUX-OIES-TO-BOULOGNE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1.615035,
+            50.785094
+          ],
+          [
+            1.611877,
+            50.725999
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-2025-03-02-POINTE-AUX-OIES-TO-BOULOGNE",
+        "event_id": "EVENT-POINTE-AUX-OIES-2025-03-02",
+        "event_date": "2025-03-02",
+        "pair_type": "departure_to_french_disembarkation",
+        "includes_cross_channel_leg": false,
+        "geometry_meaning": "straight line between documented endpoints, not a navigated track",
+        "origin": {
+          "role": "departure_area",
+          "name": "Near Wimereux (62), secteur de la Pointe aux Oies",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 2,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Pointe aux Oies, Wimereux, France'; top result 'Gîte La Pointe aux Oies, 6, Chemin des Oies, Wimereux, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62930, France' (way 123238397, tourism/chalet); geocoding-log.json key 'pointe-aux-oies'"
+        },
+        "destination": {
+          "role": "french_disembarkation",
+          "name": "Boulogne-sur-Mer",
+          "location_type": "REPORTED LOCATION",
+          "location_precision": "named_place",
+          "uncertainty_km": 3,
+          "geometry_source": "OpenStreetMap Nominatim search; query 'Boulogne-sur-Mer, Pas-de-Calais, France'; top result 'Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62200, France' (relation 240377, boundary/administrative); geocoding-log.json key 'boulogne-sur-mer'"
+        },
+        "origin_sector": "FR-62-Calais-Boulogne",
+        "claim_ids": [
+          "GEO-FR-NOTICES-CORE",
+          "GEO-ROUTE-DISTANCES"
+        ],
+        "classification": "DERIVED_STATISTIC",
+        "confidence": "MEDIUM",
+        "evidence": [
+          {
+            "source_id": "FR-NOTICE-2025-03-02",
+            "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-du-dimanche-2-mars-2025-dans-le-detroit-du-pas-de-calais",
+            "publication_date": "2025-03-02",
+            "locator": "'un départ d'embarcation de migrants proche de Wimereux (62), secteur de la Pointe aux Oies'; 'ramenées à Boulogne-sur-Mer'"
+          }
+        ],
+        "review_status": "source_checked_pending_independent_review",
+        "approved_for_application": false
+      }
+    }
+  ]
+}

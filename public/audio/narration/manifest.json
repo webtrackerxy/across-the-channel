@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "clips": [
+    {
+      "frame": 0,
+      "text": "Across a sea. Behind the numbers. A boat count tells only part of the story. Explore how many people arrive, how many boats carry them, and how that relationship has changed.",
+      "key": "1f007429fe202d76cf2a1b7d19972aace396143d4991ced8238fa2270309a0e7",
+      "audioHash": "5f3c0eef64bbd630d62be02191a38852a8b6c277b8165f570f6ad01c7e902c9f",
+      "file": "5f3c0eef64bbd630d62be02191a38852a8b6c277b8165f570f6ad01c7e902c9f.mp3",
+      "duration": 14.52
+    },
+    {
+      "frame": 1,
+      "text": "One boat. A different scale. Average occupancy has grown. Select a year to see people and boats together. Occupancy measures how many people were aboard, not the vessel’s rated capacity. 2018. 299 people arrived on 43 boats, averaging 7.0 people per boat.",
+      "key": "5436a080f0d8147ddae77e0066eb39a987306f37004fe0f2d6497045ffdec69e",
+      "audioHash": "6e0ddf15b44b6157c2fd2fbef25bc53e712285dfec5b3f449e4b7848b077b9dd",
+      "file": "6e0ddf15b44b6157c2fd2fbef25bc53e712285dfec5b3f449e4b7848b077b9dd.mp3",
+      "duration": 23.16
+    },
+    {
+      "frame": 2,
+      "text": "2019. 1,843 people arrived on 164 boats, averaging 11.2 people per boat.",
+      "key": "630ccdf1f228a420c6117725cd793df00ea46bfd3842d7ba6155207c60fce8ed",
+      "audioHash": "1994aefbbe2840a52e097ffb189223d837d257c48764f5413de0c2e2128178e6",
+      "file": "1994aefbbe2840a52e097ffb189223d837d257c48764f5413de0c2e2128178e6.mp3",
+      "duration": 11.208
+    },
+    {
+      "frame": 3,
+      "text": "2020. 8,466 people arrived on 641 boats, averaging 13.2 people per boat.",
+      "key": "f214c64be820c12fa6154e999cf5735ccb97e8d8ea0dfec5c6ebb894ed30dac7",
+      "audioHash": "1e0958fcf88014eeeefdc1ef00a49da3f4df1d57609468bbed44341a257e9507",
+      "file": "1e0958fcf88014eeeefdc1ef00a49da3f4df1d57609468bbed44341a257e9507.mp3",
+      "duration": 11.304
+    },
+    {
+      "frame": 4,
+      "text": "2021. 28,526 people arrived on 1,034 boats, averaging 27.6 people per boat.",
+      "key": "576d88a8ef8cea92aad6dda15d13c48679b7dd70926e4470a6182cf5a0979432",
+      "audioHash": "b563dccfb52fe575908892c4800b25d1098af4efb3d83e9e144dd7b73a86d59c",
+      "file": "b563dccfb52fe575908892c4800b25d1098af4efb3d83e9e144dd7b73a86d59c.mp3",
+      "duration": 11.352
+    },
+    {
+      "frame": 5,
+      "text": "2022. 45,774 people arrived on 1,110 boats, averaging 41.2 people per boat.",
+      "key": "2c3485c68303445ff2e0762f14d83b24aa1fb1585c174d5c97197807f5daaeb9",
+      "audioHash": "60b5cd63cb5da8453923eb59e1e5f74ab8efeb3974066c60348474bae0af46cb",
+      "file": "60b5cd63cb5da8453923eb59e1e5f74ab8efeb3974066c60348474bae0af46cb.mp3",
+      "duration": 12.72
+    },
+    {
+      "frame": 6,
+      "text": "2023. 29,437 people arrived on 602 boats, averaging 48.9 people per boat.",
+      "key": "a0a69c721a2d6aa689e626a25ca003422e545e656042bc0c5ca00cfd92ff0889",
+      "audioHash": "cb5ff53baf2b2e7ac05c0f5ad231107a0afb7126fabd235696c082143a62b5e6",
+      "file": "cb5ff53baf2b2e7ac05c0f5ad231107a0afb7126fabd235696c082143a62b5e6.mp3",
+      "duration": 11.52
+    },
+    {
+      "frame": 7,
+      "text": "2024. 36,816 people arrived on 695 boats, averaging 53.0 people per boat.",
+      "key": "fa758e8d50cdffb650658cc144c9c7f02dee1eabab6b4fc637cf9f9b8cf7a195",
+      "audioHash": "4cb87e2b21bc1999b8715e6f37a8210cfdaf7bc84771a0df584bfaef3d00322a",
+      "file": "4cb87e2b21bc1999b8715e6f37a8210cfdaf7bc84771a0df584bfaef3d00322a.mp3",
+      "duration": 11.352
+    },
+    {
+      "frame": 8,
+      "text": "2025. 41,472 people arrived on 672 boats, averaging 61.7 people per boat.",
+      "key": "c7403ccd70858ed835003f21520f8a3958d9c7119649fc9acfedcd4e5c2d427e",
+      "audioHash": "526b85509bff1aa47a40e56eaf2dbd1232ad2dac1dea648147a1dc96decdd8d8",
+      "file": "526b85509bff1aa47a40e56eaf2dbd1232ad2dac1dea648147a1dc96decdd8d8.mp3",
+      "duration": 11.112
+    },
+    {
+      "frame": 9,
+      "text": "2026. 16,513 people arrived on 244 boats, averaging 67.7 people per boat. From 1 January to 3 September, provisional. These totals are not comparable with full years. The map shows the indicative Calais to Dover connection and a reported Utah Beach to Portsmouth connection. The separate 6 September case falls after these totals' reporting cutoff. About 140 people were aboard, according to the French maritime prefecture, and local media reported they reached Portsmouth about 24 hours after leaving. The boat's size was not reported. The Portsmouth line links reported endpoints, not a recorded vessel track.",
+      "key": "0a98250d5b23384580b129f73b265a607fd3d064ce95125ff0d643dfb697e49e",
+      "audioHash": "cd92f6157a5c77c4a1972a7520f11495760b4412cd99116092022d49da0735cf",
+      "file": "cd92f6157a5c77c4a1972a7520f11495760b4412cd99116092022d49da0735cf.mp3",
+      "duration": 48.216
+    },
+    {
+      "frame": 10,
+      "text": "Fewer boats. A fuller picture. Boat numbers fell much faster than the number of people arriving. The difference becomes clear when you account for average occupancy. From 2022 to 2025, arriving boats fell by 39.5 percent, while people arriving fell by 9.4 percent. Average people per boat rose by 49.7 percent. Occupancy does not establish vessel capacity or the routes travelled.",
+      "key": "d5f698f4f58b389eb77f5c867fb9c1568c32fabea413af2ff7aee885e177260d",
+      "audioHash": "28db631551849fe60bb167796fc21d0a78a17c9cc3f1b21cff93f81be917cfd0",
+      "file": "28db631551849fe60bb167796fc21d0a78a17c9cc3f1b21cff93f81be917cfd0.mp3",
+      "duration": 30.96
+    },
+    {
+      "frame": 11,
+      "text": "Change the inputs. Explore the possibilities. What if boat numbers, occupancy or launch areas changed? Explore assumed occupancy and arriving boats separately from the evidence. Low: a hypothetical scenario, not a forecast. Fewer arriving boats, lower occupancy. Assuming 400 arriving boats and 45 people per boat gives 18,000 modelled arrivals. The map shows hypothetical connections, not recorded vessel tracks.",
+      "key": "628bfbf3f49f2c3738136988213cbc776e9f59cef2d96be3005e86fa5a51496a",
+      "audioHash": "dce1efb7f34b36b776abc4623ddb162103622fc6734d7a871cb686d273300956",
+      "file": "dce1efb7f34b36b776abc4623ddb162103622fc6734d7a871cb686d273300956.mp3",
+      "duration": 36.456
+    },
+    {
+      "frame": 12,
+      "text": "Continuation: a hypothetical scenario, not a forecast. Rounded assumptions near the 2025 totals. Assuming 670 arriving boats and 62 people per boat gives 41,540 modelled arrivals. The map shows hypothetical connections, not recorded vessel tracks.",
+      "key": "05cccb860ed54cf7d08545e369a34a0fbe6c3418fb6ef0ab1e82386a747f0653",
+      "audioHash": "4517326cc432bf4324d8d06f1ee5327f64ad095b54b1e5938e2abc9ea686ac9f",
+      "file": "4517326cc432bf4324d8d06f1ee5327f64ad095b54b1e5938e2abc9ea686ac9f.mp3",
+      "duration": 23.304
+    },
+    {
+      "frame": 13,
+      "text": "Expansion: a hypothetical scenario, not a forecast. More arriving boats, higher occupancy, wider illustrative geography. Assuming 800 arriving boats and 80 people per boat gives 64,000 modelled arrivals. The map shows hypothetical connections, not recorded vessel tracks.",
+      "key": "55d333c2a33f308190277b1e3b8e659283980d70b2c698ee7b2be8136d6f7123",
+      "audioHash": "2abd380eb2f0a5fba05e6d574c18ec568914a3240c998a7176cbf3625caa9672",
+      "file": "2abd380eb2f0a5fba05e6d574c18ec568914a3240c998a7176cbf3625caa9672.mp3",
+      "duration": 23.016
+    },
+    {
+      "frame": 14,
+      "text": "What we know. Each arriving boat now carries far more people: about 7 in 2018 and about 62 in 2025. Open questions. Is that bigger boats, fuller boats, or both? Reports describe boats of 8 to 10 metres, and boats of about 8 metres carrying 50 to 60 people. Could boats go further, or leave from new places? One longer crossing, to Portsmouth, has been reported, but it is too soon to say whether it is part of a pattern. Change the assumptions in the scenarios, and check each figure against its source. What if boat numbers, occupancy or launch areas changed?",
+      "key": "bf2e71f14926e0e1bf809cd4b731c0cab8e03ab730dd2420ee550a69873205b4",
+      "audioHash": "dcadb56f30ffd3356a7dbfa651ce62e1ca579c7a8c3ce4692f08d89741b998b0",
+      "file": "dcadb56f30ffd3356a7dbfa651ce62e1ca579c7a8c3ce4692f08d89741b998b0.mp3",
+      "duration": 41.712
+    }
+  ]
+}

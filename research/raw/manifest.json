@@ -1,0 +1,780 @@
+{
+  "files": [
+    {
+      "file": "raw/bsc-report-publication.html",
+      "sha256": "06587b146b765f764e53d59d73bccf10ee1df7bbd4392a3f10f0d2df91cff9eb",
+      "bytes": 76483,
+      "retrieved_at": "2026-09-11",
+      "source_id": "BSC-2026",
+      "url": "https://www.gov.uk/government/publications/border-security-commanders-annual-report-2025-to-2026",
+      "status": "publication_date_metadata_inspected"
+    },
+    {
+      "file": "raw/illegal-entry-routes-to-the-uk-summary-jun-2026-tables.ods",
+      "sha256": "247cdb26e11953ce73a88589c9edc9ade531328a5f97b75c56abf612217c293f",
+      "bytes": 33607,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-TABLES-2026Q2",
+      "url": "https://assets.publishing.service.gov.uk/media/6a8c11c3a8f84a582b84281a/illegal-entry-routes-to-the-uk-summary-jun-2026-tables.ods",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2025-operational-review.pdf",
+      "sha256": "e333863c95852251f6f243220dfe55d9e044b0ede41621d9d287791fa7f47053",
+      "bytes": 3166835,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-REVIEW-2025",
+      "url": "https://www.premar-manche.gouv.fr/uploads/manche/news/pdf/3ea1ea9ce39ed70ee7296e0d6c1d61d2.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-gravelines-2025-07-19.html",
+      "sha256": "9b7e83087d6992c848095a880f3985ae776400bcf47b2f2f829b7fe75b29b224",
+      "bytes": 20754,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-GRAVELINES-2025",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/operation-de-d-assistance-et-de-secours-de-81-personnes-au-large-de-gravelines-59",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/small-boats-2026-09-04.ods",
+      "sha256": "803fdea64e4bf765abdef8fddc9681a740a14b6f5234d494e7cdd10cb8390548",
+      "bytes": 75733,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-DAILY-2026-09-04",
+      "url": "https://assets.publishing.service.gov.uk/media/6a9a9e583b22fb169dc1921b/04_September_2026_Small_boats_-_time_series.ods",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/illegal-entry-routes-to-the-uk-detailed-dataset-jun-2026.xlsx",
+      "sha256": "72071ed0ce3777a2cbad25672b76ca49a526e5eeb35e7cabb3a3a67e4d9157d0",
+      "bytes": 2626620,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-IER-DETAILED-2026Q2",
+      "url": "https://assets.publishing.service.gov.uk/media/6a85c41d3d82f78d5c514551/illegal-entry-routes-to-the-uk-dataset-jun-2026.xlsx",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/illegal-entry-routes-to-the-uk-summary-mar-2026-tables.ods",
+      "sha256": "f5a03c9d9dff16deae614b706de2c20a1d1333056bdb8456773380a49108c2f7",
+      "bytes": 27225,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-TABLES-2026Q1",
+      "url": "https://assets.publishing.service.gov.uk/media/6a8d5ca608705e34a95daaa4/illegal-entry-routes-to-the-uk-summary-mar-2026-tables.ods",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/illegal-entry-routes-to-the-uk-summary-dec-2025-tables.ods",
+      "sha256": "d8c2b8a2c41b8808133e9e7b0d55efe6093944b9c528c0fb5b5d5eddb7be63b7",
+      "bytes": 29001,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-TABLES-2025Q4",
+      "url": "https://assets.publishing.service.gov.uk/media/6a0d92ebb1dfdb3c06e90637/illegal-entry-routes-to-the-uk-summary-dec-2025-tables.ods",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/irregular-migration-to-the-uk-summary-dec-2024.ods",
+      "sha256": "e32cfd10fd12aeafe022b29a771dedf5aacf3c27a3bbf13abf718867d4c37bd3",
+      "bytes": 33819,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-TABLES-2024Q4",
+      "url": "https://assets.publishing.service.gov.uk/media/699ebf966457311dafbbcc4d/irregular-migration-to-the-uk-summary-dec-2024.ods",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/irregular-migration-to-the-UK-summary-tables-year-ending-December-2022.ods",
+      "sha256": "a2a1dea5b4df7837c49bf4ed31e3e4a5cdafa2f258c6d1f9015664c99a8241d6",
+      "bytes": 26560,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-TABLES-2022Q4",
+      "url": "https://assets.publishing.service.gov.uk/media/699ebef8c497bac082bc7603/irregular-migration-to-the-UK-summary-tables-year-ending-December-2022.ods",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/irregular-migration-to-the-uk-data-tables-year-ending-december-2021.ods",
+      "sha256": "82898c7343c93c083d34fd6d01146f0fba2e89e138a519bf3c4a52dc028f077c",
+      "bytes": 19051,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-TABLES-2021Q4",
+      "url": "https://assets.publishing.service.gov.uk/media/621602da8fa8f54910242190/irregular-migration-to-the-uk-december-2022.ods",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/icibi-tug-haven-western-jet-foil-2022-07-21.pdf",
+      "sha256": "8c7bc7832086a6048642ad617c8c2c36028f56b1c0e84142c5172d5718cfa671",
+      "bytes": 2410128,
+      "retrieved_at": "2026-09-11",
+      "source_id": "ICIBI-DOVER-2022-REPORT",
+      "url": "https://assets.publishing.service.gov.uk/media/62d7d12bd3bf7f2861b893f4/E02726679_ICIBI_Tug_Haven_and_Western_Jet_Foil_Web_Accessible.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/maib-2023-07-migrant-boat-report-2021-11-24.pdf",
+      "sha256": "c89c417fb647ad3df6cca0f436467952409d2708e4730aaea7ea43dfd90ff65f",
+      "bytes": 4234050,
+      "retrieved_at": "2026-09-11",
+      "source_id": "MAIB-REPORT-7-2023",
+      "url": "https://assets.publishing.service.gov.uk/media/654b77e8e70413000dfc49f0/2023-07-MigrantBoatReport.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/maib-2024-09-inflatable-migrant-boat-report-2022-12-14.pdf",
+      "sha256": "f21865fef095ff4d6ec857d11f1dd9bc40bbc8ddd3dbc29eaf0fe47438f3c7cb",
+      "bytes": 1161305,
+      "retrieved_at": "2026-09-11",
+      "source_id": "MAIB-REPORT-9-2024",
+      "url": "https://assets.publishing.service.gov.uk/media/6731eeaf0a2b4132b43d13a3/2024-9-InflatableMigrantBoat-Report.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/cranston-inquiry-report-2026-02-05.pdf",
+      "sha256": "c500fd7f5d26e2954a7e0db61a743f64388bec4658c3761c6b9c58b5f36f40e7",
+      "bytes": 5540622,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-CRANSTON-2026",
+      "url": "https://assets.publishing.service.gov.uk/media/69846f4c7da3dc19896c7dbb/cranston-inquiry-report.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/nca-2021-12-11-ever-more-dangerous-boats-alert.html",
+      "sha256": "1c22b2fa8198b5f6a93f3116efec0ad59e2cd44af2428586bede5234bfa7e23a",
+      "bytes": 43331,
+      "retrieved_at": "2026-09-11",
+      "source_id": "NCA-VESSELS-2021",
+      "url": "https://www.nationalcrimeagency.gov.uk/news/people-smugglers-use-ever-more-dangerous-boats-to-attempt-channel-crossings-as-nca-issue-international-alert",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/nca-2024-12-05-germany-21-boats-24-engines.html",
+      "sha256": "061389d4d5b807089765116b2463cac53a604dd860b3005fe2948ea08e2e047a",
+      "bytes": 37650,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-NCA-2024-12-05",
+      "url": "https://www.nationalcrimeagency.gov.uk/news/uk-france-and-germany-target-network-involved-in-dangerous-channel-boat-crossings",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/nca-2025-04-17-bpol-suppliers-warning.html",
+      "sha256": "1f43d7e87f0622a1d11942e65f495898f84bcf00a99fb35b48f510c3c4fede0c",
+      "bytes": 36769,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-NCA-2025-04-17",
+      "url": "https://www.nationalcrimeagency.gov.uk/news/nca-and-bpol-target-channel-small-boat-suppliers",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/nca-2025-07-31-bulgaria-25-boats-seizure.html",
+      "sha256": "fdaec26e1acf11ef48afea4123741f145f2b0965078bdf42d6709a9e9805e81b",
+      "bytes": 37910,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-NCA-2025-07-31",
+      "url": "https://www.nationalcrimeagency.gov.uk/news/nca-works-with-bulgarian-partners-to-make-major-seizure-of-small-boats",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/nca-2026-01-07-savas-sentenced-wiredgov-mirror.html",
+      "sha256": "58fbe60fc04fd55aa02d78f9a8e99e65b6a6abc48e5ebf307cc03bea79875603",
+      "bytes": 36329,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-NCA-2026-01-07-SAVAS",
+      "url": "https://wired-gov.net/wg/news.nsf/articles/Former+NCA+number+one+target+jailed+for+supplying+thousands+of+boats+to+Channel+people+smugglers+07012026131500?open=",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/nca-2026-03-25-germany-go-kits-arrests.html",
+      "sha256": "2ab5346d687609ac3658d8d93f99dcafc8985478722a069773cff9cfc44345d1",
+      "bytes": 41165,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-NCA-2026-03-25",
+      "url": "https://www.nationalcrimeagency.gov.uk/news/four-arrested-in-germany-as-part-of-major-international-operation-targeting-channel-small-boat-people-smuggling-network",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/nca-2026-06-17-germany-go-kits-seizure.html",
+      "sha256": "9c8299e2e013a29c2febbf2662039a0ca4361ef012f558f31cd9c9f77f9e89ce",
+      "bytes": 37778,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-NCA-2026-06-17",
+      "url": "https://www.nationalcrimeagency.gov.uk/news/dozens-of-boats-and-engines-seized-as-nca-joins-joint-operation-in-germany",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/nca-2026-07-01-bulgaria-lesovo-seizure.html",
+      "sha256": "247546dec672bef4360cea2cf0bac2da408ad357353b85265b2d384423902309",
+      "bytes": 37853,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-NCA-2026-07-01",
+      "url": "https://www.nationalcrimeagency.gov.uk/news/boats-bound-for-channel-people-smugglers-seized-at-bulgarian-border",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/nca-2026-07-22-felixstowe-boats-engines-china.html",
+      "sha256": "3331bcb75c1b04a1bb815d49044695b98c8cf59ab2b481832841eeda5447e1a4",
+      "bytes": 39042,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-NCA-2026-07-22",
+      "url": "https://www.nationalcrimeagency.gov.uk/news/25-boats-and-25-engines-destined-for-channel-people-smugglers-seized-in-major-operation-at-felixstowe",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/bsc-annual-report-2025-26-accessible.html",
+      "sha256": "070310c556b6da4bc17d41a5f587e4fdda02a895e12c01f93f566b0dbf7e1759",
+      "bytes": 355645,
+      "retrieved_at": "2026-09-11",
+      "source_id": "BSC-2026",
+      "url": "https://www.gov.uk/government/publications/border-security-commanders-annual-report-2025-to-2026/border-security-commanders-annual-report-2025-to-2026-accessible",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/cps-2026-06-10-first-endangerment-sentences.html",
+      "sha256": "848317f36219aaf2e54c49f44b4787cdf22994bfd165058ade2b9c6c17f0a6db",
+      "bytes": 46197,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-CPS-2026-06-10",
+      "url": "https://www.cps.gov.uk/national-news-south-east/news/first-sentences-migrants-who-risked-lives-others-during-small-boat",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/cps-2026-06-24-algerian-endangerment.html",
+      "sha256": "3650af75e2f3ace7e463bdfdc3a340d0a6f896773f62d575a25b84a8f57485bc",
+      "bytes": 46174,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-CPS-2026-06-24",
+      "url": "https://www.cps.gov.uk/national-news-south-east/news/algerian-jailed-risking-lives-during-small-boat-crossing",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/cps-2026-07-31-ten-sentenced-endangerment.html",
+      "sha256": "7ffaf1aafd77cae28967f916512c82f3d3b6b8403cbc395364fcf978061315a0",
+      "bytes": 45759,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-CPS-2026-07-31",
+      "url": "https://www.cps.gov.uk/national-news-south-east/news/ten-migrants-now-sentenced-under-new-law-risking-lives-during-small",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/govuk-2026-01-28-uk-china-small-boat-supply.html",
+      "sha256": "69a50b832d67d690f70e3643438411212091307b65ca19c5d1b2fd3b15fa1db2",
+      "bytes": 76946,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-GOVUK-2026-01-28-CHINA",
+      "url": "https://www.gov.uk/government/news/uk-china-border-security-deal-to-help-disrupt-small-boat-supply-lines",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-baie-de-seine-2026-09-06.html",
+      "sha256": "49fbbddd821ff9b9964b05fad0f26c96a6ad2517fa4bb203700e04ad6a6868d8",
+      "bytes": 27098,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2026-09-06",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/operation-d-assistance-d-une-embarcation-de-migrants-a-l-ouest-de-la-baie-de-seine",
+      "status": "additional_capture_of_same_source"
+    },
+    {
+      "file": "raw/premar-boulogne-173-2026-08-04.html",
+      "sha256": "c0392d9be1b096bef21b41a7d4c1cd14a11d9b756239437f00bd9341936d2884",
+      "bytes": 21921,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VES-PREMAR-2026-08-04",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/naufrage-d-une-embarcation-de-migrants-au-large-de-boulogne-sur-mer-62-173-personnes-secourues",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2025-bilan-communique.html",
+      "sha256": "de47e29cb6878b52bcc1a7909f364ce446092d4cd3a5516ed8a432fee3893ff7",
+      "bytes": 19320,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-REVIEW-2025-PAGE",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-2025-des-operations-de-la-prefecture-maritime-manche-et-mer-du-nord",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2024-operational-review.pdf",
+      "sha256": "ba0b5e4767cd9e790decdf761be77a3882b9bc3bbb69cfbc92b1cd0004417b74",
+      "bytes": 9747759,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-REVIEW-2024",
+      "url": "https://www.premar-manche.gouv.fr/uploads/manche/dossiers/fb0f1debff3abb8bf5fa1f4a466d87a8.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2024-synthese-operational-review.pdf",
+      "sha256": "6d63a3d5df7d5325c62d11ddfc38c62c64bbebb9fd5e25c8c2ef60ed3d7e1bea",
+      "bytes": 947151,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-SYNTHESE-2024",
+      "url": "https://www.premar-manche.gouv.fr/uploads/manche/dossiers/d63f8f8d1eee08a2fdb4ef0b333fcded.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2023-operational-review.pdf",
+      "sha256": "cd531c4bda665346501e8d475f8776263dea14cac8e59ca8e7b13906316c8aa4",
+      "bytes": 3141390,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-REVIEW-2023",
+      "url": "https://www.premar-manche.gouv.fr/uploads/manche/dossiers/ba713861efa97db824c081234264a739.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2022-operational-review.pdf",
+      "sha256": "440cd07084a4bbcc0a2276f156ef624abbb96db9d0ac9348cabbd7980311c8d6",
+      "bytes": 9227939,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-REVIEW-2022",
+      "url": "https://www.premar-manche.gouv.fr/uploads/manche/dossiers/a26d9fe593d78d152aeecc7a5bb7db9a.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2021-operational-review.pdf",
+      "sha256": "a3f74fd4a89418859b01192bccdc8a9322ab00d81b9b77a8d87be6dbf370f9b5",
+      "bytes": 7394001,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-REVIEW-2021",
+      "url": "https://www.premar-manche.gouv.fr/uploads/manche/dossiers/368af0320f87197036914ffc2411778b.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2020-operational-review.pdf",
+      "sha256": "aa32839512558a3f525c2124318f942675b594df7e8ffea1f354e7bcc087547d",
+      "bytes": 11240153,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-REVIEW-2020",
+      "url": "https://www.premar-manche.gouv.fr/uploads/manche/dossiers/9a5d874a8d3182ece8d3e28345595e9a.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2019-operational-review.pdf",
+      "sha256": "8bc2253d4048b48721731eb1c2a9e26a667f95509713b6b75e49d6357edba18b",
+      "bytes": 2707949,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-REVIEW-2019",
+      "url": "https://www.premar-manche.gouv.fr/uploads/manche/dossiers/cd525b78f9815dffbe15189deaa57b70.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-bilans-index.html",
+      "sha256": "9504589f58007d710d4bfe53226506dc099eb6034b0ec4fd1bdce9f49bb6d5d0",
+      "bytes": 23149,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-BILANS-INDEX",
+      "url": "https://www.premar-manche.gouv.fr/dossiers/bilans",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-mentions-legales.html",
+      "sha256": "1928855a94ab856519b84e5a08481192c44e84db1ebb292b1ce8f32ef73405cd",
+      "bytes": 33393,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-PREMAR-LEGAL",
+      "url": "https://www.premar-manche.gouv.fr/page/mentions-legales-4845",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2021-03-09-deux-embarcations.html",
+      "sha256": "8964f6181a8ea0d5f482c927216550693f9b6214ac9c9a9e88d739e9cdfa9c1a",
+      "bytes": 21427,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2021-03-09",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/sauvetage-de-deux-embarcations-de-migrants-en-manche",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2024-05-01-dieppe-66.html",
+      "sha256": "8df36f9ccaa11fa8e61884212d19d5c340e2c594f62d5e8f8cb91618b0029669",
+      "bytes": 20879,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2024-05-01",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/operation-d-assistance-et-de-sauvetage-de-66-personnes-au-large-de-dieppe-76",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2024-12-13-pas-de-calais-somme-120.html",
+      "sha256": "aeca78d47e5a8fcb797c10a6f6e660b69e2be2a95fbb4a7469819c2167bfea23",
+      "bytes": 21566,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2024-12-13",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/operations-de-sauvetage-de-120-migrants-dans-le-secteur-du-pas-de-calais-62-et-de-la-somme-80",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2025-02-09-detroit-230.html",
+      "sha256": "9788f54c9386b493723c4bf250e1280c4e907ba9bcbf80f6489d60c5a3abb186",
+      "bytes": 23276,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2025-02-09",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-en-mer-dans-le-detroit-du-pas-de-calais-le-9-fevrier-2025",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2025-03-02-detroit.html",
+      "sha256": "307608db15d1c89af39e38dd845b130518642add4a67c8b5c25a5cf5dc10e566",
+      "bytes": 27825,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2025-03-02",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-du-dimanche-2-mars-2025-dans-le-detroit-du-pas-de-calais",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2025-04-18-nord-pas-de-calais.html",
+      "sha256": "3af7ff782adbdb21d3f06adbdec7faecb0891b7b969fc0273b55d40f1be6f01d",
+      "bytes": 23719,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2025-04-18",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-du-vendredi-18-avril-2025-au-large-du-pas-de-calais-62-et-du-nord-59",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2025-09-28-nord-pdc-seine-maritime.html",
+      "sha256": "6cecdd91fb7c3e7267299f849ce0c298f11adff4fbc283f6d2db9d84c461feb6",
+      "bytes": 25959,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2025-09-28",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-sur-les-cotes-du-nord-59-du-pas-de-calais-62-et-de-la-seine-maritime-76-7666",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2025-11-06-pas-de-calais-107.html",
+      "sha256": "82612d808b9a6c0b94b658c4147f56fbb9cf0e79c5c7569bdcd5c58f91ba45af",
+      "bytes": 25387,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2025-11-06",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-au-large-des-cotes-du-pas-de-calais-107-personnes-secourues",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2026-06-15-manche-mer-du-nord.html",
+      "sha256": "13f7a53f0db38ebed3b267da8efdaa353a2efa7827745e0e164d2f3b94cd4c02",
+      "bytes": 25076,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2026-06-15",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-en-manche-et-mer-du-nord",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2026-07-22-23-33.html",
+      "sha256": "157c01dfed063097bc7e4cdacee787e8b5c60b2818b2884438c1c487e00afba7",
+      "bytes": 30976,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2026-07-22",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/bilan-des-operations-d-assistance-et-de-sauvetage-des-22-et-23-juillet-2026-33-personnes-secourues",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/premar-2026-09-06-baie-de-seine-140.html",
+      "sha256": "08ddef62684061afffb05d2689534035f119cc08605707f6b76f39a280e42a64",
+      "bytes": 27054,
+      "retrieved_at": "2026-09-11",
+      "source_id": "FR-NOTICE-2026-09-06",
+      "url": "https://www.premar-manche.gouv.fr/communiques-presse/operation-d-assistance-d-une-embarcation-de-migrants-a-l-ouest-de-la-baie-de-seine",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/icibi-2023-06-15-wjf-manston-reinspection.html",
+      "sha256": "6c3a3d254712c1e80870e07fdb5663b7fb25c3f8c730cb0caa223d2d8710dd59",
+      "bytes": 85036,
+      "retrieved_at": "2026-09-11",
+      "source_id": "ICIBI-WJF-MANSTON-2023",
+      "url": "https://www.gov.uk/government/news/inspection-report-published-an-inspection-of-the-initial-processing-of-migrants-arriving-via-small-boats-including-at-western-jet-foil-and-manston",
+      "status": "landing_page_inspected"
+    },
+    {
+      "file": "raw/ho-small-boats-last-7-days-2026-09-11.html",
+      "sha256": "b840357fc1988c5fb5407abf27b587101f61f9baa33b1becad31494b339fb1bf",
+      "bytes": 77037,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-LAST7-2026-09-10",
+      "url": "https://www.gov.uk/government/publications/migrants-detected-crossing-the-english-channel-in-small-boats/migrants-detected-crossing-the-english-channel-in-small-boats-last-7-days",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/vrt-2026-02-10-westkust-taxiboten.html",
+      "sha256": "5f52f2d57c7c4e22f8e99f6eeebaef40b4cfb211beb897e46d2e71e84b4b5858",
+      "bytes": 115828,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VRT-2026-02-10",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/02/10/meer-transmigranten-mensensmokkel-westkust-politie/",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/vrt-2026-03-24-15-boten.html",
+      "sha256": "454fa8222ca18430a53865ac941aa17a4c1859756099ed9dee9295ac6c1224f7",
+      "bytes": 122582,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VRT-2026-03-25",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/03/24/al-15-boten-met-transmigranten-vastgesteld-op-zee-sinds-begin-di/",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/vrt-2026-04-18-vijf-bootjes-200.html",
+      "sha256": "859aecf209d9fd91b35450c6976ef71620c6dcba0428c6fa85ecbc1932d3b723",
+      "bytes": 125606,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VRT-2026-04-18",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/04/18/transmigranten-kust-provinciaal-noodplan-opgestart-overleg-gouve/",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/vrt-2026-06-03-geen-bootjes-sinds-1-mei.html",
+      "sha256": "d4147694066c70784723b8ed756387f7c69a77f0188f7b3552df11962149102e",
+      "bytes": 141684,
+      "retrieved_at": "2026-09-11",
+      "source_id": "VRT-2026-06-03",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/06/03/geen-bootjes-met-transmigranten-meer-aan-onze-kust-sinds-1-mei/",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/ici-2025-08-20-seine-maritime.html",
+      "sha256": "e341ea10da430875836e3fed0d5e8ddcafba8ae808698a953650e60ed4acc87c",
+      "bytes": 166470,
+      "retrieved_at": "2026-09-11",
+      "source_id": "ICI-2025-08-20",
+      "url": "https://www.ici.fr/infos/economie-social/traversees-de-la-manche-deja-deux-fois-plus-de-migrants-interceptes-en-seine-maritime-cette-annee-qu-en-2024-3325909",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/ici-2026-09-portsmouth-140.html",
+      "sha256": "f683e7a89f9856110d237c18f006661c11c36237252e891a37152574544eab7f",
+      "bytes": 170270,
+      "retrieved_at": "2026-09-11",
+      "source_id": "ICI-2026-09-07",
+      "url": "https://www.ici.fr/normandie/manche-50/les-140-migrants-partis-de-la-manche-sont-arrives-en-angleterre-ou-une-manifestation-a-eclate-8847927",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/oxford-small-boats-briefing-2026-06-05.html",
+      "sha256": "d71f141fdae5838f1a61a437f5bf3a52707ca418b3699203fdeb70f6c2ae400f",
+      "bytes": 89225,
+      "retrieved_at": "2026-09-11",
+      "source_id": "OXFORD-2026",
+      "url": "https://migrationobservatory.ox.ac.uk/resources/briefings/people-crossing-the-english-channel-in-small-boats/",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/ho-crossing-conditions-2025-06-03.html",
+      "sha256": "3531f35f78e2091f270178ed683714081f146fcd5b8d3c5a24e91ea918e49965",
+      "bytes": 112964,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-CONDITIONS-2025",
+      "url": "https://www.gov.uk/government/statistics/small-boat-arrivals-and-the-impact-of-crossing-conditions/small-boat-arrivals-and-the-impact-of-crossing-conditions",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/hocl-cbp-9681-uk-france-border-cooperation-2026.pdf",
+      "sha256": "224f661509992bb81379a45add859a14cb14d515d7b012b8423522750edfb0f1",
+      "bytes": 6178392,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-HOCL-CBP9681-2026",
+      "url": "https://researchbriefings.files.parliament.uk/documents/CBP-9681/CBP-9681.pdf",
+      "status": "downloaded_and_inspected",
+      "retrieved_via": "https://web.archive.org/web/20260906174815id_/https://researchbriefings.files.parliament.uk/documents/CBP-9681/CBP-9681.pdf"
+    },
+    {
+      "file": "raw/hac-2022-07-18-channel-crossings-report-wayback.html",
+      "sha256": "e5cd345bb16e88b675ba78280cbf199a975db34c2e065d2e0d9555c9e03bd56e",
+      "bytes": 239993,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-HAC-2022",
+      "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmhaff/199/report.html",
+      "status": "downloaded_and_inspected",
+      "retrieved_via": "https://web.archive.org/web/20240502052353/https://publications.parliament.uk/pa/cm5803/cmselect/cmhaff/199/report.html"
+    },
+    {
+      "file": "raw/assemblee-nationale-2026-07-01-rapport-2998-touquet-t1.html",
+      "sha256": "72911493de0e9b8070d1d851cfa7a4aa74f2f97f288236a05215c8fcf57ed38f",
+      "bytes": 19867812,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-AN-2998-2026",
+      "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B2998-t1.html",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/icibi-2020-11-clandestine-arrivals-small-boats-inspection.pdf",
+      "sha256": "ff72410c7dd499728247a7b766c4f2da9178bc77c7b33e083a1242c073897892",
+      "bytes": 1215529,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-ICIBI-2020",
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/933953/An_inspection_of_the_Home_Office_s_response_to_in-country_clandestine_arrivals___lorry_drops___and_to_irregular_migrants_arriving_via__small_boats_.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/ippr-2022-10-understanding-rise-channel-crossings.pdf",
+      "sha256": "5ad682189a5d1f7a103dcd2451a3d4ad8c8326bdff9ac1a9e93ae82fb5bc16dc",
+      "bytes": 839321,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-IPPR-2022",
+      "url": "https://ippr-org.files.svdcdn.com/production/Downloads/understanding-the-rise-in-channel-crossings-october-22.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/mmc-2025-03-beyond-restrictions-report.pdf",
+      "sha256": "c8030003b1f82be7fa3cfc53cd3b5e57d7f67784754c0ffdc3148c371f8f01ab",
+      "bytes": 2652540,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-MMC-2025",
+      "url": "https://mixedmigration.org/wp-content/uploads/2025/03/373_Beyond-Restrictions-Med-Atl-and-Eng-Channel-REPORT.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/ho-2023-illegal-migration-bill-impact-assessment.pdf",
+      "sha256": "72aa4ae0b905d4f2aaad450e8dcc65195153c93b38db646db4b29d71ca865419",
+      "bytes": 987053,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-HO-IMB-IA-2023",
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1165397/Illegal_Migration_Bill_IA_-_LM_Signed-final.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/nao-2024-02-uk-rwanda-partnership-costs.pdf",
+      "sha256": "dd468c6f56be8f4c7fb4a07259d145ac66bc2ae7b93b4f7fe446a209bc47ee4a",
+      "bytes": 261665,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-NAO-RWANDA-2024",
+      "url": "https://www.nao.org.uk/wp-content/uploads/2024/02/investigation-costs-ukrwanda-partnership.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/channel-crossings-project-2025-10-final-report.pdf",
+      "sha256": "fe4d9dea1834f5ae0c18c4166b0e6e4a5a3f6c6ea49fed72e19f910d5695bf60",
+      "bytes": 2455576,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-CCP-2025",
+      "url": "https://lucymayblin.com/wp-content/uploads/2026/01/channel-crossings-report.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/mayblin-et-al-2024-jems-bringing-order-to-the-border.pdf",
+      "sha256": "b32baa3d2274a66418730681c47aa8de61fc617b783a28908e91832afc90b990",
+      "bytes": 1150759,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-JEMS-2024",
+      "url": "https://doi.org/10.1080/1369183X.2024.2349691",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/davies-et-al-2021-ers-channel-crossings.pdf",
+      "sha256": "8eb39fe59250e7b75b807b844261d9609a8faad8695cdc2a219db876ce4a6148",
+      "bytes": 618139,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-ERS-2021",
+      "url": "https://doi.org/10.1080/01419870.2021.1925320",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/mayblin-et-al-2024-pq-small-boats-big-contracts.pdf",
+      "sha256": "1c0d9d70698b8b84fc9d34bd70f0c5d0807e44c96d39c62f0fb949370a6a9d7f",
+      "bytes": 315794,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-PQ-2024",
+      "url": "https://doi.org/10.1111/1467-923X.13412",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/gitoc-2024-02-small-boats-big-business.pdf",
+      "sha256": "09c39155072499e40fc7c4b1dedb5f368084e490d9885dbf6313ef412c295fd0",
+      "bytes": 8832256,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-GITOC-2024",
+      "url": "https://globalinitiative.net/wp-content/uploads/2024/02/Small-boats-big-business-The-industrialization-of-cross-channel-migrant-smuggling-GI-TOC.Feb-2024.pdf",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/border-forensics-2026-how-stopping-the-boats-kills.html",
+      "sha256": "cc27a1772ede8c0f3c158a42451b434b0cc217317411cadad34ee51d0dd8e829",
+      "bytes": 519409,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-BORDERFORENSICS-2026",
+      "url": "https://www.borderforensics.org/investigations/channel/",
+      "status": "page_inspected"
+    },
+    {
+      "file": "raw/rodriguez-sanchez-et-al-2023-scirep-sar-pull-factor.pdf",
+      "sha256": "b32d30c8e593c63e441136c3e677e30ee5f45134dcf96a8dfdc3fa740e5d9df6",
+      "bytes": 1232755,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-SCIREP-2023",
+      "url": "https://doi.org/10.1038/s41598-023-38119-4",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/govuk-2023-03-10-uk-france-joint-leaders-declaration.html",
+      "sha256": "5d1773080bc320fa65581b8bec8507446909b66c17fe5aaa7cb1d89996ffcd24",
+      "bytes": 180956,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-JLD-2023",
+      "url": "https://www.gov.uk/government/publications/uk-france-joint-leaders-declaration/uk-france-joint-leaders-declaration",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/govuk-2024-07-07-bsc-launch.html",
+      "sha256": "94bcea030aa9f3fd9fb62a6b0305810c77787845d5879cf4424b69df33aabcb7",
+      "bytes": 71467,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-BSC-LAUNCH-2024",
+      "url": "https://www.gov.uk/government/news/home-secretary-launches-new-border-security-command",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/govuk-2025-08-05-uk-france-dangerous-journeys-agreement.html",
+      "sha256": "9d3106affc355ae0407f8c4bdc91dbfd2c0bf5f3a6b205d43e4982590aa59cf5",
+      "bytes": 76023,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-UKFR-AGREEMENT-2025",
+      "url": "https://www.gov.uk/government/publications/ukfrance-agreement-on-the-prevention-of-dangerous-journeys-cs-france-no22025",
+      "status": "page_inspected"
+    },
+    {
+      "file": "raw/govuk-2026-07-16-uk-france-agreement-transfers-returns.html",
+      "sha256": "069e5e1a3f9c33bfdce16171012d4651aea35332775ad04420dc10a2a685312d",
+      "bytes": 84433,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-UKFR-RETURNS-2026",
+      "url": "https://www.gov.uk/government/publications/the-border-security-commanders-annual-report-data/transfers-into-and-returns-from-the-united-kingdom-under-the-uk-france-agreement-on-the-prevention-of-dangerous-journeys-between-6-august-2025-and-30",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/ho-2026-08-27-illegal-entry-routes-narrative.html",
+      "sha256": "cecd0f2cf19e54cae0e8abd1c36a222fff851b84540b0b8479d9afc8df8c0898",
+      "bytes": 117297,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-2026Q2",
+      "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-june-2026/how-many-people-come-to-the-uk-via-illegal-entry-routes",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/lessor-2025-11-28-gendarmerie-maritime-doctrine.html",
+      "sha256": "ec335eb0ddd92250798f86544ddb05746b555de1fa1ef17354d6987a4522e0f0",
+      "bytes": 190114,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-LESSOR-2025",
+      "url": "https://lessor.org/societe/la-gendarmerie-maritime-va-appliquer-une-nouvelle-doctrine-dintervention-en-mer-contre-les-traversees-clandestines-vers-langleterre/",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/ho-2022-asylum-seeker-decision-making-journeys.html",
+      "sha256": "87295ccc894fac92eb1ed888933bf34b452590363acabf1c2099e05e9ccb16c5",
+      "bytes": 438482,
+      "retrieved_at": "2026-09-11",
+      "source_id": "EXP-SRC-HO-DECISION-2022",
+      "url": "https://www.gov.uk/government/publications/asylum-seeker-decision-making-in-journeys-to-the-united-kingdom-2022/asylum-seeker-decision-making-in-journeys-to-the-united-kingdom-2022",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/ho-user-guide-immigration-statistics-2026-08-27.html",
+      "sha256": "d51ddb73e072474c63ee04c51bcec2b66f60549618d11cb6c971b7b33989590d",
+      "bytes": 964382,
+      "retrieved_at": "2026-09-11",
+      "source_id": "HO-USER-GUIDE-2026-08",
+      "url": "https://www.gov.uk/government/publications/user-guide-to-home-office-immigration-statistics--9/user-guide-to-immigration-statistics",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/cranston-inquiry-executive-summary-2026-02-05.html",
+      "sha256": "f7b8482576e95e7bdc12fc016a26da08b0b9a1c9c7999608bdbfcc74054fe91d",
+      "bytes": 191455,
+      "retrieved_at": "2026-09-11",
+      "source_id": "REV-SRC-CRANSTON-EXEC-2026",
+      "url": "https://www.gov.uk/government/publications/the-report-of-the-cranston-inquiry/the-cranston-inquiry-report-executive-summary",
+      "status": "downloaded_and_inspected"
+    }
+  ]
+}

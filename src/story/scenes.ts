@@ -1,0 +1,43 @@
+export const scenes = [
+  {
+    id: "context",
+    label: "The context",
+    eyebrow: "A story in people, not just boats",
+    title: "Across a sea.\nBehind the numbers.",
+    body: "A boat count tells only part of the story. Explore how many people arrive, how many boats carry them, and how that relationship has changed.",
+    mapLabel: "The Channel, in context",
+    camera: { center: [0.7, 50.65] as [number, number], zoom: 6.55, pitch: 35 },
+    evidence: ["ANNUAL-2025", "DOVER-RECEPTION", "GRAVELINES-2025"],
+  },
+  {
+    id: "occupancy",
+    label: "A changing scale",
+    eyebrow: "More people per arriving boat",
+    title: "One boat.\nA different scale.",
+    body: "Average occupancy has grown. Select a year to see people and boats together. Occupancy measures how many people were aboard, not the vessel’s rated capacity.",
+    mapLabel: "Geography is context, not a route record",
+    camera: { center: [1.6, 50.9] as [number, number], zoom: 7.1, pitch: 35 },
+    evidence: ["OCCUPANCY-2018", "OCCUPANCY-2025"],
+  },
+  {
+    id: "comparison",
+    label: "Beyond boat counts",
+    eyebrow: "2022 compared with 2025",
+    title: "Fewer boats.\nA fuller picture.",
+    body: "Boat numbers fell much faster than the number of people arriving. The difference becomes clear when you account for average occupancy.",
+    mapLabel: "Two years. One important distinction.",
+    camera: { center: [1.3, 50.8] as [number, number], zoom: 6.8, pitch: 40 },
+    evidence: ["COMPARISON-2022-2025"],
+  },
+  {
+    id: "scenarios",
+    label: "What happens next?",
+    eyebrow: "An exploration, not a prediction",
+    title: "Change the inputs.\nExplore the possibilities.",
+    body: "What if boat numbers, occupancy or launch areas changed? Explore assumed occupancy and arriving boats separately from the evidence.",
+    mapLabel: "Hypothetical connections · not vessel tracks",
+    camera: { center: [0.3, 50.5] as [number, number], zoom: 6.3, pitch: 45 },
+    evidence: [],
+  },
+] as const;
+export type SceneId = (typeof scenes)[number]["id"];

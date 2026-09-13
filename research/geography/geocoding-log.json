@@ -1,0 +1,713 @@
+{
+  "service": "OpenStreetMap Nominatim search API",
+  "endpoint": "https://nominatim.openstreetmap.org/search",
+  "data_licence": "ODbL 1.0, © OpenStreetMap contributors",
+  "retrieved_at": "2026-09-11T12:57:02+00:00",
+  "note": "Top result per query, stored verbatim. Representative points for named places only.",
+  "results": {
+    "gravelines": {
+      "query": "Gravelines, Nord, France",
+      "matched": true,
+      "display_name": "Gravelines, Dunkerque, Nord, Hauts-de-France, France métropolitaine, 59820, France",
+      "lat": 50.9870697,
+      "lon": 2.1273118,
+      "osm_type": "relation",
+      "osm_id": 139316,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "50.9704073",
+        "51.0353107",
+        "2.0939786",
+        "2.1829696"
+      ]
+    },
+    "petit-fort-philippe": {
+      "query": "Petit-Fort-Philippe, Gravelines, France",
+      "matched": true,
+      "display_name": "Petit-Fort-Philippe, Gravelines, Dunkerque, Nord, Hauts-de-France, France métropolitaine, 59820, France",
+      "lat": 51.0007372,
+      "lon": 2.1176357,
+      "osm_type": "node",
+      "osm_id": 3078759418,
+      "category": "place",
+      "type": "neighbourhood",
+      "boundingbox": [
+        "50.9907372",
+        "51.0107372",
+        "2.1076357",
+        "2.1276357"
+      ]
+    },
+    "dunkerque-port": {
+      "query": "Port de Dunkerque, Dunkerque, France",
+      "matched": true,
+      "display_name": "Avant Port Ouest, Loon-Plage, Dunkerque, Nord, Hauts-de-France, France métropolitaine, 59279, France",
+      "lat": 51.0317982,
+      "lon": 2.1681227,
+      "osm_type": "relation",
+      "osm_id": 10626829,
+      "category": "water",
+      "type": "harbour",
+      "boundingbox": [
+        "51.0194188",
+        "51.0442535",
+        "2.1500601",
+        "2.1935363"
+      ]
+    },
+    "dunkerque": {
+      "query": "Dunkerque, Nord, France",
+      "matched": true,
+      "display_name": "Dunkerque, Nord, Hauts-de-France, France métropolitaine, France",
+      "lat": 51.0347708,
+      "lon": 2.3772525,
+      "osm_type": "relation",
+      "osm_id": 139610,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "50.9759801",
+        "51.0581006",
+        "2.2397196",
+        "2.4465017"
+      ]
+    },
+    "malo-les-bains": {
+      "query": "Malo-les-Bains, Dunkerque, France",
+      "matched": true,
+      "display_name": "Malo-les-Bains, Dunkerque, Nord, Hauts-de-France, France métropolitaine, France",
+      "lat": 51.0466792,
+      "lon": 2.3984694,
+      "osm_type": "relation",
+      "osm_id": 3213897,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "51.0414828",
+        "51.0581006",
+        "2.3789441",
+        "2.4333647"
+      ]
+    },
+    "leffrinckoucke": {
+      "query": "Leffrinckoucke, Nord, France",
+      "matched": true,
+      "display_name": "Leffrinckoucke, Dunkerque, Nord, Hauts-de-France, France métropolitaine, 59495, France",
+      "lat": 51.0509395,
+      "lon": 2.438674,
+      "osm_type": "relation",
+      "osm_id": 139642,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "51.0252584",
+        "51.0668262",
+        "2.4320485",
+        "2.4712059"
+      ]
+    },
+    "calais": {
+      "query": "Calais, Pas-de-Calais, France",
+      "matched": true,
+      "display_name": "Calais, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62100, France",
+      "lat": 50.9524769,
+      "lon": 1.8538446,
+      "osm_type": "relation",
+      "osm_id": 286380,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "50.9218944",
+        "50.9826611",
+        "1.8057835",
+        "1.9320613"
+      ]
+    },
+    "phare-de-walde": {
+      "query": "Phare de Walde, Marck, France",
+      "matched": true,
+      "display_name": "Phare de Walde, Digue TAAF, Marck, Calais, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62730, France",
+      "lat": 50.9935026,
+      "lon": 1.9147573,
+      "osm_type": "node",
+      "osm_id": 3627204490,
+      "category": "man_made",
+      "type": "lighthouse",
+      "boundingbox": [
+        "50.9934526",
+        "50.9935526",
+        "1.9147073",
+        "1.9148073"
+      ]
+    },
+    "cap-blanc-nez": {
+      "query": "Cap Blanc-Nez, France",
+      "matched": true,
+      "display_name": "Cap Blanc Nez, Escalles, Calais, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62179, France",
+      "lat": 50.9254272,
+      "lon": 1.7069485,
+      "osm_type": "node",
+      "osm_id": 9027126157,
+      "category": "natural",
+      "type": "cape",
+      "boundingbox": [
+        "50.9253772",
+        "50.9254772",
+        "1.7068985",
+        "1.7069985"
+      ]
+    },
+    "ambleteuse": {
+      "query": "Ambleteuse, Pas-de-Calais, France",
+      "matched": true,
+      "display_name": "Ambleteuse, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62164, France",
+      "lat": 50.8098639,
+      "lon": 1.607345,
+      "osm_type": "relation",
+      "osm_id": 240393,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "50.8007365",
+        "50.8251564",
+        "1.5945840",
+        "1.6446509"
+      ]
+    },
+    "wimereux": {
+      "query": "Wimereux, Pas-de-Calais, France",
+      "matched": true,
+      "display_name": "Wimereux, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62930, France",
+      "lat": 50.7696528,
+      "lon": 1.6119368,
+      "osm_type": "relation",
+      "osm_id": 224363,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "50.7413884",
+        "50.8055153",
+        "1.5942935",
+        "1.6348851"
+      ]
+    },
+    "pointe-aux-oies": {
+      "query": "Pointe aux Oies, Wimereux, France",
+      "matched": true,
+      "display_name": "Gîte La Pointe aux Oies, 6, Chemin des Oies, Wimereux, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62930, France",
+      "lat": 50.7850945,
+      "lon": 1.6150346,
+      "osm_type": "way",
+      "osm_id": 123238397,
+      "category": "tourism",
+      "type": "chalet",
+      "boundingbox": [
+        "50.7850330",
+        "50.7852210",
+        "1.6148779",
+        "1.6151170"
+      ]
+    },
+    "boulogne-sur-mer": {
+      "query": "Boulogne-sur-Mer, Pas-de-Calais, France",
+      "matched": true,
+      "display_name": "Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62200, France",
+      "lat": 50.7259985,
+      "lon": 1.6118771,
+      "osm_type": "relation",
+      "osm_id": 240377,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "50.7100271",
+        "50.7505279",
+        "1.5789037",
+        "1.6333873"
+      ]
+    },
+    "equihen-plage": {
+      "query": "Équihen-Plage, Pas-de-Calais, France",
+      "matched": true,
+      "display_name": "Équihen-Plage, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62224, France",
+      "lat": 50.679393,
+      "lon": 1.5716648,
+      "osm_type": "relation",
+      "osm_id": 180027,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "50.6640095",
+        "50.6941423",
+        "1.5624532",
+        "1.5952134"
+      ]
+    },
+    "ecault": {
+      "query": "Écault, Saint-Étienne-au-Mont, France",
+      "matched": true,
+      "display_name": "Ecault, Saint-Étienne-au-Mont, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62360, France",
+      "lat": 50.6667532,
+      "lon": 1.6046314,
+      "osm_type": "node",
+      "osm_id": 9968539393,
+      "category": "place",
+      "type": "hamlet",
+      "boundingbox": [
+        "50.6467532",
+        "50.6867532",
+        "1.5846314",
+        "1.6246314"
+      ]
+    },
+    "hardelot": {
+      "query": "Hardelot-Plage, Neufchâtel-Hardelot, France",
+      "matched": true,
+      "display_name": "Hardelot-Plage, Neufchâtel-Hardelot, Boulogne-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62152, France",
+      "lat": 50.6338762,
+      "lon": 1.5778096,
+      "osm_type": "node",
+      "osm_id": 289788525,
+      "category": "place",
+      "type": "suburb",
+      "boundingbox": [
+        "50.6138762",
+        "50.6538762",
+        "1.5578096",
+        "1.5978096"
+      ]
+    },
+    "stella-plage": {
+      "query": "Stella-Plage, Cucq, France",
+      "matched": true,
+      "display_name": "Stella-Plage, Cucq, Montreuil-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62780, France",
+      "lat": 50.4799397,
+      "lon": 1.577138,
+      "osm_type": "node",
+      "osm_id": 1069748414,
+      "category": "place",
+      "type": "village",
+      "boundingbox": [
+        "50.4599397",
+        "50.4999397",
+        "1.5571380",
+        "1.5971380"
+      ]
+    },
+    "berck-sur-mer": {
+      "query": "Berck, Montreuil-sur-Mer, Pas-de-Calais, France",
+      "matched": true,
+      "display_name": "Berck, Montreuil-sur-Mer, Pas-de-Calais, Hauts-de-France, France métropolitaine, 62600, France",
+      "lat": 50.4052576,
+      "lon": 1.5711617,
+      "osm_type": "relation",
+      "osm_id": 156094,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "50.3897283",
+        "50.4397736",
+        "1.5555647",
+        "1.6063348"
+      ]
+    },
+    "baie-de-somme": {
+      "query": "Baie de Somme, France",
+      "matched": true,
+      "display_name": "Baie de Somme, France métropolitaine, France",
+      "lat": 50.2137313,
+      "lon": 1.5964407,
+      "osm_type": "node",
+      "osm_id": 9015178184,
+      "category": "natural",
+      "type": "bay",
+      "boundingbox": [
+        "50.2136813",
+        "50.2137813",
+        "1.5963907",
+        "1.5964907"
+      ]
+    },
+    "saint-valery-sur-somme": {
+      "query": "Saint-Valery-sur-Somme, Somme, France",
+      "matched": true,
+      "display_name": "Saint-Valery-sur-Somme, Abbeville, Somme, Hauts-de-France, France métropolitaine, 80230, France",
+      "lat": 50.1887006,
+      "lon": 1.6279147,
+      "osm_type": "relation",
+      "osm_id": 400118,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "50.1566200",
+        "50.1917766",
+        "1.5928857",
+        "1.6652698"
+      ]
+    },
+    "cayeux-sur-mer": {
+      "query": "Cayeux-sur-Mer, Somme, France",
+      "matched": true,
+      "display_name": "Cayeux-sur-Mer, Abbeville, Somme, Hauts-de-France, France métropolitaine, 80410, France",
+      "lat": 50.1792004,
+      "lon": 1.4933839,
+      "osm_type": "relation",
+      "osm_id": 1246640,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "50.1369122",
+        "50.2175028",
+        "1.4682614",
+        "1.5718173"
+      ]
+    },
+    "berneval-le-grand": {
+      "query": "Berneval-le-Grand, Seine-Maritime, France",
+      "matched": true,
+      "display_name": "Berneval-le-Grand, Petit-Caux, Dieppe, Seine-Maritime, Normandie, France métropolitaine, 76370, France",
+      "lat": 49.9572664,
+      "lon": 1.1888108,
+      "osm_type": "relation",
+      "osm_id": 1824791,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "49.9394895",
+        "49.9684006",
+        "1.1689605",
+        "1.2084539"
+      ]
+    },
+    "dieppe": {
+      "query": "Dieppe, Seine-Maritime, France",
+      "matched": true,
+      "display_name": "Dieppe, Seine-Maritime, Normandie, France métropolitaine, 76200, France",
+      "lat": 49.9246182,
+      "lon": 1.0791444,
+      "osm_type": "relation",
+      "osm_id": 110435,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "49.8998141",
+        "49.9405539",
+        "1.0404783",
+        "1.1276059"
+      ]
+    },
+    "varengeville-sur-mer": {
+      "query": "Varengeville-sur-Mer, Seine-Maritime, France",
+      "matched": true,
+      "display_name": "Varengeville-sur-Mer, Dieppe, Seine-Maritime, Normandie, France métropolitaine, 76119, France",
+      "lat": 49.9046335,
+      "lon": 1.0021825,
+      "osm_type": "relation",
+      "osm_id": 146297,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "49.8835525",
+        "49.9191104",
+        "0.9711262",
+        "1.0283219"
+      ]
+    },
+    "yport": {
+      "query": "Yport, Seine-Maritime, France",
+      "matched": true,
+      "display_name": "Yport, Le Havre, Seine-Maritime, Normandie, France métropolitaine, 76111, France",
+      "lat": 49.7378489,
+      "lon": 0.3133709,
+      "osm_type": "relation",
+      "osm_id": 1823116,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "49.7266191",
+        "49.7417328",
+        "0.2988416",
+        "0.3323021"
+      ]
+    },
+    "baie-de-seine": {
+      "query": "Baie de Seine, France",
+      "matched": true,
+      "display_name": "Baie de la Seine, Normandie, France métropolitaine, France",
+      "lat": 49.487532,
+      "lon": -0.5837716,
+      "osm_type": "relation",
+      "osm_id": 9110404,
+      "category": "natural",
+      "type": "bay",
+      "boundingbox": [
+        "49.2778002",
+        "49.6969505",
+        "-1.3098713",
+        "0.1845527"
+      ]
+    },
+    "utah-beach-la-breche": {
+      "query": "La Brèche, Sainte-Marie-du-Mont, Manche, France",
+      "matched": false,
+      "display_name": null,
+      "lat": null,
+      "lon": null,
+      "osm_type": null,
+      "osm_id": null,
+      "category": null,
+      "type": null,
+      "boundingbox": null
+    },
+    "utah-beach": {
+      "query": "Utah Beach, Sainte-Marie-du-Mont, France",
+      "matched": true,
+      "display_name": "Utah-Beach, Sainte-Marie-du-Mont, Cherbourg, Manche, Normandie, France métropolitaine, 50480, France",
+      "lat": 49.4156657,
+      "lon": -1.1747033,
+      "osm_type": "node",
+      "osm_id": 2329239613,
+      "category": "place",
+      "type": "hamlet",
+      "boundingbox": [
+        "49.3956657",
+        "49.4356657",
+        "-1.1947033",
+        "-1.1547033"
+      ]
+    },
+    "iles-saint-marcouf": {
+      "query": "Îles Saint-Marcouf, France",
+      "matched": true,
+      "display_name": "Îles Saint-Marcouf, Saint-Marcouf, Cherbourg, Manche, Normandie, France métropolitaine, 50310, France",
+      "lat": 49.4981839,
+      "lon": -1.1460647,
+      "osm_type": "relation",
+      "osm_id": 1286941,
+      "category": "place",
+      "type": "archipelago",
+      "boundingbox": [
+        "49.4924289",
+        "49.4995564",
+        "-1.1563456",
+        "-1.1444908"
+      ]
+    },
+    "de-panne": {
+      "query": "De Panne, West-Vlaanderen, Belgium",
+      "matched": true,
+      "display_name": "De Panne, Veurne, West-Vlaanderen, Vlaanderen, 8660, België / Belgique / Belgien",
+      "lat": 51.0988314,
+      "lon": 2.5924087,
+      "osm_type": "relation",
+      "osm_id": 1516156,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "51.0461658",
+        "51.1137815",
+        "2.5413608",
+        "2.6345539"
+      ]
+    },
+    "oostduinkerke": {
+      "query": "Oostduinkerke, Koksijde, Belgium",
+      "matched": true,
+      "display_name": "Oostduinkerke, Koksijde, Veurne, West-Vlaanderen, Vlaanderen, 8670, België / Belgique / Belgien",
+      "lat": 51.1159167,
+      "lon": 2.6824699,
+      "osm_type": "relation",
+      "osm_id": 2148466,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "51.1021263",
+        "51.1491584",
+        "2.6510786",
+        "2.7572059"
+      ]
+    },
+    "koksijde": {
+      "query": "Koksijde, West-Vlaanderen, Belgium",
+      "matched": true,
+      "display_name": "Koksijde, Veurne, West-Vlaanderen, Vlaanderen, 8670, België / Belgique / Belgien",
+      "lat": 51.1187723,
+      "lon": 2.6349277,
+      "osm_type": "relation",
+      "osm_id": 1487782,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "51.0812843",
+        "51.1491584",
+        "2.6017830",
+        "2.7572059"
+      ]
+    },
+    "nieuwpoort": {
+      "query": "Nieuwpoort, West-Vlaanderen, Belgium",
+      "matched": true,
+      "display_name": "Nieuwpoort, Veurne, West-Vlaanderen, Vlaanderen, 8620, België / Belgique / Belgien",
+      "lat": 51.1294306,
+      "lon": 2.751666,
+      "osm_type": "relation",
+      "osm_id": 1292926,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "51.0867211",
+        "51.1649732",
+        "2.6998590",
+        "2.8248931"
+      ]
+    },
+    "middelkerke": {
+      "query": "Middelkerke, West-Vlaanderen, Belgium",
+      "matched": true,
+      "display_name": "Middelkerke, Oostende, West-Vlaanderen, Vlaanderen, België / Belgique / Belgien",
+      "lat": 51.1864843,
+      "lon": 2.8229746,
+      "osm_type": "relation",
+      "osm_id": 1292908,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "51.0947885",
+        "51.2021975",
+        "2.7461155",
+        "2.9237491"
+      ]
+    },
+    "bredene": {
+      "query": "Bredene, West-Vlaanderen, Belgium",
+      "matched": true,
+      "display_name": "Bredene, Oostende, West-Vlaanderen, Vlaanderen, 8450, België / Belgique / Belgien",
+      "lat": 51.2408491,
+      "lon": 2.9647914,
+      "osm_type": "relation",
+      "osm_id": 417103,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "51.2143722",
+        "51.2633529",
+        "2.9415452",
+        "3.0125711"
+      ]
+    },
+    "dover": {
+      "query": "Dover, Kent, United Kingdom",
+      "matched": true,
+      "display_name": "Dover, Kent, England, CT16 1NB, United Kingdom",
+      "lat": 51.1251275,
+      "lon": 1.3134228,
+      "osm_type": "node",
+      "osm_id": 21421224,
+      "category": "place",
+      "type": "town",
+      "boundingbox": [
+        "51.0851275",
+        "51.1651275",
+        "1.2734228",
+        "1.3534228"
+      ]
+    },
+    "port-of-dover": {
+      "query": "Port of Dover, Dover, United Kingdom",
+      "matched": true,
+      "display_name": "Port of Dover - Eastern Docks, Dover, Kent, England, United Kingdom",
+      "lat": 51.1262507,
+      "lon": 1.3305885,
+      "osm_type": "way",
+      "osm_id": 167792636,
+      "category": "landuse",
+      "type": "industrial",
+      "boundingbox": [
+        "51.1217678",
+        "51.1307348",
+        "1.3269394",
+        "1.3434359"
+      ]
+    },
+    "western-jet-foil": {
+      "query": "Western Docks, Dover, United Kingdom",
+      "matched": true,
+      "display_name": "Western Docks Revival Project, Clarendon, Dover, Kent, England, United Kingdom",
+      "lat": 51.1177325,
+      "lon": 1.31061,
+      "osm_type": "way",
+      "osm_id": 184570896,
+      "category": "landuse",
+      "type": "construction",
+      "boundingbox": [
+        "51.1157053",
+        "51.1197848",
+        "1.3082670",
+        "1.3150124"
+      ]
+    },
+    "tug-haven": {
+      "query": "Tug Haven, Dover, United Kingdom",
+      "matched": false,
+      "display_name": null,
+      "lat": null,
+      "lon": null,
+      "osm_type": null,
+      "osm_id": null,
+      "category": null,
+      "type": null,
+      "boundingbox": null
+    },
+    "manston": {
+      "query": "Manston, Kent, United Kingdom",
+      "matched": true,
+      "display_name": "Manston, Cliffsend, Thanet, Kent, England, United Kingdom",
+      "lat": 51.3459955,
+      "lon": 1.3696746,
+      "osm_type": "relation",
+      "osm_id": 2568615,
+      "category": "boundary",
+      "type": "administrative",
+      "boundingbox": [
+        "51.3360901",
+        "51.3741160",
+        "1.3232272",
+        "1.3929267"
+      ]
+    },
+    "langstone-harbour": {
+      "query": "Langstone Harbour, Hampshire, United Kingdom",
+      "matched": true,
+      "display_name": "Langstone Harbour, Langstone, Havant, Hampshire, England, United Kingdom",
+      "lat": 50.817851,
+      "lon": -1.0143086,
+      "osm_type": "relation",
+      "osm_id": 4082390,
+      "category": "natural",
+      "type": "bay",
+      "boundingbox": [
+        "50.7873761",
+        "50.8481513",
+        "-1.0446223",
+        "-0.9777021"
+      ]
+    },
+    "portsmouth": {
+      "query": "Portsmouth, Hampshire, United Kingdom",
+      "matched": true,
+      "display_name": "Portsmouth, Hampshire, England, United Kingdom",
+      "lat": 50.8221133,
+      "lon": -1.0677602,
+      "osm_type": "way",
+      "osm_id": 38387721,
+      "category": "boundary",
+      "type": "public_transport",
+      "boundingbox": [
+        "50.7793908",
+        "50.8586923",
+        "-1.1176180",
+        "-1.0163766"
+      ]
+    }
+  }
+}

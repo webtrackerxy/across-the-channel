@@ -1,0 +1,58 @@
+{
+  "as_of": "2026-09-11",
+  "review_status": "source_checked_pending_independent_review",
+  "approved_for_application": false,
+  "rules": [
+    "Scenarios are not forecasts and are stored separately from observed data.",
+    "Modelled arrivals = assumed arriving boats x assumed average people per arriving boat.",
+    "Average occupancy is not capacity; no utilisation, departure-success or interception rate is used.",
+    "Scenario values must be visually distinct from observed values without relying on colour alone."
+  ],
+  "assumptions": [
+    {
+      "id": "ASM-BASELINE",
+      "classification": "OFFICIAL_STATISTIC",
+      "value": {
+        "people": 33374,
+        "boats": 511,
+        "average_people_per_boat": 65.311155
+      },
+      "anchor_claim_ids": [
+        "ROLLING-2026Q2"
+      ],
+      "rationale": "Latest 12 months published (July 2025-June 2026). A rolling year avoids treating 2026 (January-June only) as a full year."
+    },
+    {
+      "id": "ASM-OCCUPANCY-HELD",
+      "classification": "SCENARIO",
+      "value": 65.311155,
+      "rationale": "REDUCTION and CONTINUATION hold occupancy at the baseline so that only the boat count differs. No evidence is used to predict occupancy."
+    },
+    {
+      "id": "ASM-REDUCTION-BOATS",
+      "classification": "SCENARIO",
+      "value": 255.5,
+      "rationale": "Illustrative halving of arriving boats. Not tied to any policy, agreement or evidence of effect; chosen only to show a clearly lower case."
+    },
+    {
+      "id": "ASM-EXPANSION-BOATS",
+      "classification": "SCENARIO",
+      "value": 1110,
+      "anchor_claim_ids": [
+        "ANNUAL-2022"
+      ],
+      "rationale": "The highest calendar-year count of arriving boats observed 2018-2025. Using an observed maximum bounds the scenario by recorded experience."
+    },
+    {
+      "id": "ASM-EXPANSION-OCCUPANCY",
+      "classification": "SCENARIO",
+      "value": 70.848485,
+      "anchor_claim_ids": [
+        "PEAK-OCCUPANCY-MONTHS",
+        "STAT-PUBOCC-MONTHLY-RECORD-2025"
+      ],
+      "rationale": "The highest monthly average among months with at least 10 boats, applied to a whole year. A single-month value sustained for 12 months has never been observed."
+    }
+  ],
+  "release_note": "Release subset: crossing scenarios only. Filtered from the full build; re-running build_scenarios.py requires the after-arrival data not included in this release."
+}

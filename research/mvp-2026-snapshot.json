@@ -1,0 +1,28 @@
+{
+  "record": {
+    "year": 2026,
+    "people": 16513,
+    "boats": 244,
+    "periodStart": "2026-01-01",
+    "periodEnd": "2026-09-03",
+    "partial": true,
+    "provisional": true,
+    "sourceId": "HO-DAILY-2026-09-04",
+    "claimId": "MVP-YTD-2026-09-03"
+  },
+  "source": {
+    "id": "HO-DAILY-2026-09-04",
+    "title": "Small boats time series, 4 September 2026",
+    "publisher": "Home Office / Border Force",
+    "url": "https://assets.publishing.service.gov.uk/media/6a9a9e583b22fb169dc1921b/04_September_2026_Small_boats_-_time_series.ods",
+    "publishedAt": "2026-09-04",
+    "table": "SB_01, daily records from 1 January to 3 September 2026",
+    "note": "Provisional operational data. Not a full calendar year or a forecast; subject to revision."
+  },
+  "verification": {
+    "checkedAt": "2026-09-11",
+    "method": "Sum of 246 daily SB_01 records; independently reconciled to available weekly SB_02 totals.",
+    "classification": "DERIVED STATISTIC",
+    "reviewStatus": "source_checked_pending_independent_review"
+  }
+}

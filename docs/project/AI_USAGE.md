@@ -1,0 +1,15 @@
+# AI-assisted work
+
+The September 2026 editorial redesign follows user-approved desktop/mobile preview directions: a map-led scrolling story and differently sized, filled boat illustrations. Generated visual previews were conceptual; the implementation uses the existing geographic dataset and data-driven SVGs, not the preview raster as cartography. Six existing narration clips are reused without additional API calls. Automated checks and screenshot review do not replace reader comprehension testing or an independent accessibility review.
+
+Codex read the project brief, documented the plan, researched sources, downloaded primary workbooks, checked arithmetic, and built the Day 1 MVP. It implemented React/TypeScript, MapLibre and Three.js rendering, scenario calculations, styling, data transformation, documentation and automated tests.
+
+The user selected the scope, approved the implementation plan, verified the importance of the occupancy comparison, and authorized an MVP before research was complete. Codex kept uncertainties visible and used hypothetical scenarios rather than filling evidence gaps with asserted historical estimates.
+
+No sub-agents or independent reviewers were used for the MVP build. Automated checks do not constitute independent fact-checking. No human sign-off of the completed interface is implied.
+
+The research registry was later critically reviewed in Phase 2 ([critical-review.md](../../research/critical-review.md)). Claude ran six separate reviewer sub-agents, each trying to disprove one area, and the lead researcher verified every finding against the pinned sources before changing any claim. The project owner approved the research with conditions on 11 September 2026 ([approval.json](../../research/approval.json)): 323 of 344 claims are approved for application use.
+
+On 12 September 2026, OpenAI `gpt-4o-mini-tts` with the `sage` voice generated 14 MP3 narration clips from the application-derived transcript. Generation used a local API key, never a browser-exposed key. The review page and narration controls disclose the AI-generated voice. Duration, hashes, transcript consistency and file decoding were checked automatically; pronunciation, tone and spoken factual fidelity still require listening review. API cost was not measured. Story autoplay uses these static recordings; playback integration made no further OpenAI calls. Later on 12 September 2026, after narration wording changes (Portsmouth details in step 10, the reworded closing question in step 12 and a new concluding step 15), the same model and voice generated three further clips; the other 12 were reused from the local cache, giving 15 recordings. Step 15 was regenerated once more after its wording was made open-ended.
+
+The subsequent UI amendment added theme and type preferences, a token-based design foundations preview, a compact map/chart workspace, controlled autoplay, accessibility improvements and explicitly indicative route highlights. Codex used Playwright, axe and screenshot review; this is not an independent WCAG conformance audit.

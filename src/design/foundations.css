@@ -1,0 +1,63 @@
+/* Channel design foundations. Components consume semantic tokens only. */
+:root {
+  color-scheme: dark;
+  --bg: #101c25;
+  --panel: #172a34;
+  --surface: #203640;
+  --text: #edf4f2;
+  --muted: #bacbd0;
+  --line: #64808b;
+  --subtle-line: #36505b;
+  --accent: #98e7cc;
+  --accent-surface: #214b41;
+  --scenario: #ffd098;
+  --scenario-surface: #493824;
+  --focus: #b7f5dd;
+  --bar: #82b9ab;
+  --water: #142d3a;
+  --land: #34515a;
+  --coast: #88a7ab;
+  --map-text: #eff9f6;
+  --map-label-bg: #172a34;
+  --scrim: #06131cbb;
+  --shadow: 0 16px 60px #0005;
+  --font-body: "DM Sans", sans-serif;
+  --font-display: "Manrope", sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --radius-sm: 0.3rem;
+  --radius-md: 0.6rem;
+  --control-size: 2.75rem;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f1f5f2;
+  --panel: #ffffff;
+  --surface: #e5ede8;
+  --text: #172d36;
+  --muted: #425e68;
+  --line: #6d8587;
+  --subtle-line: #c0d0c9;
+  --accent: #075f49;
+  --accent-surface: #dcefe5;
+  --scenario: #754205;
+  --scenario-surface: #fff0d9;
+  --focus: #075f49;
+  --bar: #477c6e;
+  --water: #deedf2;
+  --land: #b8cfc1;
+  --coast: #56796b;
+  --map-text: #153c36;
+  --map-label-bg: #f0f6f1;
+  --scrim: #172d3666;
+  --shadow: 0 16px 60px #173b3426;
+}

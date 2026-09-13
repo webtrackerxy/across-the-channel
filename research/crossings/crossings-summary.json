@@ -1,0 +1,146 @@
+{
+  "generated_by": "research/extract_crossings.py",
+  "source_id": "HO-TABLES-2026Q2",
+  "review_status": "source_checked_pending_independent_review",
+  "highest_occupancy_months": {
+    "rule": "Months with at least 10 boats, ranked by people / boats.",
+    "classification": "DERIVED_STATISTIC",
+    "months": [
+      {
+        "year": 2025,
+        "month": 11,
+        "people": 2338,
+        "boats": 33,
+        "average_people_per_boat": "70.848485"
+      },
+      {
+        "year": 2025,
+        "month": 9,
+        "people": 5084,
+        "boats": 72,
+        "average_people_per_boat": "70.611111"
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "people": 2742,
+        "boats": 40,
+        "average_people_per_boat": "68.550000"
+      },
+      {
+        "year": 2026,
+        "month": 4,
+        "people": 1975,
+        "boats": 30,
+        "average_people_per_boat": "65.833333"
+      },
+      {
+        "year": 2025,
+        "month": 10,
+        "people": 2867,
+        "boats": 44,
+        "average_people_per_boat": "65.159091"
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "people": 2726,
+        "boats": 42,
+        "average_people_per_boat": "64.904762"
+      },
+      {
+        "year": 2025,
+        "month": 6,
+        "people": 5170,
+        "boats": 80,
+        "average_people_per_boat": "64.625000"
+      },
+      {
+        "year": 2026,
+        "month": 2,
+        "people": 1276,
+        "boats": 20,
+        "average_people_per_boat": "63.800000"
+      },
+      {
+        "year": 2026,
+        "month": 3,
+        "people": 2232,
+        "boats": 35,
+        "average_people_per_boat": "63.771429"
+      },
+      {
+        "year": 2025,
+        "month": 8,
+        "people": 3567,
+        "boats": 56,
+        "average_people_per_boat": "63.696429"
+      }
+    ]
+  },
+  "highest_occupancy_month_by_year": [
+    {
+      "year": 2018,
+      "month": 11,
+      "people": 110,
+      "boats": 13,
+      "average_people_per_boat": "8.461538"
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "people": 278,
+      "boats": 22,
+      "average_people_per_boat": "12.636364"
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "people": 761,
+      "boats": 48,
+      "average_people_per_boat": "15.854167"
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "people": 6971,
+      "boats": 209,
+      "average_people_per_boat": "33.354067"
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "people": 6900,
+      "boats": 147,
+      "average_people_per_boat": "46.938776"
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "people": 4729,
+      "boats": 85,
+      "average_people_per_boat": "55.635294"
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "people": 3414,
+      "boats": 58,
+      "average_people_per_boat": "58.862069"
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "people": 2338,
+      "boats": 33,
+      "average_people_per_boat": "70.848485"
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "people": 2742,
+      "boats": 40,
+      "average_people_per_boat": "68.550000"
+    }
+  ]
+}

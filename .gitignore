@@ -1,0 +1,13 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.DS_Store
+__pycache__/
+# Pinned research sources are not versioned (size and licences); URLs and SHA-256 hashes
+# are in research/raw/manifest.json. Files tracked before this rule stay tracked.
+research/raw/*
+!research/raw/manifest.json
+.env.local
+.cache/tts/

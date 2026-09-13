@@ -1,0 +1,52 @@
+source_id,publication_date,table,locator,year,people,boats,pinned_people,pinned_boats,diff_people,diff_boats,monthly_values_identical_to_pinned,kind
+HO-TABLES-2021Q4,2022-02-24,Irr_02a,Irr_02a 2018 annual Total (monthly sums verified),2018,299,43,299,43,0,0,True,official_table
+HO-TABLES-2021Q4,2022-02-24,Irr_02a,Irr_02a 2019 annual Total (monthly sums verified),2019,1843,164,1843,164,0,0,True,official_table
+HO-TABLES-2021Q4,2022-02-24,Irr_02a,Irr_02a 2020 annual Total (monthly sums verified),2020,8466,641,8466,641,0,0,True,official_table
+HO-TABLES-2021Q4,2022-02-24,Irr_02a,Irr_02a 2021 annual Total (monthly sums verified),2021,28526,1034,28526,1034,0,0,True,official_table
+HO-TABLES-2022Q4,2023-02-23,Irr_02a,Irr_02a 2018 annual Total (monthly sums verified),2018,299,43,299,43,0,0,True,official_table
+HO-TABLES-2022Q4,2023-02-23,Irr_02a,Irr_02a 2019 annual Total (monthly sums verified),2019,1843,164,1843,164,0,0,True,official_table
+HO-TABLES-2022Q4,2023-02-23,Irr_02a,Irr_02a 2020 annual Total (monthly sums verified),2020,8466,641,8466,641,0,0,True,official_table
+HO-TABLES-2022Q4,2023-02-23,Irr_02a,Irr_02a 2021 annual Total (monthly sums verified),2021,28526,1034,28526,1034,0,0,True,official_table
+HO-TABLES-2022Q4,2023-02-23,Irr_02a,Irr_02a 2022 annual Total (monthly sums verified),2022,45755,1109,45774,1110,-19,-1,False,official_table
+HO-TABLES-2024Q4,2025-02-27,Irr_02a,Irr_02a 2018 annual Total (monthly sums verified),2018,299,43,299,43,0,0,True,official_table
+HO-TABLES-2024Q4,2025-02-27,Irr_02a,Irr_02a 2019 annual Total (monthly sums verified),2019,1843,164,1843,164,0,0,True,official_table
+HO-TABLES-2024Q4,2025-02-27,Irr_02a,Irr_02a 2020 annual Total (monthly sums verified),2020,8466,641,8466,641,0,0,True,official_table
+HO-TABLES-2024Q4,2025-02-27,Irr_02a,Irr_02a 2021 annual Total (monthly sums verified),2021,28526,1034,28526,1034,0,0,True,official_table
+HO-TABLES-2024Q4,2025-02-27,Irr_02a,Irr_02a 2022 annual Total (monthly sums verified),2022,45774,1110,45774,1110,0,0,True,official_table
+HO-TABLES-2024Q4,2025-02-27,Irr_02a,Irr_02a 2023 annual Total (monthly sums verified),2023,29437,602,29437,602,0,0,True,official_table
+HO-TABLES-2024Q4,2025-02-27,Irr_02a,Irr_02a 2024 annual Total (monthly sums verified),2024,36816,695,36816,695,0,0,True,official_table
+HO-TABLES-2025Q4,2026-02-26,IER_02a,IER_02a 2018 annual Total (monthly sums verified),2018,299,43,299,43,0,0,True,official_table
+HO-TABLES-2025Q4,2026-02-26,IER_02a,IER_02a 2019 annual Total (monthly sums verified),2019,1843,164,1843,164,0,0,True,official_table
+HO-TABLES-2025Q4,2026-02-26,IER_02a,IER_02a 2020 annual Total (monthly sums verified),2020,8466,641,8466,641,0,0,True,official_table
+HO-TABLES-2025Q4,2026-02-26,IER_02a,IER_02a 2021 annual Total (monthly sums verified),2021,28526,1034,28526,1034,0,0,True,official_table
+HO-TABLES-2025Q4,2026-02-26,IER_02a,IER_02a 2022 annual Total (monthly sums verified),2022,45774,1110,45774,1110,0,0,True,official_table
+HO-TABLES-2025Q4,2026-02-26,IER_02a,IER_02a 2023 annual Total (monthly sums verified),2023,29437,602,29437,602,0,0,True,official_table
+HO-TABLES-2025Q4,2026-02-26,IER_02a,IER_02a 2024 annual Total (monthly sums verified),2024,36816,695,36816,695,0,0,True,official_table
+HO-TABLES-2025Q4,2026-02-26,IER_02a,IER_02a 2025 annual Total (monthly sums verified),2025,41472,672,41472,672,0,0,True,official_table
+HO-TABLES-2026Q1,2026-05-21,IER_02a,IER_02a 2018 annual Total (monthly sums verified),2018,299,43,299,43,0,0,True,official_table
+HO-TABLES-2026Q1,2026-05-21,IER_02a,IER_02a 2019 annual Total (monthly sums verified),2019,1843,164,1843,164,0,0,True,official_table
+HO-TABLES-2026Q1,2026-05-21,IER_02a,IER_02a 2020 annual Total (monthly sums verified),2020,8466,641,8466,641,0,0,True,official_table
+HO-TABLES-2026Q1,2026-05-21,IER_02a,IER_02a 2021 annual Total (monthly sums verified),2021,28526,1034,28526,1034,0,0,True,official_table
+HO-TABLES-2026Q1,2026-05-21,IER_02a,IER_02a 2022 annual Total (monthly sums verified),2022,45774,1110,45774,1110,0,0,True,official_table
+HO-TABLES-2026Q1,2026-05-21,IER_02a,IER_02a 2023 annual Total (monthly sums verified),2023,29437,602,29437,602,0,0,True,official_table
+HO-TABLES-2026Q1,2026-05-21,IER_02a,IER_02a 2024 annual Total (monthly sums verified),2024,36816,695,36816,695,0,0,True,official_table
+HO-TABLES-2026Q1,2026-05-21,IER_02a,IER_02a 2025 annual Total (monthly sums verified),2025,41472,672,41472,672,0,0,True,official_table
+HO-TABLES-2026Q2,2026-08-27,IER_02a,IER_02a 2018 annual Total (monthly sums verified),2018,299,43,299,43,0,0,True,official_table
+HO-TABLES-2026Q2,2026-08-27,IER_02a,IER_02a 2019 annual Total (monthly sums verified),2019,1843,164,1843,164,0,0,True,official_table
+HO-TABLES-2026Q2,2026-08-27,IER_02a,IER_02a 2020 annual Total (monthly sums verified),2020,8466,641,8466,641,0,0,True,official_table
+HO-TABLES-2026Q2,2026-08-27,IER_02a,IER_02a 2021 annual Total (monthly sums verified),2021,28526,1034,28526,1034,0,0,True,official_table
+HO-TABLES-2026Q2,2026-08-27,IER_02a,IER_02a 2022 annual Total (monthly sums verified),2022,45774,1110,45774,1110,0,0,True,official_table
+HO-TABLES-2026Q2,2026-08-27,IER_02a,IER_02a 2023 annual Total (monthly sums verified),2023,29437,602,29437,602,0,0,True,official_table
+HO-TABLES-2026Q2,2026-08-27,IER_02a,IER_02a 2024 annual Total (monthly sums verified),2024,36816,695,36816,695,0,0,True,official_table
+HO-TABLES-2026Q2,2026-08-27,IER_02a,IER_02a 2025 annual Total (monthly sums verified),2025,41472,672,41472,672,0,0,True,official_table
+ICIBI-DOVER-2022-REPORT,2022-07-21,,"ICIBI report, paragraph 4.1 Figure 1 'Number of migrant arrivals via a small boat' (footnote 5: calendar year); no data source stated",2018,286,,299,43,-13,,,text_figure
+ICIBI-DOVER-2022-REPORT,2022-07-21,,"ICIBI report, paragraph 4.1 Figure 1 'Number of migrant arrivals via a small boat' (footnote 5: calendar year); no data source stated",2019,1834,,1843,164,-9,,,text_figure
+ICIBI-DOVER-2022-REPORT,2022-07-21,,"ICIBI report, paragraph 4.1 Figure 1 'Number of migrant arrivals via a small boat' (footnote 5: calendar year); no data source stated",2020,8486,,8466,641,20,,,text_figure
+ICIBI-DOVER-2022-REPORT,2022-07-21,,"ICIBI report, paragraph 4.1 Figure 1 'Number of migrant arrivals via a small boat' (footnote 5: calendar year); no data source stated",2021,28526,,28526,1034,0,,,text_figure
+ICIBI-DOVER-2022-REPORT,2022-07-21,,"ICIBI report, paragraph 2.1 Summary of conclusions: 'increased from 236 in 2018 to 28,526 in 2021'",2018,236,,299,43,-63,,,text_figure
+ICIBI-DOVER-2022-REPORT,2022-07-21,,"ICIBI report, paragraph 2.1 Summary of conclusions: 'increased from 236 in 2018 to 28,526 in 2021'",2021,28526,,28526,1034,0,,,text_figure
+ICIBI-DOVER-2022,2022-07-21,,"ICIBI press notice body: '28,526 ... in 2021 ... a significant increase from 236 in 2018', attributed to 'Home Office statistics'",2018,236,,299,43,-63,,,text_figure
+ICIBI-DOVER-2022,2022-07-21,,"ICIBI press notice body: '28,526 ... in 2021 ... a significant increase from 236 in 2018', attributed to 'Home Office statistics'",2021,28526,,28526,1034,0,,,text_figure
+HOCL-CBP-10590,2026-09-02,,"Commons Library CBP-10590 summary (data.parliament.uk research-briefings API abstract): 299 in 2018; peak 'around 46,000' in 2022; 'rising again to 41,000 in 2025' (rounded)",2018,299,,299,43,0,,,text_figure
+HOCL-CBP-10590,2026-09-02,,"Commons Library CBP-10590 summary (data.parliament.uk research-briefings API abstract): 299 in 2018; peak 'around 46,000' in 2022; 'rising again to 41,000 in 2025' (rounded)",2022,46000,,45774,1110,226,,,text_figure
+HOCL-CBP-10590,2026-09-02,,"Commons Library CBP-10590 summary (data.parliament.uk research-briefings API abstract): 299 in 2018; peak 'around 46,000' in 2022; 'rising again to 41,000 in 2025' (rounded)",2025,41000,,41472,672,-472,,,text_figure

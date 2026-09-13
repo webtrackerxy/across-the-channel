@@ -1,0 +1,298 @@
+{
+  "classification": "SCENARIO",
+  "not_a_forecast": true,
+  "as_of": "2026-09-11",
+  "review_status": "source_checked_pending_independent_review",
+  "approved_for_application": false,
+  "horizon": "An illustrative, undated 12-month period. No year is attached; these are not predictions.",
+  "formula": "modelled_arrivals = assumed_arriving_boats x assumed_average_people_per_arriving_boat",
+  "variable_definitions": {
+    "arriving_boats": "Boats counted by the Home Office as arriving (IER_02a). Not departures, attempts or boats intercepted and returned; no departure-success rate is modelled.",
+    "average_people_per_arriving_boat": "Detected arrivals / arriving boats over the same period. An average occupancy, not rated vessel capacity; no utilisation rate is applied.",
+    "modelled_arrivals": "Hypothetical detected small-boat arrivals in the 12-month period."
+  },
+  "baseline": {
+    "label": "Observed, July 2025-June 2026",
+    "classification": "OFFICIAL_STATISTIC (counts); DERIVED_STATISTIC (average)",
+    "claim_ids": [
+      "ROLLING-2026Q2"
+    ],
+    "people": 33374,
+    "boats": 511,
+    "average_people_per_boat": 65.311155,
+    "source_id": "HO-TABLES-2026Q2",
+    "source_table": "IER_02a"
+  },
+  "presets": [
+    {
+      "id": "SCN-CROSSING-REDUCTION",
+      "name": "REDUCTION",
+      "assumed_arriving_boats": 256,
+      "assumed_average_people_per_boat": 65.311155,
+      "modelled_arrivals": 16719.655577,
+      "modelled_arrivals_display": 16700,
+      "change_vs_baseline_pct": -49.902153,
+      "boats_basis": "baseline arriving boats x 0.5 = 255.5, rounded half up to 256 (illustrative assumption)",
+      "occupancy_basis": "baseline average people per arriving boat, held constant",
+      "assumption_ids": [
+        "ASM-BASELINE",
+        "ASM-REDUCTION-BOATS",
+        "ASM-OCCUPANCY-HELD"
+      ]
+    },
+    {
+      "id": "SCN-CROSSING-CONTINUATION",
+      "name": "CONTINUATION",
+      "assumed_arriving_boats": 511,
+      "assumed_average_people_per_boat": 65.311155,
+      "modelled_arrivals": 33374.0,
+      "modelled_arrivals_display": 33400,
+      "change_vs_baseline_pct": 0.0,
+      "boats_basis": "baseline arriving boats (July 2025-June 2026), held constant",
+      "occupancy_basis": "baseline average people per arriving boat, held constant",
+      "assumption_ids": [
+        "ASM-BASELINE",
+        "ASM-OCCUPANCY-HELD"
+      ]
+    },
+    {
+      "id": "SCN-CROSSING-EXPANSION",
+      "name": "EXPANSION",
+      "assumed_arriving_boats": 1110,
+      "assumed_average_people_per_boat": 70.848485,
+      "modelled_arrivals": 78641.818182,
+      "modelled_arrivals_display": 78600,
+      "change_vs_baseline_pct": 135.637976,
+      "boats_basis": "highest calendar-year arriving boats observed 2018-2025 (2022, 1110 boats)",
+      "occupancy_basis": "highest monthly average people per boat among months with at least 10 boats (2025-11, 70.848485)",
+      "assumption_ids": [
+        "ASM-EXPANSION-BOATS",
+        "ASM-EXPANSION-OCCUPANCY"
+      ]
+    }
+  ],
+  "expansion_caveat": "EXPANSION combines two observed maxima that never occurred together: in 2022, when arriving boats peaked at 1110, the annual average was 41.24 people per boat. Its output (78,642) exceeds every observed calendar year (maximum 45,774 in 2022).",
+  "sensitivity_grid": {
+    "description": "Modelled arrivals for each combination of assumed arriving boats and average people per boat. Arithmetic only; combinations outside the observed points have never occurred.",
+    "boats": [
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000,
+      1100,
+      1200
+    ],
+    "average_people_per_boat": [
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75
+    ],
+    "modelled_arrivals": [
+      [
+        8000,
+        9000,
+        10000,
+        11000,
+        12000,
+        13000,
+        14000,
+        15000
+      ],
+      [
+        12000,
+        13500,
+        15000,
+        16500,
+        18000,
+        19500,
+        21000,
+        22500
+      ],
+      [
+        16000,
+        18000,
+        20000,
+        22000,
+        24000,
+        26000,
+        28000,
+        30000
+      ],
+      [
+        20000,
+        22500,
+        25000,
+        27500,
+        30000,
+        32500,
+        35000,
+        37500
+      ],
+      [
+        24000,
+        27000,
+        30000,
+        33000,
+        36000,
+        39000,
+        42000,
+        45000
+      ],
+      [
+        28000,
+        31500,
+        35000,
+        38500,
+        42000,
+        45500,
+        49000,
+        52500
+      ],
+      [
+        32000,
+        36000,
+        40000,
+        44000,
+        48000,
+        52000,
+        56000,
+        60000
+      ],
+      [
+        36000,
+        40500,
+        45000,
+        49500,
+        54000,
+        58500,
+        63000,
+        67500
+      ],
+      [
+        40000,
+        45000,
+        50000,
+        55000,
+        60000,
+        65000,
+        70000,
+        75000
+      ],
+      [
+        44000,
+        49500,
+        55000,
+        60500,
+        66000,
+        71500,
+        77000,
+        82500
+      ],
+      [
+        48000,
+        54000,
+        60000,
+        66000,
+        72000,
+        78000,
+        84000,
+        90000
+      ]
+    ]
+  },
+  "observed_points_for_overlay": {
+    "classification": "OFFICIAL_STATISTIC (counts); DERIVED_STATISTIC (average)",
+    "note": "2026 covers January-June only; do not plot it as a full year.",
+    "points": [
+      {
+        "year": 2018,
+        "boats": 43,
+        "people": 299,
+        "average_people_per_boat": 6.953488,
+        "period_type": "calendar_year",
+        "months_covered": 12
+      },
+      {
+        "year": 2019,
+        "boats": 164,
+        "people": 1843,
+        "average_people_per_boat": 11.237805,
+        "period_type": "calendar_year",
+        "months_covered": 12
+      },
+      {
+        "year": 2020,
+        "boats": 641,
+        "people": 8466,
+        "average_people_per_boat": 13.207488,
+        "period_type": "calendar_year",
+        "months_covered": 12
+      },
+      {
+        "year": 2021,
+        "boats": 1034,
+        "people": 28526,
+        "average_people_per_boat": 27.588008,
+        "period_type": "calendar_year",
+        "months_covered": 12
+      },
+      {
+        "year": 2022,
+        "boats": 1110,
+        "people": 45774,
+        "average_people_per_boat": 41.237838,
+        "period_type": "calendar_year",
+        "months_covered": 12
+      },
+      {
+        "year": 2023,
+        "boats": 602,
+        "people": 29437,
+        "average_people_per_boat": 48.898671,
+        "period_type": "calendar_year",
+        "months_covered": 12
+      },
+      {
+        "year": 2024,
+        "boats": 695,
+        "people": 36816,
+        "average_people_per_boat": 52.972662,
+        "period_type": "calendar_year",
+        "months_covered": 12
+      },
+      {
+        "year": 2025,
+        "boats": 672,
+        "people": 41472,
+        "average_people_per_boat": 61.714286,
+        "period_type": "calendar_year",
+        "months_covered": 12
+      },
+      {
+        "year": 2026,
+        "boats": 182,
+        "people": 11884,
+        "average_people_per_boat": 65.296703,
+        "period_type": "calendar_year_to_date",
+        "months_covered": 6
+      }
+    ]
+  },
+  "not_modelled": [
+    "departures or attempts",
+    "interceptions or returns to France",
+    "rated vessel capacity or utilisation",
+    "route length or geography",
+    "asylum claims, support or accommodation"
+  ]
+}

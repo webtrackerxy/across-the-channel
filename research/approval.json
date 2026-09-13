@@ -1,0 +1,148 @@
+{
+  "decision": "approved_with_conditions",
+  "approved_by": "Project owner (user), in the Claude Code session",
+  "approved_on": "2026-09-11",
+  "basis": "research/critical-review.md at commit a5dda70 on branch research/phase1c-integration",
+  "user_statement": "I approved",
+  "interpretation": "Approval of the reviewed research for application use. The review's 'Required before Phase 3' corrections remain conditions: they must be completed before Phase 3 data engineering uses the affected outputs.",
+  "rule": [
+    "Approve claims with HIGH or MEDIUM confidence, and SCENARIO claims (for labelled scenario use only).",
+    "Withhold LOW-confidence observed claims (leads needing corroboration).",
+    "Withhold claims containing figures the review says must not appear in any form.",
+    "Context-dependent rules remain display rules in critical-review.md, not approval flags."
+  ],
+  "conditions": [
+    "Event precision recoding, including EVENT-POINTE-AUX-OIES-2025-03-02",
+    "Retype ROUTE-2025-09-28-DIEPPE-TO-STELLA as detection to pickup",
+    "Rename vessel-evidence.csv passenger_capacity to estimated_load",
+    "Reconcile the Utah Beach-Portsmouth distance",
+    "Scenario presentation rules (no pairing of crossing presets with supported totals; rounding; hatching)",
+    "Extend validator wording checks"
+  ],
+  "scope_notes": [
+    "Research GeoJSON layers keep approvedForApplication false; application data is built and approved in Phase 3.",
+    "The '4 in 5' figure flagged by the review is not in the claim registry."
+  ],
+  "counts": {
+    "claims": 221,
+    "approved": 202,
+    "withheld": 19
+  },
+  "withheld": [
+    {
+      "id": "STAT-ICIBI-286-HYPOTHESIS",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "VES-CHINA-ENGINES-2025",
+      "classification": "REPORTED_EVENT",
+      "confidence": "MEDIUM",
+      "reason": "Contains 'more than 60% of all engines ... Chinese manufactured', which the review says must not appear."
+    },
+    {
+      "id": "VES-UTAH-DISTANCE",
+      "classification": "DERIVED_STATISTIC",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "VES-SNSM-230-15M",
+      "classification": "REPORTED_EVENT",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "VES-INFOMIGRANTS-HYP",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "VES-KEY-ANSWER",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "GEO-BE-2026-PAUSE-EXPLANATION",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "EXP-PREVENTED-SHARE",
+      "classification": "DERIVED_STATISTIC",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "EXP-BSC-SEIZURES-2025",
+      "classification": "REPORTED_EVENT",
+      "confidence": "MEDIUM",
+      "reason": "Contains 'potentially stopping up to 33,000 more attempts', which the review says must not appear."
+    },
+    {
+      "id": "EXP-DUNKIRK-PROSECUTOR-BELGIUM",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "EXP-CBP-TAXI-MECHANISM",
+      "classification": "HYPOTHESIS",
+      "confidence": "MEDIUM",
+      "reason": "Contains the unsourced 'success rate of over 80%' for taxi boats, which the review says must not appear. The mechanism may be re-approved if reworded without the figure."
+    },
+    {
+      "id": "EXP-BF-MECHANISMS",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "EXP-BF-DENSITY-UNDERESTIMATE",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "EXP-MMC-ADAPTATION",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "EXP-OXFORD-PRICES",
+      "classification": "REPORTED_EVENT",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "EXP-AN-GETLINK-REBOUND",
+      "classification": "REPORTED_EVENT",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "EXP-IPPR-STAKEHOLDERS",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "EXP-CCP-DETERRENCE",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    },
+    {
+      "id": "REV-AN-FUEL-PASSENGERS",
+      "classification": "HYPOTHESIS",
+      "confidence": "LOW",
+      "reason": "LOW confidence: a lead needing corroboration (methodology.md), not fit for display."
+    }
+  ],
+  "release_scope": "release_to_main: Channel crossings up to arrival in the UK. After-arrival and asylum-support claims (ASY-, ASYGEO-, PATH-, LAGEO-, SCN-GEO-, SCN-H5-) and their sources are not in this release."
+}

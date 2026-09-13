@@ -1,0 +1,125 @@
+{
+  "updatedAt": "2026-09-11",
+  "reviewStatus": "Source-checked MVP; independent research review pending",
+  "records": [
+    {
+      "year": 2018,
+      "people": 299,
+      "boats": 43,
+      "periodStart": "2018-01-01",
+      "periodEnd": "2018-12-31",
+      "partial": false,
+      "provisional": false,
+      "sourceId": "HO-TABLES-2026Q2",
+      "claimId": "ANNUAL-2018"
+    },
+    {
+      "year": 2019,
+      "people": 1843,
+      "boats": 164,
+      "periodStart": "2019-01-01",
+      "periodEnd": "2019-12-31",
+      "partial": false,
+      "provisional": false,
+      "sourceId": "HO-TABLES-2026Q2",
+      "claimId": "ANNUAL-2019"
+    },
+    {
+      "year": 2020,
+      "people": 8466,
+      "boats": 641,
+      "periodStart": "2020-01-01",
+      "periodEnd": "2020-12-31",
+      "partial": false,
+      "provisional": false,
+      "sourceId": "HO-TABLES-2026Q2",
+      "claimId": "ANNUAL-2020"
+    },
+    {
+      "year": 2021,
+      "people": 28526,
+      "boats": 1034,
+      "periodStart": "2021-01-01",
+      "periodEnd": "2021-12-31",
+      "partial": false,
+      "provisional": false,
+      "sourceId": "HO-TABLES-2026Q2",
+      "claimId": "ANNUAL-2021"
+    },
+    {
+      "year": 2022,
+      "people": 45774,
+      "boats": 1110,
+      "periodStart": "2022-01-01",
+      "periodEnd": "2022-12-31",
+      "partial": false,
+      "provisional": false,
+      "sourceId": "HO-TABLES-2026Q2",
+      "claimId": "ANNUAL-2022"
+    },
+    {
+      "year": 2023,
+      "people": 29437,
+      "boats": 602,
+      "periodStart": "2023-01-01",
+      "periodEnd": "2023-12-31",
+      "partial": false,
+      "provisional": false,
+      "sourceId": "HO-TABLES-2026Q2",
+      "claimId": "ANNUAL-2023"
+    },
+    {
+      "year": 2024,
+      "people": 36816,
+      "boats": 695,
+      "periodStart": "2024-01-01",
+      "periodEnd": "2024-12-31",
+      "partial": false,
+      "provisional": false,
+      "sourceId": "HO-TABLES-2026Q2",
+      "claimId": "ANNUAL-2024"
+    },
+    {
+      "year": 2025,
+      "people": 41472,
+      "boats": 672,
+      "periodStart": "2025-01-01",
+      "periodEnd": "2025-12-31",
+      "partial": false,
+      "provisional": false,
+      "sourceId": "HO-TABLES-2026Q2",
+      "claimId": "ANNUAL-2025"
+    },
+    {
+      "year": 2026,
+      "people": 16513,
+      "boats": 244,
+      "periodStart": "2026-01-01",
+      "periodEnd": "2026-09-03",
+      "partial": true,
+      "provisional": true,
+      "sourceId": "HO-DAILY-2026-09-04",
+      "claimId": "MVP-YTD-2026-09-03"
+    }
+  ],
+  "sources": [
+    {
+      "id": "HO-TABLES-2026Q2",
+      "title": "Illegal entry routes to the UK summary tables, year ending June 2026",
+      "publisher": "Home Office",
+      "url": "https://assets.publishing.service.gov.uk/media/6a8c11c3a8f84a582b84281a/illegal-entry-routes-to-the-uk-summary-jun-2026-tables.ods",
+      "publishedAt": "2026-08-27",
+      "table": "IER_02a",
+      "note": "Official annual counts, subject to revisions. Average occupancy is calculated as people divided by boats."
+    },
+    {
+      "id": "HO-DAILY-2026-09-04",
+      "title": "Small boats time series, 4 September 2026",
+      "publisher": "Home Office / Border Force",
+      "url": "https://assets.publishing.service.gov.uk/media/6a9a9e583b22fb169dc1921b/04_September_2026_Small_boats_-_time_series.ods",
+      "publishedAt": "2026-09-04",
+      "table": "SB_01, daily records from 1 January to 3 September 2026",
+      "note": "Provisional operational data. Not a full calendar year or a forecast; subject to revision."
+    }
+  ]
+}

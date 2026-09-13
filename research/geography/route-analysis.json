@@ -1,0 +1,596 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-11",
+  "method": {
+    "distance": "Haversine great-circle distance on a sphere, R = 6371.0088 km; 1 nm = 1.852 km.",
+    "uncertainty": "Bounds = distance +/- (origin uncertainty_km + destination uncertainty_km), floored at 0. Exact-coordinate endpoints use the small uncertainty stated in the events file.",
+    "meaning": "Straight line between documented endpoints of the same event; not a navigated track and a lower bound on any real path.",
+    "inputs": [
+      "documented-routes.geojson",
+      "crossing-events.geojson",
+      "geocoding-log.json (via the GeoJSON)"
+    ],
+    "classification": "DERIVED_STATISTIC"
+  },
+  "pairs": [
+    {
+      "id": "ROUTE-MAIB-2021-DEP-TO-LASTPOS",
+      "event_id": "EVENT-MAIB-2021",
+      "event_date": "2021-11-24",
+      "year": 2021,
+      "pair_type": "departure_to_at_sea_position",
+      "includes_cross_channel_leg": true,
+      "origin": "Beach near Dunkirk, France (departed about 2100 UTC, 23 Nov 2021)",
+      "origin_precision": "named_area",
+      "destination": "Last reported position (MAIB)",
+      "destination_precision": "exact_coordinates",
+      "distance_km": 45.0,
+      "distance_nm": 24.3,
+      "endpoint_uncertainty_km": 17,
+      "distance_bounds_km": [
+        28.0,
+        62.0
+      ],
+      "relative_uncertainty": 0.38
+    },
+    {
+      "id": "ROUTE-MAIB-2022-DEP-TO-FOUND",
+      "event_id": "EVENT-MAIB-2022",
+      "event_date": "2022-12-14",
+      "year": 2022,
+      "pair_type": "departure_to_at_sea_position",
+      "includes_cross_channel_leg": true,
+      "origin": "A beach in the Calais/Dunkirk area (launched about 2330, 13 Dec 2022)",
+      "origin_precision": "region",
+      "destination": "Position where FV Arcturus found the boat (approximately 14.6 nm NW of Boulogne-sur-Mer)",
+      "destination_precision": "exact_coordinates",
+      "distance_km": 60.9,
+      "distance_nm": 32.9,
+      "endpoint_uncertainty_km": 21,
+      "distance_bounds_km": [
+        39.9,
+        81.9
+      ],
+      "relative_uncertainty": 0.34
+    },
+    {
+      "id": "ROUTE-MAIB-2022-FOUND-TO-DOVER",
+      "event_id": "EVENT-MAIB-2022",
+      "event_date": "2022-12-14",
+      "year": 2022,
+      "pair_type": "rescue_position_to_uk_disembarkation",
+      "includes_cross_channel_leg": false,
+      "origin": "Position where FV Arcturus found the boat (approximately 14.6 nm NW of Boulogne-sur-Mer)",
+      "origin_precision": "exact_coordinates",
+      "destination": "Dover (survivors handed to Border Force and Kent Police)",
+      "destination_precision": "named_place",
+      "distance_km": 29.0,
+      "distance_nm": 15.6,
+      "endpoint_uncertainty_km": 3,
+      "distance_bounds_km": [
+        26.0,
+        32.0
+      ],
+      "relative_uncertainty": 0.1
+    },
+    {
+      "id": "ROUTE-2025-04-18-BLANC-NEZ-TO-DOVER",
+      "event_id": "EVENT-CAP-BLANC-NEZ-2025-04-18",
+      "event_date": "2025-04-18",
+      "year": 2025,
+      "pair_type": "departure_to_uk_reception_area",
+      "includes_cross_channel_leg": true,
+      "origin": "Cap Blanc-Nez (62)",
+      "origin_precision": "named_place",
+      "destination": "British search and rescue region; victim declared dead 'à l'approche de Douvres'",
+      "destination_precision": "named_area",
+      "distance_km": 35.4,
+      "distance_nm": 19.1,
+      "endpoint_uncertainty_km": 12,
+      "distance_bounds_km": [
+        23.4,
+        47.4
+      ],
+      "relative_uncertainty": 0.34
+    },
+    {
+      "id": "ROUTE-2026-09-06-UTAH-TO-PORTSMOUTH",
+      "event_id": "EVENT-NORMANDY-2026-09-06",
+      "event_date": "2026-09-06",
+      "year": 2026,
+      "pair_type": "departure_to_uk_arrival_area",
+      "includes_cross_channel_leg": true,
+      "origin": "La Brèche, Utah Beach, Sainte-Marie-du-Mont (Manche, 50) - per the mayor, reported by ICI/AFP",
+      "origin_precision": "named_place",
+      "destination": "Portsmouth, England (reported by ICI/AFP; landing site not verified)",
+      "destination_precision": "named_area",
+      "distance_km": 156.6,
+      "distance_nm": 84.5,
+      "endpoint_uncertainty_km": 13,
+      "distance_bounds_km": [
+        143.6,
+        169.6
+      ],
+      "relative_uncertainty": 0.08
+    },
+    {
+      "id": "ROUTE-2025-09-28-DIEPPE-TO-STELLA",
+      "event_id": "EVENT-DIEPPE-STELLA-2025-09-28",
+      "event_date": "2025-09-28",
+      "year": 2025,
+      "pair_type": "launch_to_passenger_pickup_coastal_leg",
+      "includes_cross_channel_leg": false,
+      "origin": "Off Dieppe (76), group already 'en cours de passage par voie de mer' at about 04:30",
+      "origin_precision": "named_area",
+      "destination": "North of Stella-Plage (62), embarkation of more migrants at 14:25",
+      "destination_precision": "named_area",
+      "distance_km": 71.2,
+      "distance_nm": 38.4,
+      "endpoint_uncertainty_km": 15,
+      "distance_bounds_km": [
+        56.2,
+        86.2
+      ],
+      "relative_uncertainty": 0.21
+    },
+    {
+      "id": "ROUTE-2025-09-28-LEFFRINCKOUCKE-TO-MALO",
+      "event_id": "EVENT-LEFFRINCKOUCKE-2025-09-28",
+      "event_date": "2025-09-28",
+      "year": 2025,
+      "pair_type": "launch_to_passenger_pickup_coastal_leg",
+      "includes_cross_channel_leg": false,
+      "origin": "Beach of Leffrinckoucke (59)",
+      "origin_precision": "named_place",
+      "destination": "Beach of Malo-les-Bains (59), where a new group was waiting",
+      "destination_precision": "named_place",
+      "distance_km": 2.9,
+      "distance_nm": 1.5,
+      "endpoint_uncertainty_km": 4,
+      "distance_bounds_km": [
+        0.0,
+        6.9
+      ],
+      "relative_uncertainty": 1.4
+    },
+    {
+      "id": "ROUTE-2026-07-22-YPORT-TO-BERCK",
+      "event_id": "EVENT-YPORT-BERCK-2026-07-22",
+      "event_date": "2026-07-22/2026-07-23",
+      "year": 2026,
+      "pair_type": "launch_to_passenger_pickup_coastal_leg",
+      "includes_cross_channel_leg": false,
+      "origin": "Taking to sea off Yport (76) (Fécamp semaphore)",
+      "origin_precision": "named_area",
+      "destination": "Beach of Berck-sur-Mer (62), new people boarded at dawn 23 July",
+      "destination_precision": "named_area",
+      "distance_km": 116.5,
+      "distance_nm": 62.9,
+      "endpoint_uncertainty_km": 9,
+      "distance_bounds_km": [
+        107.5,
+        125.5
+      ],
+      "relative_uncertainty": 0.08
+    },
+    {
+      "id": "ROUTE-2025-02-09-SOMME-TO-BERCK",
+      "event_id": "EVENT-BAIE-DE-SOMME-2025-02-09",
+      "event_date": "2025-02-09",
+      "year": 2025,
+      "pair_type": "launch_to_passenger_pickup_coastal_leg",
+      "includes_cross_channel_leg": false,
+      "origin": "Secteur de la Baie de Somme (80)",
+      "origin_precision": "named_area",
+      "destination": "Beaches of Berck-sur-Mer (62), attempted embarkation",
+      "destination_precision": "named_area",
+      "distance_km": 21.4,
+      "distance_nm": 11.5,
+      "endpoint_uncertainty_km": 14,
+      "distance_bounds_km": [
+        7.4,
+        35.4
+      ],
+      "relative_uncertainty": 0.66
+    },
+    {
+      "id": "ROUTE-2025-03-02-SOMME-TO-HARDELOT",
+      "event_id": "EVENT-BAIE-DE-SOMME-2025-03-02",
+      "event_date": "2025-03-02",
+      "year": 2025,
+      "pair_type": "launch_to_stranding_coastal_leg",
+      "includes_cross_channel_leg": false,
+      "origin": "Off the Baie de Somme (80), left in the morning",
+      "origin_precision": "named_area",
+      "destination": "Beach near the north dyke of Hardelot (62)",
+      "destination_precision": "named_place",
+      "distance_km": 46.7,
+      "distance_nm": 25.2,
+      "endpoint_uncertainty_km": 12,
+      "distance_bounds_km": [
+        34.7,
+        58.7
+      ],
+      "relative_uncertainty": 0.26
+    },
+    {
+      "id": "ROUTE-2025-07-19-GRAVELINES-TO-CALAIS",
+      "event_id": "EVENT-GRAVELINES-2025",
+      "event_date": "2025-07-19",
+      "year": 2025,
+      "pair_type": "departure_to_french_disembarkation",
+      "includes_cross_channel_leg": false,
+      "origin": "Secteur de Gravelines (59)",
+      "origin_precision": "named_area",
+      "destination": "Calais (62), 'déposées à quai'",
+      "destination_precision": "named_place",
+      "distance_km": 19.5,
+      "distance_nm": 10.5,
+      "endpoint_uncertainty_km": 8,
+      "distance_bounds_km": [
+        11.5,
+        27.5
+      ],
+      "relative_uncertainty": 0.41
+    },
+    {
+      "id": "ROUTE-2024-12-13-AMBLETEUSE-TO-BOULOGNE",
+      "event_id": "EVENT-AMBLETEUSE-2024-12-13",
+      "event_date": "2024-12-13",
+      "year": 2024,
+      "pair_type": "departure_to_french_disembarkation",
+      "includes_cross_channel_leg": false,
+      "origin": "Off Ambleteuse (62), departure reported",
+      "origin_precision": "named_area",
+      "destination": "Boulogne-sur-Mer",
+      "destination_precision": "named_place",
+      "distance_km": 9.3,
+      "distance_nm": 5.0,
+      "endpoint_uncertainty_km": 8,
+      "distance_bounds_km": [
+        1.3,
+        17.3
+      ],
+      "relative_uncertainty": 0.86
+    },
+    {
+      "id": "ROUTE-2025-04-18-GRAVELINES-TO-DUNKERQUE",
+      "event_id": "EVENT-GRAVELINES-2025-04-18",
+      "event_date": "2025-04-18",
+      "year": 2025,
+      "pair_type": "departure_to_french_disembarkation",
+      "includes_cross_channel_leg": false,
+      "origin": "Gravelines (59), drifting boat after departure",
+      "origin_precision": "named_area",
+      "destination": "Port of Dunkerque (59)",
+      "destination_precision": "named_area",
+      "distance_km": 5.7,
+      "distance_nm": 3.1,
+      "endpoint_uncertainty_km": 15,
+      "distance_bounds_km": [
+        0.0,
+        20.7
+      ],
+      "relative_uncertainty": 2.62
+    },
+    {
+      "id": "ROUTE-2025-09-28-EQUIHEN-TO-BOULOGNE",
+      "event_id": "EVENT-EQUIHEN-2025-09-28",
+      "event_date": "2025-09-28",
+      "year": 2025,
+      "pair_type": "departure_to_french_disembarkation",
+      "includes_cross_channel_leg": false,
+      "origin": "Off the beach of Equihen (62)",
+      "origin_precision": "named_place",
+      "destination": "Boulogne-sur-Mer",
+      "destination_precision": "named_place",
+      "distance_km": 5.9,
+      "distance_nm": 3.2,
+      "endpoint_uncertainty_km": 5,
+      "distance_bounds_km": [
+        0.9,
+        10.9
+      ],
+      "relative_uncertainty": 0.85
+    },
+    {
+      "id": "ROUTE-2026-06-15-CAYEUX-TO-BOULOGNE",
+      "event_id": "EVENT-CAYEUX-2026-06-15",
+      "event_date": "2026-06-15",
+      "year": 2026,
+      "pair_type": "departure_to_french_disembarkation",
+      "includes_cross_channel_leg": false,
+      "origin": "Secteur de Cayeux-sur-Mer (80)",
+      "origin_precision": "named_area",
+      "destination": "Port of Boulogne-sur-Mer",
+      "destination_precision": "named_place",
+      "distance_km": 61.4,
+      "distance_nm": 33.1,
+      "endpoint_uncertainty_km": 8,
+      "distance_bounds_km": [
+        53.4,
+        69.4
+      ],
+      "relative_uncertainty": 0.13
+    },
+    {
+      "id": "ROUTE-2021-03-09-BERNEVAL-TO-DIEPPE",
+      "event_id": "EVENT-BERNEVAL-2021-03-09",
+      "event_date": "2021-03-09",
+      "year": 2021,
+      "pair_type": "rescue_location_to_french_disembarkation",
+      "includes_cross_channel_leg": false,
+      "origin": "Off Berneval-le-Grand (76), crossing attempt initiated",
+      "origin_precision": "named_area",
+      "destination": "Dieppe",
+      "destination_precision": "named_place",
+      "distance_km": 8.6,
+      "distance_nm": 4.7,
+      "endpoint_uncertainty_km": 8,
+      "distance_bounds_km": [
+        0.6,
+        16.6
+      ],
+      "relative_uncertainty": 0.93
+    },
+    {
+      "id": "ROUTE-2025-03-02-POINTE-AUX-OIES-TO-BOULOGNE",
+      "event_id": "EVENT-POINTE-AUX-OIES-2025-03-02",
+      "event_date": "2025-03-02",
+      "year": 2025,
+      "pair_type": "departure_to_french_disembarkation",
+      "includes_cross_channel_leg": false,
+      "origin": "Near Wimereux (62), secteur de la Pointe aux Oies",
+      "origin_precision": "named_place",
+      "destination": "Boulogne-sur-Mer",
+      "destination_precision": "named_place",
+      "distance_km": 6.6,
+      "distance_nm": 3.6,
+      "endpoint_uncertainty_km": 5,
+      "distance_bounds_km": [
+        1.6,
+        11.6
+      ],
+      "relative_uncertainty": 0.76
+    }
+  ],
+  "distance_distribution_by_pair_type": {
+    "departure_to_at_sea_position": {
+      "n": 2,
+      "min_km": 45.0,
+      "median_km": 53.0,
+      "max_km": 60.9
+    },
+    "departure_to_french_disembarkation": {
+      "n": 6,
+      "min_km": 5.7,
+      "median_km": 8.0,
+      "max_km": 61.4
+    },
+    "departure_to_uk_arrival_area": {
+      "n": 1,
+      "min_km": 156.6,
+      "median_km": 156.6,
+      "max_km": 156.6
+    },
+    "departure_to_uk_reception_area": {
+      "n": 1,
+      "min_km": 35.4,
+      "median_km": 35.4,
+      "max_km": 35.4
+    },
+    "launch_to_passenger_pickup_coastal_leg": {
+      "n": 4,
+      "min_km": 2.9,
+      "median_km": 46.3,
+      "max_km": 116.5
+    },
+    "launch_to_stranding_coastal_leg": {
+      "n": 1,
+      "min_km": 46.7,
+      "median_km": 46.7,
+      "max_km": 46.7
+    },
+    "rescue_location_to_french_disembarkation": {
+      "n": 1,
+      "min_km": 8.6,
+      "median_km": 8.6,
+      "max_km": 8.6
+    },
+    "rescue_position_to_uk_disembarkation": {
+      "n": 1,
+      "min_km": 29.0,
+      "median_km": 29.0,
+      "max_km": 29.0
+    }
+  },
+  "sample_spread_of_launch_or_departure_locations_by_year": {
+    "warning": "Selected, non-representative event sample assembled partly by searching for peripheral place names. Counts reflect search strategy and press-notice practice, not the distribution of departures.",
+    "by_year": {
+      "2021": {
+        "events_with_launch_or_departure_location": 1,
+        "sectors": {
+          "FR-59-Nord": 1
+        },
+        "latitude_range": [
+          51.035,
+          51.035
+        ],
+        "event_ids": [
+          "EVENT-MAIB-2021"
+        ]
+      },
+      "2022": {
+        "events_with_launch_or_departure_location": 1,
+        "sectors": {
+          "FR-59/62-Calais-Dunkirk": 1
+        },
+        "latitude_range": [
+          50.994,
+          50.994
+        ],
+        "event_ids": [
+          "EVENT-MAIB-2022"
+        ]
+      },
+      "2024": {
+        "events_with_launch_or_departure_location": 1,
+        "sectors": {
+          "FR-62-Calais-Boulogne": 1
+        },
+        "latitude_range": [
+          50.81,
+          50.81
+        ],
+        "event_ids": [
+          "EVENT-AMBLETEUSE-2024-12-13"
+        ]
+      },
+      "2025": {
+        "events_with_launch_or_departure_location": 13,
+        "sectors": {
+          "FR-59-Nord": 4,
+          "FR-62-Calais-Boulogne": 2,
+          "FR-62-south-of-Boulogne": 3,
+          "FR-76-Seine-Maritime": 2,
+          "FR-80-Somme": 2
+        },
+        "latitude_range": [
+          49.905,
+          51.051
+        ],
+        "event_ids": [
+          "EVENT-GRAVELINES-2025",
+          "EVENT-MALO-2025-02-09",
+          "EVENT-BAIE-DE-SOMME-2025-02-09",
+          "EVENT-POINTE-AUX-OIES-2025-03-02",
+          "EVENT-BAIE-DE-SOMME-2025-03-02",
+          "EVENT-CAP-BLANC-NEZ-2025-04-18",
+          "EVENT-GRAVELINES-2025-04-18",
+          "EVENT-EQUIHEN-2025-04-18",
+          "EVENT-EQUIHEN-2025-09-28",
+          "EVENT-DIEPPE-STELLA-2025-09-28",
+          "EVENT-ECAULT-2025-09-28",
+          "EVENT-LEFFRINCKOUCKE-2025-09-28",
+          "EVENT-VARENGEVILLE-2025-08-14"
+        ]
+      },
+      "2026": {
+        "events_with_launch_or_departure_location": 6,
+        "sectors": {
+          "BE-West-Flanders": 1,
+          "FR-50-Manche": 1,
+          "FR-62-south-of-Boulogne": 1,
+          "FR-76-Seine-Maritime": 2,
+          "FR-80-Somme": 1
+        },
+        "latitude_range": [
+          49.416,
+          51.119
+        ],
+        "event_ids": [
+          "EVENT-KOKSIJDE-2026-02-08",
+          "EVENT-CAYEUX-2026-06-15",
+          "EVENT-DIEPPE-SEMAPHORE-2026-06-15",
+          "EVENT-YPORT-BERCK-2026-07-22",
+          "EVENT-HARDELOT-2026-07-23",
+          "EVENT-NORMANDY-2026-09-06"
+        ]
+      }
+    }
+  },
+  "uk_side_locations_in_sample": [
+    {
+      "event_id": "EVENT-DOVER-VALIANT-2021-11-24",
+      "year": 2021,
+      "role": "uk_disembarkation",
+      "name": "Dover (Border Force cutter Valiant berthed about 0816 UTC)",
+      "location_precision": "named_place"
+    },
+    {
+      "event_id": "EVENT-CAP-BLANC-NEZ-2025-04-18",
+      "year": 2025,
+      "role": "uk_reception_area",
+      "name": "British search and rescue region; victim declared dead 'à l'approche de Douvres'",
+      "location_precision": "named_area"
+    },
+    {
+      "event_id": "EVENT-ECAULT-2025-09-28",
+      "year": 2025,
+      "role": "uk_reception_area",
+      "name": "Recovered by British authorities (location not stated)",
+      "location_precision": "unknown"
+    },
+    {
+      "event_id": "EVENT-NORMANDY-2026-09-06",
+      "year": 2026,
+      "role": "uk_arrival_area",
+      "name": "Portsmouth, England (reported by ICI/AFP; landing site not verified)",
+      "location_precision": "named_area"
+    },
+    {
+      "event_id": "EVENT-CALAIS-DOVER-2023-08-12",
+      "year": 2023,
+      "role": "uk_disembarkation",
+      "name": "Port of Dover (22-23 saved by British assets)",
+      "location_precision": "named_place"
+    },
+    {
+      "event_id": "EVENT-MAIB-2022",
+      "year": 2022,
+      "role": "uk_disembarkation",
+      "name": "Dover (survivors handed to Border Force and Kent Police)",
+      "location_precision": "named_place"
+    }
+  ],
+  "representative_distribution_available": false,
+  "representative_distribution_note": "No French or UK official source retrieved in this pass publishes departures, attempts or rescues by département or coastal sector for any year 2018-2026. The Préfecture maritime annual reviews 2019-2025 give façade-wide totals and qualitative statements only; the Home Office series is not disaggregated by departure location. The only sector counts found are partial: Seine-Maritime prevented departures (2024 full year vs 2025 to 20 Aug, prefecture via ICI) and Belgian-coast departures/interventions in 2026 (federal police via VRT).",
+  "official_qualitative_statements": [
+    {
+      "source_id": "FR-REVIEW-2021",
+      "year_described": 2021,
+      "statement": "Departures mainly between Dunkirk and Calais, increasingly extending south as far as Berck; a few rare events towards Dieppe."
+    },
+    {
+      "source_id": "FR-REVIEW-2024",
+      "year_described": 2024,
+      "statement": "Extension of departure zones south as far as Dieppe, 'mechanically' lengthening crossing durations (official interpretation)."
+    },
+    {
+      "source_id": "BSC-2026",
+      "year_described": "2025-26",
+      "statement": "Signs of potential geographic displacement: some launches from beaches further south in France and a small number further north in Belgium."
+    },
+    {
+      "source_id": "FR-NOTICE-2026-09-06",
+      "year_described": 2026,
+      "statement": "Departure of a migrant boat described as unusual for the western Baie de Seine zone."
+    }
+  ],
+  "evidence_against_expansion": [
+    "FR-REVIEW-2021: in 2021 departures were still mainly between Dunkirk and Calais.",
+    "Seine-Maritime departures are documented as early as March 2021 (FR-NOTICE-2021-03-09), so southern activity is not new in 2024-2026.",
+    "Several southern launches are taxi-boat legs that travel north to pick up passengers on the Pas-de-Calais coast before crossing (Dieppe -> Stella-Plage 2025; Yport -> Berck 2026; Baie de Somme -> Berck 2025): the launch spreads more than the loaded crossing.",
+    "Belgian police describe Belgian launches as taxi legs towards France; boats were escorted into French waters; no boats or interventions on the Belgian coast after 1 May 2026 (VRT-2026-06-03).",
+    "In 2024, 45,203 of the migrants involved in operations were counted in the CROSS Gris-Nez zone (FR-REVIEW-2024 p.6); migrant activity in the CROSS Jobourg (western Channel) zone was described as unusual in 2026.",
+    "The Normandy (Utah Beach -> Portsmouth) crossing is a single case."
+  ],
+  "conclusion": {
+    "selected": "C",
+    "label": "Isolated longer crossings exist but no trend is established",
+    "confidence": "MEDIUM",
+    "reasoning": [
+      "A (concentration) is supported for the bulk of activity: French reviews place the dedicated rescue system in the Dover Strait/CROSS Gris-Nez zone and, for 2021, locate departures mainly between Dunkirk and Calais; the 2024 migrant involvement count is almost entirely in the Gris-Nez zone. But this zone runs from the Belgian border into Seine-Maritime, so A cannot be tested at sector level.",
+      "B (gradual expansion) is suggested by consistent official qualitative statements (2021: to Berck, rare Dieppe; 2024: to Dieppe; 2025-26 BSC: further south and into Belgium) and by 2024-2026 notices from the Somme, Seine-Maritime and Normandy. It is not established because no representative annual distribution by sector exists in the retrieved sources, as the brief requires.",
+      "Longer documented legs exist (straight-line: Yport -> Berck 116.5 km; Dieppe -> Stella-Plage 71.2 km; Utah Beach -> Portsmouth, reported endpoints, 156.6 km, versus 35.4 km for Cap Blanc-Nez -> Dover), but they are isolated, selected cases; the coastal legs precede a pickup further north and are not longer loaded crossings.",
+      "Belgian launches in early 2026 rose from 0-2 per year to 15 by late March and 33 interventions by early June, then stopped after 1 May 2026: a documented short-lived episode, not a sustained trend."
+    ],
+    "what_would_change_it": "A French official annual series of departures/attempts by département or coastal sector (préfecture du Nord/Pas-de-Calais/Somme/Seine-Maritime, Ministère de l'Intérieur) for 2019-2026, or a UK series by departure area."
+  },
+  "limitations": [
+    "Pair types are heterogeneous; only 4 pairs involve the cross-Channel leg and none is a full launch-to-landfall navigated distance with both endpoints precise.",
+    "Named-area endpoints (5-20 km uncertainty) dominate the error for short pairs (relative uncertainty often > 50%).",
+    "The Utah Beach -> Portsmouth pair rests on news reporting for both endpoints; the Premar notice documents only the boat west of the Baie de Seine heading to the UK.",
+    "Press notices are issued selectively (notable operations); their geography is not a sampling frame."
+  ]
+}

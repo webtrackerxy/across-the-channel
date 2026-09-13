@@ -1,0 +1,115 @@
+[
+  {
+    "id": "SCN-CROSSING-REDUCTION",
+    "claim": "SCENARIO (not a forecast): REDUCTION assumes 256 arriving boats at 65.31 people per boat over an illustrative 12-month period, giving 16,720 modelled arrivals (-49.9% vs July 2025-June 2026).",
+    "classification": "SCENARIO",
+    "evidence_level": "scenario_assumption",
+    "confidence": "LOW",
+    "confidence_rationale": "Hypothetical arithmetic on stated assumptions; confidence refers to the plausibility of the outcome, which is not assessed. The arithmetic itself is exact.",
+    "evidence": [
+      {
+        "source_id": "HO-TABLES-2026Q2",
+        "url": "https://assets.publishing.service.gov.uk/media/6a8c11c3a8f84a582b84281a/illegal-entry-routes-to-the-uk-summary-jun-2026-tables.ods",
+        "publication_date": "2026-08-27",
+        "locator": "IER_02a monthly and annual people and boats (anchors)"
+      }
+    ],
+    "geography": {
+      "scope": "UK detected small-boat arrivals; origin not disaggregated"
+    },
+    "limitations": "Not a prediction. Occupancy is an average, not capacity. No departures, interceptions or routes are modelled. Says nothing about asylum support or where anyone lives.",
+    "review_status": "source_checked_pending_independent_review",
+    "approved_for_application": false,
+    "calculation": {
+      "formula": "assumed_arriving_boats x assumed_average_people_per_boat",
+      "input_files": [
+        "crossings/monthly-crossings.csv",
+        "crossings/annual-crossings.csv"
+      ],
+      "input_claim_ids": [
+        "ROLLING-2026Q2"
+      ],
+      "values": {
+        "boats": 256,
+        "people_per_boat": 65.311155,
+        "modelled_arrivals": 16719.655577
+      }
+    }
+  },
+  {
+    "id": "SCN-CROSSING-CONTINUATION",
+    "claim": "SCENARIO (not a forecast): CONTINUATION assumes 511 arriving boats at 65.31 people per boat over an illustrative 12-month period, giving 33,374 modelled arrivals (+0.0% vs July 2025-June 2026).",
+    "classification": "SCENARIO",
+    "evidence_level": "scenario_assumption",
+    "confidence": "LOW",
+    "confidence_rationale": "Hypothetical arithmetic on stated assumptions; confidence refers to the plausibility of the outcome, which is not assessed. The arithmetic itself is exact.",
+    "evidence": [
+      {
+        "source_id": "HO-TABLES-2026Q2",
+        "url": "https://assets.publishing.service.gov.uk/media/6a8c11c3a8f84a582b84281a/illegal-entry-routes-to-the-uk-summary-jun-2026-tables.ods",
+        "publication_date": "2026-08-27",
+        "locator": "IER_02a monthly and annual people and boats (anchors)"
+      }
+    ],
+    "geography": {
+      "scope": "UK detected small-boat arrivals; origin not disaggregated"
+    },
+    "limitations": "Not a prediction. Occupancy is an average, not capacity. No departures, interceptions or routes are modelled. Says nothing about asylum support or where anyone lives.",
+    "review_status": "source_checked_pending_independent_review",
+    "approved_for_application": false,
+    "calculation": {
+      "formula": "assumed_arriving_boats x assumed_average_people_per_boat",
+      "input_files": [
+        "crossings/monthly-crossings.csv",
+        "crossings/annual-crossings.csv"
+      ],
+      "input_claim_ids": [
+        "ROLLING-2026Q2"
+      ],
+      "values": {
+        "boats": 511,
+        "people_per_boat": 65.311155,
+        "modelled_arrivals": 33374.0
+      }
+    }
+  },
+  {
+    "id": "SCN-CROSSING-EXPANSION",
+    "claim": "SCENARIO (not a forecast): EXPANSION assumes 1,110 arriving boats at 70.85 people per boat over an illustrative 12-month period, giving 78,642 modelled arrivals (+135.6% vs July 2025-June 2026).",
+    "classification": "SCENARIO",
+    "evidence_level": "scenario_assumption",
+    "confidence": "LOW",
+    "confidence_rationale": "Hypothetical arithmetic on stated assumptions; confidence refers to the plausibility of the outcome, which is not assessed. The arithmetic itself is exact.",
+    "evidence": [
+      {
+        "source_id": "HO-TABLES-2026Q2",
+        "url": "https://assets.publishing.service.gov.uk/media/6a8c11c3a8f84a582b84281a/illegal-entry-routes-to-the-uk-summary-jun-2026-tables.ods",
+        "publication_date": "2026-08-27",
+        "locator": "IER_02a monthly and annual people and boats (anchors)"
+      }
+    ],
+    "geography": {
+      "scope": "UK detected small-boat arrivals; origin not disaggregated"
+    },
+    "limitations": "Not a prediction. Occupancy is an average, not capacity. No departures, interceptions or routes are modelled. Says nothing about asylum support or where anyone lives.",
+    "review_status": "source_checked_pending_independent_review",
+    "approved_for_application": false,
+    "calculation": {
+      "formula": "assumed_arriving_boats x assumed_average_people_per_boat",
+      "input_files": [
+        "crossings/monthly-crossings.csv",
+        "crossings/annual-crossings.csv"
+      ],
+      "input_claim_ids": [
+        "ANNUAL-2022",
+        "PEAK-OCCUPANCY-MONTHS",
+        "STAT-PUBOCC-MONTHLY-RECORD-2025"
+      ],
+      "values": {
+        "boats": 1110,
+        "people_per_boat": 70.848485,
+        "modelled_arrivals": 78641.818182
+      }
+    }
+  }
+]

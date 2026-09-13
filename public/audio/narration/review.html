@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Narration recording review — Across the Channel</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: system-ui, sans-serif;
+        line-height: 1.6;
+      }
+      body {
+        max-width: 52rem;
+        margin: auto;
+        padding: 1rem;
+      }
+      article {
+        border: 1px solid GrayText;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin-block: 1.5rem;
+      }
+      audio {
+        display: block;
+        width: 100%;
+        margin-block: 1rem;
+      }
+      h1,
+      h2 {
+        line-height: 1.25;
+      }
+      a {
+        color: LinkText;
+      }
+      :focus-visible {
+        outline: 3px solid Highlight;
+        outline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Narration recording review</h1>
+      <p>
+        AI-generated voice. These are the proposed recordings for Across the
+        Channel. Review the spoken figures, pronunciation, tone and sentence
+        endings against each transcript. Audio plays only when you press Play.
+      </p>
+      <p><a href="/">Return to the story</a></p>
+      <p id="status" role="status">Loading recordings…</p>
+      <div id="recordings"></div>
+    </main>
+    <script type="module">
+      const status = document.querySelector("#status");
+      const container = document.querySelector("#recordings");
+      try {
+        const response = await fetch("./manifest.json", { cache: "no-cache" });
+        if (!response.ok) throw new Error("Manifest unavailable");
+        const manifest = await response.json();
+        if (manifest.version !== 1 || !Array.isArray(manifest.clips))
+          throw new Error("Invalid manifest");
+        for (const clip of manifest.clips) {
+          if (!/^[a-f0-9]{64}\.mp3$/.test(clip.file))
+            throw new Error("Invalid audio filename");
+          const article = document.createElement("article");
+          const title = document.createElement("h2");
+          title.id = `step-${clip.frame + 1}`;
+          title.textContent = `Step ${clip.frame + 1} · ${clip.duration.toFixed(1)} seconds`;
+          const transcript = document.createElement("p");
+          transcript.textContent = clip.text;
+          const audio = document.createElement("audio");
+          audio.controls = true;
+          audio.preload = "none";
+          audio.src = `./${clip.file}`;
+          audio.setAttribute("aria-labelledby", title.id);
+          audio.addEventListener("play", () => {
+            for (const other of container.querySelectorAll("audio"))
+              if (other !== audio) other.pause();
+          });
+          const download = document.createElement("a");
+          download.href = audio.src;
+          download.download = `narration-step-${clip.frame + 1}.mp3`;
+          download.textContent = `Download step ${clip.frame + 1}`;
+          article.append(title, transcript, audio, download);
+          container.append(article);
+        }
+        const seconds = manifest.clips.reduce(
+          (sum, clip) => sum + clip.duration,
+          0,
+        );
+        status.textContent = `${manifest.clips.length} recordings · ${(seconds / 60).toFixed(1)} minutes total. Listening review pending.`;
+      } catch {
+        container.replaceChildren();
+        status.textContent =
+          "Recordings could not be loaded. Check that the narration manifest and MP3 files are available.";
+      }
+    </script>
+  </body>
+</html>
