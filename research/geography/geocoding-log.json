@@ -708,6 +708,25 @@
         "-1.1176180",
         "-1.0163766"
       ]
+    },
+    "eastney": {
+      "query": "Eastney, Portsmouth, United Kingdom",
+      "matched": true,
+      "display_name": "Eastney, Portsmouth, England, PO4 9FZ, United Kingdom",
+      "lat": 50.787241,
+      "lon": -1.0476321,
+      "osm_type": "node",
+      "osm_id": 28972113,
+      "category": "place",
+      "type": "suburb",
+      "boundingbox": [
+        "50.7672410",
+        "50.8072410",
+        "-1.0676321",
+        "-1.0276321"
+      ],
+      "retrieved_at": "2026-09-15T00:00:00+00:00",
+      "note": "Added 15 September 2026 after the BBC (Eastney Landing) and ICI/AFP (marina d'Eastney) both named Eastney; replaces the Portsmouth centroid for EVENT-NORMANDY-2026-09-06."
     }
   }
 }

@@ -106,7 +106,7 @@ The Belgian police describe these as launch or pickup changes, with boats sailin
 | Tug Haven and Western Jet Foil (Dover) | Reception and initial processing | ICIBI 2022 (existing claim) and 2023 | DOVER-RECEPTION, GEO-WJF-MANSTON-2023 |
 | Manston (Kent) | Processing centre, not a landing site | ICIBI 2023 | GEO-WJF-MANSTON-2023 |
 | UK search and rescue region, Dover approaches | Handover from French surveillance to UK rescue | Premar 18 Apr 2025; FR-REVIEW-2025 p.4 flow diagram | GEO-2025-04-18-UK-HANDOVER |
-| Portsmouth (Hampshire) | Reported landfall of the Normandy boat, 6 Sep 2026 | ICI/AFP only (news). A Langstone Harbour/RNLI detail from a search snippet is unverified | GEO-NORMANDY-2026-ENDPOINTS |
+| Eastney, Portsmouth (Hampshire) | Reported landfall of the Normandy boat, 6 Sep 2026 | ICI/AFP (marina d'Eastney), BBC (Eastney Landing, lifeboats from Bembridge and Yarmouth) and ITV (Eastney Marina, RNLI lifeboat station); news only, no UK official confirmation | GEO-NORMANDY-2026-ENDPOINTS |
 
 Home Office statistics give no landing locations. The daily page shows 625 people in 8 boats on 6 September 2026 (`HO-LAST7-2026-09-10`), which cannot be attributed to a site. Reception ports are not intended destinations or interception points.
 
@@ -135,7 +135,7 @@ Each event also carries `documented_locations` listing every role (launch, picku
 | --- | --- | --- | --- |
 | Departure → at-sea casualty position | 2 | 45.0–60.9 | MAIB 2021 and 2022; departure points are named area or region (±15–20 km) |
 | Departure → UK reception area | 1 | 35.4 | Cap Blanc-Nez → Dover approach (2025) |
-| Departure → UK arrival area | 1 | 156.6 (143.6–169.6) | Utah Beach → Portsmouth (2026); both endpoints from news |
+| Departure → UK arrival area | 1 | 152.8 (147.8–157.8) | Utah Beach → Eastney, Portsmouth (2026); both endpoints from news |
 | Rescue position → UK disembarkation | 1 | 29.0 | MAIB 2022 found position → Dover |
 | Launch → passenger pickup (coastal) | 4 | 2.9–116.5 | Leffrinckoucke → Malo 2.9; Baie de Somme → Berck 21.4; Dieppe → Stella-Plage 71.2; Yport → Berck 116.5 |
 | Launch → stranding (coastal) | 1 | 46.7 | Baie de Somme → Hardelot |
@@ -168,7 +168,7 @@ UK-side locations in the sample are Dover (2021, 2022, 2023) and, in 2026, Ports
 - **No sector-level departure series.** None was found from Premar, the Nord, Pas-de-Calais, Somme or Seine-Maritime prefectures, the Ministère de l'Intérieur, or the UK (Priority 1 gap remains open). Next: Senate and Assemblée nationale reports, Cour des comptes, and préfecture du Pas-de-Calais annual summaries. Snippets mentioned Assemblée nationale written questions, which were not read.
 - **No 2018 French annual review** on the Premar index. 2018 figures come only from later tables (78 events, 586 people, 77% in November–December).
 - **Belgian primary sources not read.** politie.be returned 403 during maintenance. Belgian figures rest on VRT quotes of officials.
-- **Normandy landfall not confirmed officially.** Portsmouth rests on ICI/AFP. InfoMigrants (HTTP 403) and ITV (connection failure) could not be retrieved, so the Langstone Harbour/RNLI detail is unverified. The Home Office daily data cannot confirm a location.
+- **Normandy landfall not confirmed officially.** Eastney, Portsmouth rests on ICI/AFP and BBC News (15 September 2026 update: the BBC names Eastney Landing and lifeboats from Bembridge and Yarmouth, which is consistent with the earlier Langstone Harbour/RNLI snippet). InfoMigrants (HTTP 403) could still not be retrieved; the ITV Meridian text, supplied by the project owner on 15 September, names Eastney Marina and the RNLI Portsmouth Lifeboat Station after Southampton and Portsmouth ports declined the landing (`ITV-2026-09-09`). The Home Office daily data cannot confirm a location.
 - **Unused material.** Premar notices name more sites than are encoded, for example the 9 February 2025 rescues off Gravelines and Boulogne. MAIB drift annexes were not used, and derived drift must never be shown as a track.
 - **Gazetteer gaps.** Nominatim did not match "La Brèche" (Utah Beach) or "Tug Haven". The Western Jet Foil point is a proxy ("Western Docks Revival Project"). The Pointe aux Oies point is a gîte of that name.
 - **MAIB report files.** They were placed in raw/ by a parallel task; merge the source IDs `MAIB-REPORT-7-2023` and `MAIB-REPORT-9-2024` with that task's records.

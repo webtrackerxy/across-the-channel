@@ -3665,16 +3665,22 @@
     },
     {
       "id": "VES-UTAH-PORTSMOUTH-2026",
-      "claim": "Local French media reported that the ~140-person boat left from Utah Beach (Sainte-Marie-du-Mont, Manche), according to the mayor, and arrived at Eastney, Portsmouth on the evening of Sunday 6 September 2026, a crossing of roughly 24 hours.",
+      "claim": "Local French media reported that the ~140-person boat left from Utah Beach (Sainte-Marie-du-Mont, Manche), according to the mayor, and arrived at Eastney, Portsmouth on the evening of Sunday 6 September 2026. The BBC reported that the crossing had taken about 10 hours when the decision to land at Portsmouth rather than Dover was made.",
       "classification": "REPORTED_EVENT",
       "confidence": "MEDIUM",
-      "confidence_rationale": "News report with named local attribution, consistent with the Préfecture maritime notice; the UK arrival point is not officially confirmed in retrieved sources.",
+      "confidence_rationale": "News reports with named local attribution, consistent with the Préfecture maritime notice; BBC independently names Eastney Landing and the lifeboat stations. The UK arrival point is not officially confirmed in retrieved sources.",
       "evidence": [
         {
           "source_id": "ICI-2026-09-07",
           "url": "https://www.ici.fr/normandie/manche-50/les-140-migrants-partis-de-la-manche-sont-arrives-en-angleterre-ou-une-manifestation-a-eclate-8847927",
           "publication_date": "2026-09-07",
           "locator": "Article body"
+        },
+        {
+          "source_id": "BBC-2026-09-07",
+          "url": "https://www.bbc.co.uk/news/articles/crl60z17lyko",
+          "publication_date": "2026-09-07",
+          "locator": "'the dinghy involved in Sunday's crossing had launched much further along the French coast, near Cherbourg in the Bay of the Seine - roughly 170 miles from Calais'; 'a crossing that had already taken about 10 hours'; 'bring the group ashore at Eastney Landing in Portsmouth, using lifeboats from Bembridge and Yarmouth on the Isle of Wight'; map graphic 'Migrant boat took 10 hours to make the crossing on Sunday'"
         }
       ],
       "geography": {
@@ -3682,7 +3688,7 @@
         "precision": "named_place",
         "coordinates_verified": false
       },
-      "limitations": "Single event; do not treat as a route pattern.",
+      "limitations": "Single event; do not treat as a route pattern. Correction 2026-09-15: an earlier version said 'a crossing of roughly 24 hours'; the ICI article states no duration (spotted in the night of 5-6 September, arrived Sunday evening), so that figure was an inference and has been withdrawn in favour of the BBC's 'about 10 hours'.",
       "review_status": "independently_reviewed_phase2",
       "approved_for_application": true,
       "period_start": "2026-09-05",
@@ -3711,23 +3717,23 @@
       "geography": {
         "scope": "Channel (Normandy-Solent)"
       },
-      "limitations": "Illustrative arithmetic only; speed from a different boat and year. Conflicts with 156.6 km in route-analysis.json (different endpoint coordinates); reconcile before use. Do not show the 27-hour figure.",
+      "limitations": "Illustrative arithmetic only; speed from a different boat and year. Endpoints now match route-analysis.json (Utah-Beach hamlet and Eastney suburb, 152.8 km), so the earlier 152.7 vs 156.6 km conflict is resolved. The BBC's reported ~10 hours implies a much faster passage than 3 kn. Do not show the 27-hour figure.",
       "review_status": "independently_reviewed_phase2",
       "approved_for_application": false,
       "calculation": {
         "formula": "haversine(lat1,lon1,lat2,lon2), R=6371.0088 km; hours = nm / 3",
         "inputs": {
           "utah_beach": [
-            49.415,
-            -1.176
+            49.415666,
+            -1.174703
           ],
           "eastney_portsmouth": [
-            50.786,
-            -1.046
+            50.787241,
+            -1.047632
           ],
           "speed_kn": 3
         },
-        "value_km": 152.7,
+        "value_km": 152.8,
         "value_nm": 82.5,
         "hours_at_3kn": 27.5
       }
@@ -4729,10 +4735,10 @@
     },
     {
       "id": "GEO-NORMANDY-2026-ENDPOINTS",
-      "claim": "ICI (Radio France) with AFP reported that the boat of about 140 people left from La Brèche on Utah Beach (Sainte-Marie-du-Mont, Manche), according to the local mayor, and arrived at Portsmouth on 6 September 2026.",
+      "claim": "ICI (Radio France) with AFP reported that the boat of about 140 people left from La Brèche on Utah Beach (Sainte-Marie-du-Mont, Manche), according to the local mayor, and arrived at Eastney, Portsmouth on 6 September 2026. BBC News reported the landing at Eastney Landing, Portsmouth, by lifeboats from Bembridge and Yarmouth, and described the launch as 'near Cherbourg in the Bay of the Seine', roughly 170 miles from Calais.",
       "classification": "REPORTED_EVENT",
       "confidence": "MEDIUM",
-      "confidence_rationale": "Established news report with an attributed local-official source for the departure; UK landing not confirmed by a UK official source (Home Office daily data show 625 people in 8 boats on 6 September without locations).",
+      "confidence_rationale": "Established news reports with an attributed local-official source for the departure and three outlets (ICI/AFP, BBC, ITV) naming Eastney for the landing; UK landing not confirmed by a UK official source (Home Office daily data show 625 people in 8 boats on 6 September without locations).",
       "evidence": [
         {
           "source_id": "ICI-2026-09-07",
@@ -4745,16 +4751,28 @@
           "url": "https://www.gov.uk/government/publications/migrants-detected-crossing-the-english-channel-in-small-boats/migrants-detected-crossing-the-english-channel-in-small-boats-last-7-days",
           "publication_date": "2026-09-10",
           "locator": "Table row '6 September 2026: 625 migrants, 8 boats'"
+        },
+        {
+          "source_id": "BBC-2026-09-07",
+          "url": "https://www.bbc.co.uk/news/articles/crl60z17lyko",
+          "publication_date": "2026-09-07",
+          "locator": "'the dinghy involved in Sunday's crossing had launched much further along the French coast, near Cherbourg in the Bay of the Seine - roughly 170 miles from Calais'; 'a crossing that had already taken about 10 hours'; 'bring the group ashore at Eastney Landing in Portsmouth, using lifeboats from Bembridge and Yarmouth on the Isle of Wight'; map graphic 'Migrant boat took 10 hours to make the crossing on Sunday'"
+        },
+        {
+          "source_id": "ITV-2026-09-09",
+          "url": "https://www.itv.com/news/meridian/2026-09-09/southampton-and-portsmouth-ports-declined-request-to-land-migrants-in-rnli-boat",
+          "publication_date": "2026-09-09",
+          "locator": "'A request to land an RNLI boat carrying more than 100 migrants at the Port of Southampton and the Port of Portsmouth was refused on Sunday'; 'The migrants were instead brought ashore at Eastney Marina'; 'the road leading away from the RNLI Portsmouth Lifeboat Station at the marina' (text supplied by the project owner; page not retrievable)"
         }
       ],
       "geography": {
         "scope": "Utah Beach (Manche) to Portsmouth (Hampshire)",
         "departure": "La Brèche, Utah Beach",
-        "uk_arrival": "Portsmouth",
-        "precision": "named_place / named_area",
+        "uk_arrival": "Eastney, Portsmouth",
+        "precision": "named_place / named_place",
         "coordinates_verified": false
       },
-      "limitations": "Isolated case; do not generalise. A search result naming Langstone Harbour and RNLI lifeboats could not be verified (ITV page not retrievable; InfoMigrants HTTP 403).",
+      "limitations": "Isolated case; do not generalise. The BBC's 'near Cherbourg' is the arrondissement, not the town; its map graphic plots Cherbourg town, which is coarser than the mayor's Utah Beach statement and the Premar location west of the Baie de Seine. InfoMigrants (HTTP 403) still not retrieved; the ITV article text was supplied by the project owner and names Eastney Marina (ITV-2026-09-09). BBC evidence added 2026-09-15 after Phase 2 review.",
       "review_status": "independently_reviewed_phase2",
       "approved_for_application": true,
       "event_date": "2026-09-06"
@@ -4909,7 +4927,7 @@
     },
     {
       "id": "GEO-ROUTE-DISTANCES",
-      "claim": "For 17 documented origin/destination pairs, straight-line great-circle distances range from 2.9 km to 156.6 km; the four pairs involving the cross-Channel leg measure 35.4 km (Cap Blanc-Nez to Dover approach), 45.0 km and 60.9 km (Dunkirk area / Calais–Dunkirk to at-sea casualty positions) and 156.6 km (Utah Beach to Portsmouth, reported endpoints); French coastal taxi legs measure up to 116.5 km (Yport to Berck).",
+      "claim": "For 17 documented origin/destination pairs, straight-line great-circle distances range from 2.9 km to 152.8 km; the four pairs involving the cross-Channel leg measure 35.4 km (Cap Blanc-Nez to Dover approach), 45.0 km and 60.9 km (Dunkirk area / Calais–Dunkirk to at-sea casualty positions) and 152.8 km (Utah Beach to Eastney, Portsmouth, reported endpoints); French coastal taxi legs measure up to 116.5 km (Yport to Berck).",
       "classification": "DERIVED_STATISTIC",
       "confidence": "MEDIUM",
       "confidence_rationale": "Reproducible calculation (route_analysis.py: haversine, R = 6371.0088 km) on documented endpoints; endpoint precision is often named-area (5–20 km), and pairs are heterogeneous and selected.",

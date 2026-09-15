@@ -102,16 +102,16 @@
       "includes_cross_channel_leg": true,
       "origin": "La Brèche, Utah Beach, Sainte-Marie-du-Mont (Manche, 50) - per the mayor, reported by ICI/AFP",
       "origin_precision": "named_place",
-      "destination": "Portsmouth, England (reported by ICI/AFP; landing site not verified)",
-      "destination_precision": "named_area",
-      "distance_km": 156.6,
-      "distance_nm": 84.5,
-      "endpoint_uncertainty_km": 13,
+      "destination": "Eastney, Portsmouth, England (ICI/AFP: marina d'Eastney; BBC: Eastney Landing; landing coordinates not published)",
+      "destination_precision": "named_place",
+      "distance_km": 152.8,
+      "distance_nm": 82.5,
+      "endpoint_uncertainty_km": 5,
       "distance_bounds_km": [
-        143.6,
-        169.6
+        147.8,
+        157.8
       ],
-      "relative_uncertainty": 0.08
+      "relative_uncertainty": 0.03
     },
     {
       "id": "ROUTE-2025-09-28-DIEPPE-TO-STELLA",
@@ -369,9 +369,9 @@
     },
     "departure_to_uk_arrival_area": {
       "n": 1,
-      "min_km": 156.6,
-      "median_km": 156.6,
-      "max_km": 156.6
+      "min_km": 152.8,
+      "median_km": 152.8,
+      "max_km": 152.8
     },
     "departure_to_uk_reception_area": {
       "n": 1,
@@ -525,8 +525,8 @@
       "event_id": "EVENT-NORMANDY-2026-09-06",
       "year": 2026,
       "role": "uk_arrival_area",
-      "name": "Portsmouth, England (reported by ICI/AFP; landing site not verified)",
-      "location_precision": "named_area"
+      "name": "Eastney, Portsmouth, England (ICI/AFP: marina d'Eastney; BBC: Eastney Landing; landing coordinates not published)",
+      "location_precision": "named_place"
     },
     {
       "event_id": "EVENT-CALAIS-DOVER-2023-08-12",
@@ -582,7 +582,7 @@
     "reasoning": [
       "A (concentration) is supported for the bulk of activity: French reviews place the dedicated rescue system in the Dover Strait/CROSS Gris-Nez zone and, for 2021, locate departures mainly between Dunkirk and Calais; the 2024 migrant involvement count is almost entirely in the Gris-Nez zone. But this zone runs from the Belgian border into Seine-Maritime, so A cannot be tested at sector level.",
       "B (gradual expansion) is suggested by consistent official qualitative statements (2021: to Berck, rare Dieppe; 2024: to Dieppe; 2025-26 BSC: further south and into Belgium) and by 2024-2026 notices from the Somme, Seine-Maritime and Normandy. It is not established because no representative annual distribution by sector exists in the retrieved sources, as the brief requires.",
-      "Longer documented legs exist (straight-line: Yport -> Berck 116.5 km; Dieppe -> Stella-Plage 71.2 km; Utah Beach -> Portsmouth, reported endpoints, 156.6 km, versus 35.4 km for Cap Blanc-Nez -> Dover), but they are isolated, selected cases; the coastal legs precede a pickup further north and are not longer loaded crossings.",
+      "Longer documented legs exist (straight-line: Yport -> Berck 116.5 km; Dieppe -> Stella-Plage 71.2 km; Utah Beach -> Eastney, Portsmouth, reported endpoints, 152.8 km, versus 35.4 km for Cap Blanc-Nez -> Dover), but they are isolated, selected cases; the coastal legs precede a pickup further north and are not longer loaded crossings.",
       "Belgian launches in early 2026 rose from 0-2 per year to 15 by late March and 33 interventions by early June, then stopped after 1 May 2026: a documented short-lived episode, not a sustained trend."
     ],
     "what_would_change_it": "A French official annual series of departures/attempts by département or coastal sector (préfecture du Nord/Pas-de-Calais/Somme/Seine-Maritime, Ministère de l'Intérieur) for 2019-2026, or a UK series by departure area."

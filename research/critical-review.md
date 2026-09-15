@@ -45,7 +45,7 @@ As of 11 September 2026. This is the Phase 2 critical review required by the res
 
 **Verdict: not supported. More precisely, not established, and the available qualitative evidence runs against it.** No source links size or load to range.
 
-- **Supporting (weak).** Two 2026 Normandy passages with heavily loaded boats: about 173 people (`VES-PREMAR-2026-08-VEULES`) and about 140 people over about 24 hours from Utah Beach to Portsmouth (`VES-UTAH-PORTSMOUTH-2026`). These are single, escorted events, with no fuel or engine data.
+- **Supporting (weak).** Two 2026 Normandy passages with heavily loaded boats: about 173 people (`VES-PREMAR-2026-08-VEULES`) and about 140 people over about 10 hours (BBC) from Utah Beach to Eastney, Portsmouth (`VES-UTAH-PORTSMOUTH-2026`). These are single, escorted events, with no fuel or engine data.
 - **Contradicting.**
   - Speed falls with load (Cranston para 3.26; `VES-MAIB-2022-SPEED` about 3 kn; `VES-UNDERPOWERED`).
   - Border officials, reported by the Commons Library: "gangs are now using poorer quality boats, engines and fuel, which result in slower and more dangerous journeys with greater chances of failure" (CBP-9681 p.17, verified; attributed).
@@ -176,7 +176,7 @@ These changes are in `claims.json`, `sources.json`, `raw/manifest.json`, `scenar
 | Crossing events and geocoding | Recode `EVENT-POINTE-AUX-OIES-2025-03-02` as named_area, at least 5 km (geocoded to a holiday cottage). Treat communes and "off X" locations as named_area, at least 5 km |
 | Documented routes | Retype `ROUTE-2025-09-28-DIEPPE-TO-STELLA` as detection→pickup; the launch point is unknown |
 | `vessel-evidence.csv` | Rename `passenger_capacity` to `estimated_load` (E011, E058, E071, E078, E082, E098, E099) |
-| Utah Beach–Portsmouth | Reconcile 153 km (`VES-UTAH-DISTANCE`) with 156.6 km (route-analysis.json) to one endpoint pair |
+| Utah Beach–Portsmouth | Resolved 15 September 2026: both `VES-UTAH-DISTANCE` and route-analysis.json now use the Utah-Beach hamlet and Eastney suburb points (152.8 km) |
 | Scenarios (Phase 7) | Round displayed values. Mark scenario displays with hatching or a dashed outline plus text |
 
 ## Part 20 answers

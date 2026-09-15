@@ -24,7 +24,7 @@ As of 11 September 2026, after the Phase 1A (crossings) research pass, the cross
   - Cour des comptes
   - Nord, Pas-de-Calais, Somme and Seine-Maritime prefecture summaries
 - **Belgian primary sources.** The Belgian federal police page returned HTTP 403, and the Belgian figures differ between VRT and the Commons Library.
-- **Normandy landfall.** The Portsmouth landfall of 6 September 2026 rests on one news report. InfoMigrants and ITV could not be retrieved, and the Langstone Harbour detail is unverified.
+- **Normandy landfall.** The Eastney, Portsmouth landfall of 6 September 2026 rests on news reports only (ICI/AFP, BBC, and ITV text supplied by the project owner); no UK official source names the landing site. InfoMigrants could not be retrieved.
 - **Unused material.** Some Premar notices name sites not yet encoded. The MAIB drift annexes are unused, and drift models must never be shown as tracks.
 - **Gazetteer limits.** No gazetteer match was found for La Brèche (Utah Beach) or Tug Haven, and the Western Jet Foil point is a proxy.
 - **Event sample.** The event file over-represents the periphery and cannot be used for counts or trends.

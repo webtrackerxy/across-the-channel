@@ -40,7 +40,7 @@ One boat. A different scale. Average occupancy has grown. Select a year to see p
 
 ## Step 10 — A changing scale (2026)
 
-2026. 16,513 people arrived on 244 boats, averaging 67.7 people per boat. From 1 January to 3 September, provisional. These totals are not comparable with full years. The map shows the indicative Calais to Dover connection and a reported Utah Beach to Portsmouth connection. The separate 6 September case falls after these totals' reporting cutoff. About 140 people were aboard, according to the French maritime prefecture, and local media reported they reached Portsmouth about 24 hours after leaving. The boat's size was not reported. The Portsmouth line links reported endpoints, not a recorded vessel track.
+2026. 16,513 people arrived on 244 boats, averaging 67.7 people per boat. From 1 January to 3 September, provisional. These totals are not comparable with full years. The map shows the indicative Calais to Dover connection and a reported Utah Beach to Portsmouth connection. The separate 6 September case falls after these totals' reporting cutoff. About 140 people were aboard, according to the French maritime prefecture, and the BBC reported the crossing to Portsmouth took about 10 hours. The boat's size was not reported. The Portsmouth line links reported endpoints, not a recorded vessel track.
 
 ## Step 11 — Beyond boat counts (2025)
 

@@ -17,14 +17,14 @@ Open [the listening review page](http://127.0.0.1:5173/audio/narration/review.ht
 | 7 | 2023 | 11.52 |
 | 8 | 2024 | 11.35 |
 | 9 | 2025 | 11.11 |
-| 10 | 2026 partial year, Portsmouth connection and details | 48.22 |
+| 10 | 2026 partial year, Portsmouth connection and details | 48.96 |
 | 11 | Comparison | 30.96 |
 | 12 | Scenario introduction and Low | 36.46 |
 | 13 | Continuation | 23.30 |
 | 14 | Expansion | 23.02 |
 | 15 | Conclusion (open questions) | 41.71 |
 
-Current total: 321.912 seconds (5 minutes 22 seconds), 5,150,592 audio bytes. Step 10 was first regenerated on 12 September to include the indicative Dover connection and reported Utah Beach–Portsmouth endpoints, separating the 6 September case from the 3 September statistical cutoff. Later that day three clips were generated after wording changes: step 10 (about 140 people aboard, a reported arrival about 24 hours after leaving, boat size not reported), step 12 (the reworded closing question) and the new concluding step 15. The other 12 clips were reused from the local cache. Step 15 was then regenerated once more with an open ending (what is known, then open questions), with 14 cache hits.
+Current total: 322.656 seconds (5 minutes 23 seconds), 5,162,496 audio bytes. Step 10 was first regenerated on 12 September to include the indicative Dover connection and reported Utah Beach–Portsmouth endpoints, separating the 6 September case from the 3 September statistical cutoff. Later that day three clips were generated after wording changes: step 10 (about 140 people aboard, a reported arrival about 24 hours after leaving, boat size not reported), step 12 (the reworded closing question) and the new concluding step 15. The other 12 clips were reused from the local cache. Step 15 was then regenerated once more with an open ending (what is known, then open questions), with 14 cache hits. On 15 September step 10 was regenerated again (14 cache hits) after the crossing-time wording changed: the earlier "about 24 hours after leaving" was not stated by the cited ICI/AFP report, and it now says the BBC reported the crossing took about 10 hours. The total became 322.656 seconds (5 minutes 23 seconds).
 
 ## Findings
 

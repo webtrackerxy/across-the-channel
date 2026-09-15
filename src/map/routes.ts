@@ -8,10 +8,10 @@ export const connections: Record<Footprint, [number, number][][]> = {
     ],
   ],
   wider: [
-    // Utah Beach → Portsmouth
+    // Utah Beach → Portsmouth (Eastney)
     [
       [-1.174703, 49.415666],
-      [-1.06776, 50.822113],
+      [-1.047632, 50.787241],
     ],
     // Dieppe → Brighton
     [

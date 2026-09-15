@@ -73,7 +73,7 @@ const places: {
   { name: "Dunkirk", coordinates: [2.38, 51.04] },
   { name: "Dieppe", coordinates: [1.08, 49.92], west: true },
   { name: "Brighton", coordinates: [-0.14, 50.82], west: true },
-  { name: "Portsmouth", coordinates: [-1.06776, 50.822113], west: true },
+  { name: "Portsmouth", coordinates: [-1.047632, 50.787241], west: true },
   { name: "Utah Beach", coordinates: [-1.174703, 49.415666], west: true },
 ];
 

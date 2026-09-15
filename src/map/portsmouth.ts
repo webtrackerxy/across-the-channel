@@ -1,16 +1,20 @@
-// Named-area coordinates from the existing research gazetteer, not landing coordinates.
+// Representative points from the research gazetteer (Utah-Beach hamlet, Eastney suburb), not landing coordinates.
 // User requested this reported case; the independent research review remains pending.
 export const portsmouthCase = {
   date: "2026-09-06",
   /** French maritime prefecture notice (claim VES-PREMAR-2026-09-SEINE). */
   peopleAboard: 140,
-  /** Local media, citing the departure mayor (claim VES-UTAH-PORTSMOUTH-2026). */
-  reportedHours: 24,
+  /** BBC News, 7 September 2026 (claim VES-UTAH-PORTSMOUTH-2026). */
+  reportedHours: 10,
   coordinates: [
     [-1.174703, 49.415666],
-    [-1.06776, 50.822113],
+    [-1.047632, 50.787241],
   ] as [number, number][],
   sources: [
+    {
+      title: "BBC News · Eastney Landing, about 10 hours, 7 September 2026",
+      url: "https://www.bbc.co.uk/news/articles/crl60z17lyko",
+    },
     {
       title: "ICI / AFP · reported Utah Beach departure, 7 September 2026",
       url: "https://www.ici.fr/normandie/manche-50/les-140-migrants-partis-de-la-manche-sont-arrives-en-angleterre-ou-une-manifestation-a-eclate-8847927",

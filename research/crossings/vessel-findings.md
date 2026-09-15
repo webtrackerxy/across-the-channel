@@ -60,7 +60,7 @@ Overall confidence in this synthesis (`VES-KEY-ANSWER`, classified HYPOTHESIS) i
 
 - **3–4 August 2026.** A boat's departure was reported in the Veules-les-Roses sector (Seine-Maritime) on 3 August. It was still under way the next morning in the French search-and-rescue region, close to the UK region, when its engine caught fire. 173 people were rescued. (`VES-PREMAR-2026-08-VEULES`; `VES-PREMAR-2026-08-04`)
 - **5–6 September 2026.** About 140 people were aboard a boat west of the Baie de Seine heading for the UK. The Préfecture maritime called such a departure unusual for the area. (`VES-PREMAR-2026-09-SEINE`; `FR-NOTICE-2026-09-06`)
-  - Local media report that it left Utah Beach and arrived at Eastney, Portsmouth after about 24 hours. (`VES-UTAH-PORTSMOUTH-2026`; `ICI-2026-09-07`)
+  - Local media report that it left Utah Beach and arrived at Eastney, Portsmouth; the BBC reported the crossing had taken about 10 hours. An earlier "about 24 hours" was an inference from the ICI timeline and has been withdrawn. (`VES-UTAH-PORTSMOUTH-2026`; `ICI-2026-09-07`; `BBC-2026-09-07`)
   - The straight-line distance is about 153 km (82 nm), our calculation. (`VES-UTAH-DISTANCE`)
 
 ## Contradicting evidence (H2: larger boats enable longer routes)

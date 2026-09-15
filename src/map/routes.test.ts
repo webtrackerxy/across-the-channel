@@ -12,7 +12,7 @@ describe("scenario routes", () => {
     expect(connections.wider).toEqual([
       [
         [-1.174703, 49.415666],
-        [-1.06776, 50.822113],
+        [-1.047632, 50.787241],
       ],
       [
         [1.08, 49.92],

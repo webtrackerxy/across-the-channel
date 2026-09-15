@@ -58,7 +58,7 @@ Claims: `ANNUAL-*`, `OCCUPANCY-*` and `STAT-PUBOCC-*`. The 2026 row covers Janua
 - **Speed.** MAIB calculated about 3 knots for an overloaded boat in 2022 (`VES-MAIB-2022-SPEED`). Heavier loads on the same engines reduce speed.
 - **Longer passages occur as single documented events in 2026.**
   - Veules-les-Roses: 173 people rescued (`VES-PREMAR-2026-08-VEULES`).
-  - Baie de Seine: about 140 people (`VES-PREMAR-2026-09-SEINE`). News reports say this boat went from Utah Beach to Portsmouth, 156.6 km in a straight line.
+  - Baie de Seine: about 140 people (`VES-PREMAR-2026-09-SEINE`). News reports say this boat went from Utah Beach to Eastney, Portsmouth, 152.8 km in a straight line; the BBC reported a crossing of about 10 hours.
 - **Southern launch or rescue locations were also recorded in 2021 and 2024,** before larger boats were reported. No distance travelled is known for those cases.
 
 ## 4. Is crossing geography changing?
@@ -72,7 +72,7 @@ Claims: `ANNUAL-*`, `OCCUPANCY-*` and `STAT-PUBOCC-*`. The 2026 row covers Janua
   - Seine-Maritime departures already appear in 2021.
   - Southern launches often run north to pick up passengers, so the launch area spreads more than the loaded crossing does.
   - The Normandy crossing is a single case.
-- **Straight-line distances.** Across 17 documented start-and-end pairs, only 4 include the cross-Channel leg: 35.4 km (Cap Blanc-Nez to the Dover approach) up to 156.6 km (Utah Beach to Portsmouth, both ends from news reports). Coastal taxi legs reach 116.5 km (Yport to Berck) (`GEO-ROUTE-DISTANCES`). These are straight lines between documented endpoints, never tracks.
+- **Straight-line distances.** Across 17 documented start-and-end pairs, only 4 include the cross-Channel leg: 35.4 km (Cap Blanc-Nez to the Dover approach) up to 152.8 km (Utah Beach to Eastney, Portsmouth, both ends from news reports). Coastal taxi legs reach 116.5 km (Yport to Berck) (`GEO-ROUTE-DISTANCES`). These are straight lines between documented endpoints, never tracks.
 - **The event file is biased toward the periphery.** [crossings/crossing-events.geojson](crossings/crossing-events.geojson) has 35 events, found partly by searching peripheral place names. It must not be used to count or trend.
 - **French 2025 figures use different definitions.** The French 2025 review gives 49,966 people aboard 795 boats attempting the crossing, 6,177 rescued, 63 people per boat and 45% taxi boats (`GEO-FR-2025-ATTEMPTS`, `GEO-FR-2025-TAXI-OCCUPANCY`). These do not match the UK arrival counts. The review has no geographic breakdown and no open licence, so link and paraphrase only.
 

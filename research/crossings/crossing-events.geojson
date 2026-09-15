@@ -2264,7 +2264,7 @@
         "places": [
           "La Brèche, Utah Beach, Sainte-Marie-du-Mont (Manche, 50) - per the mayor, reported by ICI/AFP",
           "West of the Baie de Seine, near the Îles Saint-Marcouf (CROSS Jobourg)",
-          "Portsmouth, England (reported by ICI/AFP; landing site not verified)"
+          "Eastney, Portsmouth, England (ICI/AFP: marina d'Eastney; BBC: Eastney Landing; landing coordinates not published)"
         ],
         "location_type": "REPORTED LOCATION",
         "location_precision": "named_place",
@@ -2273,7 +2273,7 @@
         "geometry_role": "launch_site",
         "origin_area": "Utah Beach, Manche (50), Normandy (reported)",
         "origin_sector": "FR-50-Manche",
-        "destination_or_interception_area": "Premar: 'poursuit sa route vers le Royaume-Uni'; ICI/AFP: arrived at Portsmouth on 6 Sep 2026",
+        "destination_or_interception_area": "Premar: 'poursuit sa route vers le Royaume-Uni'; ICI/AFP and BBC: landed at Eastney, Portsmouth on 6 Sep 2026",
         "passengers": 140,
         "boats": 1,
         "vessel_info": "Inflatable ('embarcation pneumatique', ICI); ~140 aboard ('environ 140', Premar)",
@@ -2302,6 +2302,18 @@
             "url": "https://www.gov.uk/government/publications/migrants-detected-crossing-the-english-channel-in-small-boats/migrants-detected-crossing-the-english-channel-in-small-boats-last-7-days",
             "publication_date": "2026-09-10",
             "locator": "Row '6 September 2026': 625 migrants, 8 boats (all arrivals that day; cannot be attributed to this boat)"
+          },
+          {
+            "source_id": "BBC-2026-09-07",
+            "url": "https://www.bbc.co.uk/news/articles/crl60z17lyko",
+            "publication_date": "2026-09-07",
+            "locator": "'the dinghy involved in Sunday's crossing had launched much further along the French coast, near Cherbourg in the Bay of the Seine - roughly 170 miles from Calais'; 'a crossing that had already taken about 10 hours'; 'bring the group ashore at Eastney Landing in Portsmouth, using lifeboats from Bembridge and Yarmouth on the Isle of Wight'; map graphic 'Migrant boat took 10 hours to make the crossing on Sunday'"
+          },
+          {
+            "source_id": "ITV-2026-09-09",
+            "url": "https://www.itv.com/news/meridian/2026-09-09/southampton-and-portsmouth-ports-declined-request-to-land-migrants-in-rnli-boat",
+            "publication_date": "2026-09-09",
+            "locator": "'A request to land an RNLI boat carrying more than 100 migrants at the Port of Southampton and the Port of Portsmouth was refused on Sunday'; 'The migrants were instead brought ashore at Eastney Marina'; 'the road leading away from the RNLI Portsmouth Lifeboat Station at the marina' (text supplied by the project owner; page not retrievable)"
           }
         ],
         "documented_locations": [
@@ -2332,19 +2344,19 @@
           },
           {
             "role": "uk_arrival_area",
-            "name": "Portsmouth, England (reported by ICI/AFP; landing site not verified)",
+            "name": "Eastney, Portsmouth, England (ICI/AFP: marina d'Eastney; BBC: Eastney Landing; landing coordinates not published)",
             "location_type": "REPORTED LOCATION",
-            "location_precision": "named_area",
-            "uncertainty_km": 10,
+            "location_precision": "named_place",
+            "uncertainty_km": 2,
             "coordinates": [
-              -1.06776,
-              50.822113
+              -1.047632,
+              50.787241
             ],
-            "geometry_source": "OpenStreetMap Nominatim search; query 'Portsmouth, Hampshire, United Kingdom'; top result 'Portsmouth, Hampshire, England, United Kingdom' (way 38387721, boundary/public_transport); geocoding-log.json key 'portsmouth'",
-            "note": "A search snippet named Langstone Harbour and RNLI lifeboats; the ITV page could not be retrieved, so this is unverified."
+            "geometry_source": "OpenStreetMap Nominatim search; query 'Eastney, Portsmouth, United Kingdom'; top result 'Eastney, Portsmouth, England, PO4 9FZ, United Kingdom' (node 28972113, place/suburb); geocoding-log.json key 'eastney'",
+            "note": "Eastney is named by ICI/AFP (marina d'Eastney), BBC (Eastney Landing, lifeboats from Bembridge and Yarmouth) and ITV Meridian (Eastney Marina, RNLI Portsmouth Lifeboat Station, after Southampton and Portsmouth ports declined); the exact landing point is not published. Eastney Marina sits on Langstone Harbour, consistent with the earlier unverified Langstone Harbour snippet."
           }
         ],
-        "notes": "Occurrence, size and heading are DOCUMENTED by Premar; departure beach and landfall rest on news (REPORTED). Single isolated case.",
+        "notes": "Occurrence, size and heading are DOCUMENTED by Premar; departure beach and landfall rest on news (REPORTED; ICI/AFP and BBC agree on Eastney, Portsmouth). BBC describes the launch as 'near Cherbourg in the Bay of the Seine' (Cherbourg arrondissement), which is consistent with Utah Beach. Duration: BBC says about 10 hours; ICI gives no duration. Single isolated case.",
         "review_status": "source_checked_pending_independent_review",
         "approved_for_application": false
       }

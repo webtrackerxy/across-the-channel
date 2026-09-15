@@ -40,7 +40,7 @@ export function narrationFor(frame: PlaybackFrame): string {
           : "";
       const route =
         record.year === 2026
-          ? ` The map shows the indicative Calais to Dover connection and a reported Utah Beach to Portsmouth connection. The separate ${spokenDate(portsmouthCase.date)} case falls after these totals' reporting cutoff. About ${portsmouthCase.peopleAboard} people were aboard, according to the French maritime prefecture, and local media reported they reached Portsmouth about ${portsmouthCase.reportedHours} hours after leaving. The boat's size was not reported. The Portsmouth line links reported endpoints, not a recorded vessel track.`
+          ? ` The map shows the indicative Calais to Dover connection and a reported Utah Beach to Portsmouth connection. The separate ${spokenDate(portsmouthCase.date)} case falls after these totals' reporting cutoff. About ${portsmouthCase.peopleAboard} people were aboard, according to the French maritime prefecture, and the BBC reported the crossing to Portsmouth took about ${portsmouthCase.reportedHours} hours. The boat's size was not reported. The Portsmouth line links reported endpoints, not a recorded vessel track.`
           : "";
       const figures = `${record.year}. ${formatNumber(record.people)} people arrived on ${formatNumber(record.boats)} boats, averaging ${occupancy(record).toFixed(1)} people per boat.${period}${route}`;
       const firstYear = playbackFrames.find(

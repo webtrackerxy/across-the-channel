@@ -1150,7 +1150,7 @@
       "local_path": "raw/ici-2026-09-portsmouth-140.html",
       "licence": "Not checked; link and paraphrase only",
       "coverage": "2026-09-05/2026-09-07",
-      "notes": "Departure from La Brèche, Utah Beach (per mayor of Sainte-Marie-du-Mont); spotted near Îles Saint-Marcouf; arrived at Portsmouth on 6 Sep 2026. InfoMigrants (HTTP 403) and ITV (connection failure) versions could not be retrieved.",
+      "notes": "Departure from La Brèche, Utah Beach (per mayor of Sainte-Marie-du-Mont); spotted near Îles Saint-Marcouf; arrived at Portsmouth on 6 Sep 2026. InfoMigrants (HTTP 403) could not be retrieved; the ITV version was later supplied as text (ITV-2026-09-09).",
       "retrieved_at": "2026-09-11"
     },
     {
@@ -1519,6 +1519,34 @@
       "coverage": "Events of 23-24 November 2021; recommendations",
       "notes": "Executive summary of VES-CRANSTON-2026, pinned during the Phase 2 review for the maritime-response evidence (H4).",
       "retrieved_at": "2026-09-11"
+    },
+    {
+      "id": "BBC-2026-09-07",
+      "publisher": "BBC News",
+      "title": "Portsmouth small boat protest: What happened and why?",
+      "url": "https://www.bbc.co.uk/news/articles/crl60z17lyko",
+      "publication_date": "2026-09-07",
+      "type": "news",
+      "status": "downloaded_and_inspected",
+      "local_path": "raw/bbc-2026-09-07-portsmouth-protest.html",
+      "licence": "Not checked; link and paraphrase only",
+      "coverage": "2026-09-05/2026-09-07",
+      "notes": "Author Stuart Rust. Says the boat launched 'near Cherbourg in the Bay of the Seine', roughly 170 miles from Calais (the map graphic plots Cherbourg town; Sainte-Marie-du-Mont lies in the Cherbourg arrondissement, and the Premar notice and ICI/AFP place the boat west of the Baie de Seine off Utah Beach, so the article is treated as a coarser description of the same departure area, not a conflicting one). Landing at Eastney Landing, Portsmouth, by lifeboats from Bembridge and Yarmouth; a crossing 'that had already taken about 10 hours' when the diversion from Dover was decided; 625 people on 8 boats that day (Home Office); BBC Verify: average 77 people per boat in August 2026.",
+      "retrieved_at": "2026-09-15"
+    },
+    {
+      "id": "ITV-2026-09-09",
+      "publisher": "ITV News Meridian",
+      "title": "Southampton and Portsmouth ports declined request to land migrants in RNLI boat",
+      "url": "https://www.itv.com/news/meridian/2026-09-09/southampton-and-portsmouth-ports-declined-request-to-land-migrants-in-rnli-boat",
+      "publication_date": "2026-09-09",
+      "type": "news",
+      "status": "text_supplied_by_project_owner_page_not_retrieved",
+      "local_path": "raw/itv-2026-09-09-portsmouth-rnli-landing.txt",
+      "licence": "Not checked; link and paraphrase only",
+      "coverage": "2026-09-06",
+      "notes": "Page unreachable from the research environment (connection failures 11 and 15 September 2026); the article text was pasted by the project owner on 15 September 2026 and stored verbatim, unchecked against the live page. Says the migrants ('more than 100') were brought ashore by RNLI boat at Eastney Marina (RNLI Portsmouth Lifeboat Station) after the Port of Southampton (Associated British Ports: no suitable reception facilities, no SOLAS issue, no formal Direction) and, per reports, the King's Harbour Master Portsmouth declined coastguard requests. Consistent with BBC 'Eastney Landing' and ICI/AFP 'marina d'Eastney'. Onward processing 'likely' Manston (ITV's inference).",
+      "retrieved_at": "2026-09-15"
     }
   ]
 }

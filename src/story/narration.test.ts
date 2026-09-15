@@ -53,7 +53,9 @@ describe("Narration script", () => {
     );
     expect(text).toContain("reported endpoints, not a recorded vessel track");
     expect(text).toContain("About 140 people were aboard");
-    expect(text).toContain("about 24 hours after leaving");
+    expect(text).toContain(
+      "the BBC reported the crossing to Portsmouth took about 10 hours",
+    );
     expect(text).toContain("The boat's size was not reported.");
     expect(narrationFor({ sceneIndex: 1, year: 2025 })).not.toContain(
       "Portsmouth",

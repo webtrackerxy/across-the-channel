@@ -775,6 +775,24 @@
       "source_id": "REV-SRC-CRANSTON-EXEC-2026",
       "url": "https://www.gov.uk/government/publications/the-report-of-the-cranston-inquiry/the-cranston-inquiry-report-executive-summary",
       "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/bbc-2026-09-07-portsmouth-protest.html",
+      "sha256": "bc7597b7245671838cd58fe6adbc0ea03b6ee39c1cfd595d784791aec581a784",
+      "bytes": 581836,
+      "retrieved_at": "2026-09-15",
+      "source_id": "BBC-2026-09-07",
+      "url": "https://www.bbc.co.uk/news/articles/crl60z17lyko",
+      "status": "downloaded_and_inspected"
+    },
+    {
+      "file": "raw/itv-2026-09-09-portsmouth-rnli-landing.txt",
+      "sha256": "142c7e77f76b052010502b08e360b413ab43fbb5e45b0529ee434bad331504c3",
+      "bytes": 2448,
+      "retrieved_at": "2026-09-15",
+      "source_id": "ITV-2026-09-09",
+      "url": "https://www.itv.com/news/meridian/2026-09-09/southampton-and-portsmouth-ports-declined-request-to-land-migrants-in-rnli-boat",
+      "status": "text_supplied_by_project_owner_page_not_retrieved"
     }
   ]
 }
